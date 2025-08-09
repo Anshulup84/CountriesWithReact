@@ -16103,15 +16103,46 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _header = require("./components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
+var _searchBar = require("./components/SearchBar");
+var _searchBarDefault = parcelHelpers.interopDefault(_searchBar);
 var _appCss = require("./App.css");
+var _selectMenu = require("./components/SelectMenu");
+var _selectMenuDefault = parcelHelpers.interopDefault(_selectMenu);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-            fileName: "App.jsx",
-            lineNumber: 7,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 9,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "search-filter-container",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchBarDefault.default), {}, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 12,
+                            columnNumber: 5
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _selectMenuDefault.default), {}, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 13,
+                            columnNumber: 5
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "App.jsx",
+                    lineNumber: 11,
+                    columnNumber: 5
+                }, undefined)
+            }, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 10,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true);
 };
 _c = App;
 exports.default = App;
@@ -16123,7 +16154,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Header":"52y4k","./App.css":"7g3a6"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Header":"52y4k","./App.css":"7g3a6","./components/SearchBar":"gbndZ","./components/SelectMenu":"dihlm"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18502,6 +18533,137 @@ $RefreshReg$(_c, "Header");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7g3a6":[function() {},{}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire1171", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7g3a6":[function() {},{}],"gbndZ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2cbf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2cbf.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2cbf.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>SearchBar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function SearchBar() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "search-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                className: "fa-solid fa-magnifying-glass"
+            }, void 0, false, {
+                fileName: "components/SearchBar.jsx",
+                lineNumber: 6,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                placeholder: "Search for a country..."
+            }, void 0, false, {
+                fileName: "components/SearchBar.jsx",
+                lineNumber: 7,
+                columnNumber: 11
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "components/SearchBar.jsx",
+        lineNumber: 5,
+        columnNumber: 7
+    }, this);
+}
+_c = SearchBar;
+var _c;
+$RefreshReg$(_c, "SearchBar");
+
+  $parcel$ReactRefreshHelpers$2cbf.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dihlm":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$efb2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$efb2.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$efb2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>SelectMenu);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function SelectMenu() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+        className: "filter-by-region",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                hidden: "",
+                children: "Filter by region"
+            }, void 0, false, {
+                fileName: "components/SelectMenu.jsx",
+                lineNumber: 6,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                value: "Africa",
+                children: "Africa"
+            }, void 0, false, {
+                fileName: "components/SelectMenu.jsx",
+                lineNumber: 7,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                value: "America",
+                children: "America"
+            }, void 0, false, {
+                fileName: "components/SelectMenu.jsx",
+                lineNumber: 8,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                value: "Asia",
+                children: "Asia"
+            }, void 0, false, {
+                fileName: "components/SelectMenu.jsx",
+                lineNumber: 9,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                value: "Europe",
+                children: "Europe"
+            }, void 0, false, {
+                fileName: "components/SelectMenu.jsx",
+                lineNumber: 10,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                value: "Oceania",
+                children: "Oceania"
+            }, void 0, false, {
+                fileName: "components/SelectMenu.jsx",
+                lineNumber: 11,
+                columnNumber: 11
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "components/SelectMenu.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = SelectMenu;
+var _c;
+$RefreshReg$(_c, "SelectMenu");
+
+  $parcel$ReactRefreshHelpers$efb2.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire1171", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=countryflagwithReact.2002cba6.js.map
