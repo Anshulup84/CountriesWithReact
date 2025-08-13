@@ -16105,40 +16105,49 @@ var _header = require("./components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _searchBar = require("./components/SearchBar");
 var _searchBarDefault = parcelHelpers.interopDefault(_searchBar);
-var _appCss = require("./App.css");
 var _selectMenu = require("./components/SelectMenu");
 var _selectMenuDefault = parcelHelpers.interopDefault(_selectMenu);
+var _countriesList = require("./components/CountriesList");
+var _countriesListDefault = parcelHelpers.interopDefault(_countriesList);
+var _appCss = require("./App.css");
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "search-filter-container",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchBarDefault.default), {}, void 0, false, {
-                            fileName: "App.jsx",
-                            lineNumber: 12,
-                            columnNumber: 5
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _selectMenuDefault.default), {}, void 0, false, {
-                            fileName: "App.jsx",
-                            lineNumber: 13,
-                            columnNumber: 5
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "App.jsx",
-                    lineNumber: 11,
-                    columnNumber: 5
-                }, undefined)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "search-filter-container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchBarDefault.default), {}, void 0, false, {
+                                fileName: "App.jsx",
+                                lineNumber: 13,
+                                columnNumber: 5
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _selectMenuDefault.default), {}, void 0, false, {
+                                fileName: "App.jsx",
+                                lineNumber: 14,
+                                columnNumber: 5
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "App.jsx",
+                        lineNumber: 12,
+                        columnNumber: 5
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countriesListDefault.default), {}, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 16,
+                        columnNumber: 5
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "App.jsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 5
             }, undefined)
         ]
@@ -16154,7 +16163,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Header":"52y4k","./App.css":"7g3a6","./components/SearchBar":"gbndZ","./components/SelectMenu":"dihlm"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Header":"52y4k","./App.css":"7g3a6","./components/SearchBar":"gbndZ","./components/SelectMenu":"dihlm","./components/CountriesList":"h6Esi"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18664,6 +18673,11653 @@ $RefreshReg$(_c, "SelectMenu");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire1171", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"h6Esi":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2071 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2071.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2071.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>CountriesList);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _countriesData = require("../CountriesData");
+var _countriesDataDefault = parcelHelpers.interopDefault(_countriesData);
+function CountriesList() {
+    console.log((0, _countriesDataDefault.default));
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "countries-container",
+        children: []
+    }, void 0, false, {
+        fileName: "components/CountriesList.jsx",
+        lineNumber: 7,
+        columnNumber: 4
+    }, this);
+}
+_c = CountriesList;
+var _c;
+$RefreshReg$(_c, "CountriesList");
+
+  $parcel$ReactRefreshHelpers$2071.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../CountriesData":"dlVJk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dlVJk":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = [
+    {
+        "name": {
+            "common": "Moldova",
+            "official": "Republic of Moldova",
+            "nativeName": {
+                "ron": {
+                    "official": "Republica Moldova",
+                    "common": "Moldova"
+                }
+            }
+        },
+        "tld": [
+            ".md"
+        ],
+        "cca2": "MD",
+        "ccn3": "498",
+        "cioc": "MDA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "MDL": {
+                "symbol": "L",
+                "name": "Moldovan leu"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "73"
+            ]
+        },
+        "capital": [
+            "Chi\u0219in\u0103u"
+        ],
+        "altSpellings": [
+            "MD",
+            "Moldova, Republic of",
+            "Republic of Moldova",
+            "Republica Moldova"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": {
+            "ron": "Romanian"
+        },
+        "latlng": [
+            47,
+            29
+        ],
+        "landlocked": true,
+        "borders": [
+            "ROU",
+            "UKR"
+        ],
+        "area": 33846,
+        "demonyms": {
+            "eng": {
+                "f": "Moldovan",
+                "m": "Moldovan"
+            },
+            "fra": {
+                "f": "Moldave",
+                "m": "Moldave"
+            }
+        },
+        "cca3": "MDA",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0645\u0648\u0644\u062F\u0648\u06A4\u0627",
+                "common": "\u0645\u0648\u0644\u062F\u0648\u06A4\u0627"
+            },
+            "bre": {
+                "official": "Republik Moldova",
+                "common": "Moldova"
+            },
+            "ces": {
+                "official": "Moldavsk\xe1 republika",
+                "common": "Moldavsko"
+            },
+            "cym": {
+                "official": "Republic of Moldova",
+                "common": "Moldova"
+            },
+            "deu": {
+                "official": "Republik Moldau",
+                "common": "Moldawien"
+            },
+            "est": {
+                "official": "Moldova Vabariik",
+                "common": "Moldova"
+            },
+            "fin": {
+                "official": "Moldovan tasavalta",
+                "common": "Moldova"
+            },
+            "fra": {
+                "official": "R\xe9publique de Moldavie",
+                "common": "Moldavie"
+            },
+            "hrv": {
+                "official": "Moldavija",
+                "common": "Moldova"
+            },
+            "hun": {
+                "official": "Moldovai K\xf6zt\xe1rsas\xe1g",
+                "common": "Moldova"
+            },
+            "ind": {
+                "official": "Republik Moldova",
+                "common": "Moldova"
+            },
+            "ita": {
+                "official": "Repubblica di Moldova",
+                "common": "Moldavia"
+            },
+            "jpn": {
+                "official": "\u30E2\u30EB\u30C9\u30D0\u5171\u548C\u56FD",
+                "common": "\u30E2\u30EB\u30C9\u30D0\u5171\u548C\u56FD"
+            },
+            "kor": {
+                "official": "\uBAB0\uB3C4\uBC14 \uACF5\uD654\uAD6D",
+                "common": "\uBAB0\uB3C4\uBC14"
+            },
+            "nld": {
+                "official": "Republiek Moldavi\xeb",
+                "common": "Moldavi\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0645\u0648\u0644\u062F\u0627\u0648\u06CC",
+                "common": "\u0645\u0648\u0644\u062F\u0627\u0648\u06CC"
+            },
+            "pol": {
+                "official": "Republika Mo\u0142dawii",
+                "common": "Mo\u0142dawia"
+            },
+            "por": {
+                "official": "Rep\xfablica da Mold\xe1via",
+                "common": "Mold\xe1via"
+            },
+            "rus": {
+                "official": "\u041C\u043E\u043B\u0434\u043E\u0432\u0430",
+                "common": "\u041C\u043E\u043B\u0434\u0430\u0432\u0438\u044F"
+            },
+            "slk": {
+                "official": "Moldavsk\xe1 republika",
+                "common": "Moldavsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Moldova",
+                "common": "Moldavia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041C\u043E\u043B\u0434\u0430\u0432\u0438\u0458\u0430",
+                "common": "\u041C\u043E\u043B\u0434\u0430\u0432\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Moldavien",
+                "common": "Moldavien"
+            },
+            "tur": {
+                "official": "Moldova Cumhuriyeti",
+                "common": "Moldova"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0645\u0627\u0644\u062F\u0648\u0648\u0627",
+                "common": "\u0645\u0627\u0644\u062F\u0648\u0648\u0627"
+            },
+            "zho": {
+                "official": "\u6469\u5C14\u591A\u74E6\u5171\u548C\u56FD",
+                "common": "\u6469\u5C14\u591A\u74E6"
+            }
+        },
+        "flag": "\uD83C\uDDF2\uD83C\uDDE9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/JjmyUuULujnDeFPf7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/58974"
+        },
+        "population": 2617820,
+        "gini": {
+            "2018": 25.7
+        },
+        "fifa": "MDA",
+        "car": {
+            "signs": [
+                "MD"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/md.png",
+            "svg": "https://flagcdn.com/md.svg",
+            "alt": "The flag of Moldova is composed of three equal vertical bands of blue, yellow and red, with the national coat of arms centered in the yellow band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/md.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/md.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                47.01,
+                28.9
+            ]
+        },
+        "postalCode": {
+            "format": "MD-####",
+            "regex": "^(?:MD)*(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "\xc5land Islands",
+            "official": "\xc5land Islands",
+            "nativeName": {
+                "swe": {
+                    "official": "Landskapet \xc5land",
+                    "common": "\xc5land"
+                }
+            }
+        },
+        "tld": [
+            ".ax"
+        ],
+        "cca2": "AX",
+        "ccn3": "248",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
+        "capital": [
+            "Mariehamn"
+        ],
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "swe": "Swedish"
+        },
+        "latlng": [
+            60.116667,
+            19.9
+        ],
+        "landlocked": false,
+        "area": 1580,
+        "demonyms": {
+            "eng": {
+                "f": "\xc5landish",
+                "m": "\xc5landish"
+            },
+            "fra": {
+                "f": "\xc5landaise",
+                "m": "\xc5landais"
+            }
+        },
+        "cca3": "ALA",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646\u062F",
+                "common": "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646\u062F"
+            },
+            "bre": {
+                "official": "Inizi \xc5land",
+                "common": "\xc5land"
+            },
+            "ces": {
+                "official": "\xc5landsk\xe9 ostrovy",
+                "common": "\xc5landy"
+            },
+            "cym": {
+                "official": "\xc5land Islands",
+                "common": "\xc5land Islands"
+            },
+            "deu": {
+                "official": "\xc5land-Inseln",
+                "common": "\xc5land"
+            },
+            "est": {
+                "official": "Ahvenamaa maakond",
+                "common": "Ahvenamaa"
+            },
+            "fin": {
+                "official": "Ahvenanmaan maakunta",
+                "common": "Ahvenanmaa"
+            },
+            "fra": {
+                "official": "Ahvenanmaa",
+                "common": "Ahvenanmaa"
+            },
+            "hrv": {
+                "official": "Aland Islands",
+                "common": "\xc5landski otoci"
+            },
+            "hun": {
+                "official": "\xc5land-szigetek",
+                "common": "\xc5land-szigetek"
+            },
+            "ind": {
+                "official": "Kepulauan \xc5land",
+                "common": "Aland"
+            },
+            "ita": {
+                "official": "Isole \xc5land",
+                "common": "Isole Aland"
+            },
+            "jpn": {
+                "official": "\u30AA\u30FC\u30E9\u30F3\u30C9\u8AF8\u5CF6",
+                "common": "\u30AA\u30FC\u30E9\u30F3\u30C9\u8AF8\u5CF6"
+            },
+            "kor": {
+                "official": "\uC62C\uB780\uB4DC \uC81C\uB3C4",
+                "common": "\uC62C\uB780\uB4DC \uC81C\uB3C4"
+            },
+            "nld": {
+                "official": "\xc5land eilanden",
+                "common": "\xc5landeilanden"
+            },
+            "per": {
+                "official": "\u062C\u0632\u0627\u06CC\u0631 \u0627\u0644\u0646\u062F",
+                "common": "\u062C\u0632\u0627\u06CC\u0631 \u0627\u0644\u0646\u062F"
+            },
+            "pol": {
+                "official": "Wyspy Alandzkie",
+                "common": "Wyspy Alandzkie"
+            },
+            "por": {
+                "official": "Ilhas \xc5land",
+                "common": "Al\xe2ndia"
+            },
+            "rus": {
+                "official": "\u0410\u043B\u0430\u043D\u0434\u0441\u043A\u0438\u0435 \u043E\u0441\u0442\u0440\u043E\u0432\u0430",
+                "common": "\u0410\u043B\u0430\u043D\u0434\u0441\u043A\u0438\u0435 \u043E\u0441\u0442\u0440\u043E\u0432\u0430"
+            },
+            "slk": {
+                "official": "Alandsk\xe9 ostrovy",
+                "common": "Alandy"
+            },
+            "spa": {
+                "official": "Islas \xc5land",
+                "common": "Alandia"
+            },
+            "srp": {
+                "official": "\u041E\u043B\u0430\u043D\u0434\u0441\u043A\u0430 \u041E\u0441\u0442\u0440\u0432\u0430",
+                "common": "\u041E\u043B\u0430\u043D\u0434\u0441\u043A\u0430 \u041E\u0441\u0442\u0440\u0432\u0430"
+            },
+            "swe": {
+                "official": "\xc5land",
+                "common": "\xc5land"
+            },
+            "tur": {
+                "official": "\xc5land Adalar\u0131",
+                "common": "\xc5land"
+            },
+            "urd": {
+                "official": "\u062C\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062F",
+                "common": "\u062C\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062F"
+            },
+            "zho": {
+                "official": "\u5965\u5170\u7FA4\u5C9B",
+                "common": "\u5965\u5170\u7FA4\u5C9B"
+            }
+        },
+        "flag": "\uD83C\uDDE6\uD83C\uDDFD",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1650407"
+        },
+        "population": 29458,
+        "car": {
+            "signs": [
+                ""
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ax.png",
+            "svg": "https://flagcdn.com/ax.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ax.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ax.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                60.12,
+                19.9
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Estonia",
+            "official": "Republic of Estonia",
+            "nativeName": {
+                "est": {
+                    "official": "Eesti Vabariik",
+                    "common": "Eesti"
+                }
+            }
+        },
+        "tld": [
+            ".ee"
+        ],
+        "cca2": "EE",
+        "ccn3": "233",
+        "cioc": "EST",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "72"
+            ]
+        },
+        "capital": [
+            "Tallinn"
+        ],
+        "altSpellings": [
+            "EE",
+            "Eesti",
+            "Republic of Estonia",
+            "Eesti Vabariik"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "est": "Estonian"
+        },
+        "latlng": [
+            59,
+            26
+        ],
+        "landlocked": false,
+        "borders": [
+            "LVA",
+            "RUS"
+        ],
+        "area": 45227,
+        "demonyms": {
+            "eng": {
+                "f": "Estonian",
+                "m": "Estonian"
+            },
+            "fra": {
+                "f": "Estonienne",
+                "m": "Estonien"
+            }
+        },
+        "cca3": "EST",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0625\u0633\u062A\u0648\u0646\u064A\u0627",
+                "common": "\u0625\u0633\u062A\u0648\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Estonia",
+                "common": "Estonia"
+            },
+            "ces": {
+                "official": "Estonsk\xe1 republika",
+                "common": "Estonsko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Estonia",
+                "common": "Estonia"
+            },
+            "deu": {
+                "official": "Republik Estland",
+                "common": "Estland"
+            },
+            "est": {
+                "official": "Eesti Vabariik",
+                "common": "Eesti"
+            },
+            "fin": {
+                "official": "Viron tasavalta",
+                "common": "Viro"
+            },
+            "fra": {
+                "official": "R\xe9publique d'Estonie",
+                "common": "Estonie"
+            },
+            "hrv": {
+                "official": "Republika Estonija",
+                "common": "Estonija"
+            },
+            "hun": {
+                "official": "\xc9szt K\xf6zt\xe1rsas\xe1g",
+                "common": "\xc9sztorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Estonia",
+                "common": "Estonia"
+            },
+            "ita": {
+                "official": "Repubblica di Estonia",
+                "common": "Estonia"
+            },
+            "jpn": {
+                "official": "\u30A8\u30B9\u30C8\u30CB\u30A2\u5171\u548C\u56FD",
+                "common": "\u30A8\u30B9\u30C8\u30CB\u30A2"
+            },
+            "kor": {
+                "official": "\uC5D0\uC2A4\uD1A0\uB2C8\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC5D0\uC2A4\uD1A0\uB2C8\uC544"
+            },
+            "nld": {
+                "official": "Republiek Estland",
+                "common": "Estland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0627\u0633\u062A\u0648\u0646\u06CC",
+                "common": "\u0627\u0650\u0633\u062A\u0648\u0646\u06CC"
+            },
+            "pol": {
+                "official": "Republika Esto\u0144ska",
+                "common": "Estonia"
+            },
+            "por": {
+                "official": "Rep\xfablica da Est\xf3nia",
+                "common": "Est\xf3nia"
+            },
+            "rus": {
+                "official": "\u042D\u0441\u0442\u043E\u043D\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u042D\u0441\u0442\u043E\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Est\xf3nska republika",
+                "common": "Est\xf3nsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Estonia",
+                "common": "Estonia"
+            },
+            "srp": {
+                "official": "\u0415\u0441\u0442\u043E\u043D\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0415\u0441\u0442\u043E\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Estland",
+                "common": "Estland"
+            },
+            "tur": {
+                "official": "Estonya Cumhuriyeti",
+                "common": "Estonya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0627\u0633\u0679\u0648\u0646\u06CC\u0627",
+                "common": "\u0627\u0633\u0679\u0648\u0646\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u7231\u6C99\u5C3C\u4E9A\u5171\u548C\u56FD",
+                "common": "\u7231\u6C99\u5C3C\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDEA\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/6SsynwGUodL1sDvq8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/79510"
+        },
+        "population": 1331057,
+        "gini": {
+            "2018": 30.3
+        },
+        "fifa": "EST",
+        "car": {
+            "signs": [
+                "EST"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ee.png",
+            "svg": "https://flagcdn.com/ee.svg",
+            "alt": "The flag of Estonia is composed of three equal horizontal bands of blue, black and white."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ee.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ee.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                59.43,
+                24.72
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Portugal",
+            "official": "Portuguese Republic",
+            "nativeName": {
+                "por": {
+                    "official": "Rep\xfablica Portuguesa",
+                    "common": "Portugal"
+                }
+            }
+        },
+        "tld": [
+            ".pt"
+        ],
+        "cca2": "PT",
+        "ccn3": "620",
+        "cioc": "POR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "51"
+            ]
+        },
+        "capital": [
+            "Lisbon"
+        ],
+        "altSpellings": [
+            "PT",
+            "Portuguesa",
+            "Portuguese Republic",
+            "Rep\xfablica Portuguesa"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "por": "Portuguese"
+        },
+        "latlng": [
+            39.5,
+            -8
+        ],
+        "landlocked": false,
+        "borders": [
+            "ESP"
+        ],
+        "area": 92090,
+        "demonyms": {
+            "eng": {
+                "f": "Portuguese",
+                "m": "Portuguese"
+            },
+            "fra": {
+                "f": "Portugaise",
+                "m": "Portugais"
+            }
+        },
+        "cca3": "PRT",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644\u064A\u0629",
+                "common": "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"
+            },
+            "bre": {
+                "official": "Republik Portugalat",
+                "common": "Portugal"
+            },
+            "ces": {
+                "official": "Portugalsk\xe1 republika",
+                "common": "Portugalsko"
+            },
+            "cym": {
+                "official": "Portuguese Republic",
+                "common": "Portugal"
+            },
+            "deu": {
+                "official": "Portugiesische Republik",
+                "common": "Portugal"
+            },
+            "est": {
+                "official": "Portugali Vabariik",
+                "common": "Portugal"
+            },
+            "fin": {
+                "official": "Portugalin tasavalta",
+                "common": "Portugali"
+            },
+            "fra": {
+                "official": "R\xe9publique portugaise",
+                "common": "Portugal"
+            },
+            "hrv": {
+                "official": "Portugalska Republika",
+                "common": "Portugal"
+            },
+            "hun": {
+                "official": "Portug\xe1l K\xf6zt\xe1rsas\xe1g",
+                "common": "Portug\xe1lia"
+            },
+            "ind": {
+                "official": "Republik Portugal",
+                "common": "Portugal"
+            },
+            "ita": {
+                "official": "Repubblica portoghese",
+                "common": "Portogallo"
+            },
+            "jpn": {
+                "official": "\u30DD\u30EB\u30C8\u30AC\u30EB\u5171\u548C\u56FD",
+                "common": "\u30DD\u30EB\u30C8\u30AC\u30EB"
+            },
+            "kor": {
+                "official": "\uD3EC\uB974\uD22C\uAC08 \uACF5\uD654\uAD6D",
+                "common": "\uD3EC\uB974\uD22C\uAC08"
+            },
+            "nld": {
+                "official": "Portugese Republiek",
+                "common": "Portugal"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u067E\u0631\u062A\u063A\u0627\u0644",
+                "common": "\u067E\u0631\u062A\u063A\u0627\u0644"
+            },
+            "pol": {
+                "official": "Republika Portugalska",
+                "common": "Portugalia"
+            },
+            "por": {
+                "official": "Rep\xfablica portugu\xeas",
+                "common": "Portugal"
+            },
+            "rus": {
+                "official": "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u044C\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0438\u044F"
+            },
+            "slk": {
+                "official": "Portugalsk\xe1 republika",
+                "common": "Portugalsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica Portuguesa",
+                "common": "Portugal"
+            },
+            "srp": {
+                "official": "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B"
+            },
+            "swe": {
+                "official": "Republiken Portugal",
+                "common": "Portugal"
+            },
+            "tur": {
+                "official": "Portekiz Cumhuriyeti",
+                "common": "Portekiz"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u067E\u0631\u062A\u06AF\u0627\u0644",
+                "common": "\u067E\u0631\u062A\u06AF\u0627\u0644"
+            },
+            "zho": {
+                "official": "\u8461\u8404\u7259\u5171\u548C\u56FD",
+                "common": "\u8461\u8404\u7259"
+            }
+        },
+        "flag": "\uD83C\uDDF5\uD83C\uDDF9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/295480"
+        },
+        "population": 10305564,
+        "gini": {
+            "2018": 33.5
+        },
+        "fifa": "POR",
+        "car": {
+            "signs": [
+                "P"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-01:00",
+            "UTC"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pt.png",
+            "svg": "https://flagcdn.com/pt.svg",
+            "alt": "The flag of Portugal is composed of two vertical bands of green and red in the ratio of 2:3, with the coat of arms of Portugal centered over the two-color boundary."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/pt.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/pt.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                38.72,
+                -9.13
+            ]
+        },
+        "postalCode": {
+            "format": "####-###",
+            "regex": "^(\\d{7})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Slovenia",
+            "official": "Republic of Slovenia",
+            "nativeName": {
+                "slv": {
+                    "official": "Republika Slovenija",
+                    "common": "Slovenija"
+                }
+            }
+        },
+        "tld": [
+            ".si"
+        ],
+        "cca2": "SI",
+        "ccn3": "705",
+        "cioc": "SLO",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "86"
+            ]
+        },
+        "capital": [
+            "Ljubljana"
+        ],
+        "altSpellings": [
+            "SI",
+            "Republic of Slovenia",
+            "Republika Slovenija"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": {
+            "slv": "Slovene"
+        },
+        "latlng": [
+            46.11666666,
+            14.81666666
+        ],
+        "landlocked": false,
+        "borders": [
+            "AUT",
+            "HRV",
+            "ITA",
+            "HUN"
+        ],
+        "area": 20273,
+        "demonyms": {
+            "eng": {
+                "f": "Slovene",
+                "m": "Slovene"
+            },
+            "fra": {
+                "f": "Slov\xe8ne",
+                "m": "Slov\xe8ne"
+            }
+        },
+        "cca3": "SVN",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627",
+                "common": "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Slovenia",
+                "common": "Slovenia"
+            },
+            "ces": {
+                "official": "Slovinsk\xe1 republika",
+                "common": "Slovinsko"
+            },
+            "cym": {
+                "official": "Republic of Slovenia",
+                "common": "Slovenia"
+            },
+            "deu": {
+                "official": "Republik Slowenien",
+                "common": "Slowenien"
+            },
+            "est": {
+                "official": "Sloveenia Vabariik",
+                "common": "Sloveenia"
+            },
+            "fin": {
+                "official": "Slovenian tasavalta",
+                "common": "Slovenia"
+            },
+            "fra": {
+                "official": "R\xe9publique de Slov\xe9nie",
+                "common": "Slov\xe9nie"
+            },
+            "hrv": {
+                "official": "Republika Slovenija",
+                "common": "Slovenija"
+            },
+            "hun": {
+                "official": "Szlov\xe9n K\xf6zt\xe1rsas\xe1g",
+                "common": "Szlov\xe9nia"
+            },
+            "ind": {
+                "official": "Republik Slovenia",
+                "common": "Slovenia"
+            },
+            "ita": {
+                "official": "Repubblica di Slovenia",
+                "common": "Slovenia"
+            },
+            "jpn": {
+                "official": "\u30B9\u30ED\u30D9\u30CB\u30A2\u5171\u548C\u56FD",
+                "common": "\u30B9\u30ED\u30D9\u30CB\u30A2"
+            },
+            "kor": {
+                "official": "\uC2AC\uB85C\uBCA0\uB2C8\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC2AC\uB85C\uBCA0\uB2C8\uC544"
+            },
+            "nld": {
+                "official": "Republiek Sloveni\xeb",
+                "common": "Sloveni\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0627\u0633\u0644\u0648\u0648\u0646\u06CC",
+                "common": "\u0627\u0633\u0644\u0648\u0648\u0646\u06CC"
+            },
+            "pol": {
+                "official": "Republika S\u0142owenii",
+                "common": "S\u0142owenia"
+            },
+            "por": {
+                "official": "Rep\xfablica da Eslov\xe9nia",
+                "common": "Eslov\xe9nia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u043B\u043E\u0432\u0435\u043D\u0438\u044F",
+                "common": "\u0421\u043B\u043E\u0432\u0435\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Slovinsk\xe1 republika",
+                "common": "Slovinsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Eslovenia",
+                "common": "Eslovenia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u043B\u043E\u0432\u0435\u043D\u0438\u0458\u0430",
+                "common": "\u0421\u043B\u043E\u0432\u0435\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Slovenien",
+                "common": "Slovenien"
+            },
+            "tur": {
+                "official": "Slovenya Cumhuriyeti",
+                "common": "Slovenya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0633\u0644\u0648\u0648\u06CC\u0646\u06CC\u0627",
+                "common": "\u0633\u0644\u0648\u0648\u06CC\u0646\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u65AF\u6D1B\u6587\u5C3C\u4E9A\u5171\u548C\u56FD",
+                "common": "\u65AF\u6D1B\u6587\u5C3C\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDF8\uD83C\uDDEE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/218657"
+        },
+        "population": 2100126,
+        "gini": {
+            "2018": 24.6
+        },
+        "fifa": "SVN",
+        "car": {
+            "signs": [
+                "SLO"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/si.png",
+            "svg": "https://flagcdn.com/si.svg",
+            "alt": "The flag of Slovenia is composed of three equal horizontal bands of white, blue and red. The national coat of arms is situated in the upper hoist side of the field centered on the boundary between the white and blue bands."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/si.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/si.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                46.05,
+                14.52
+            ]
+        },
+        "postalCode": {
+            "format": "SI- ####",
+            "regex": "^(?:SI)*(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "France",
+            "official": "French Republic",
+            "nativeName": {
+                "fra": {
+                    "official": "R\xe9publique fran\xe7aise",
+                    "common": "France"
+                }
+            }
+        },
+        "tld": [
+            ".fr"
+        ],
+        "cca2": "FR",
+        "ccn3": "250",
+        "cioc": "FRA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "3"
+            ]
+        },
+        "capital": [
+            "Paris"
+        ],
+        "altSpellings": [
+            "FR",
+            "French Republic",
+            "R\xe9publique fran\xe7aise"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "fra": "French"
+        },
+        "latlng": [
+            46,
+            2
+        ],
+        "landlocked": false,
+        "borders": [
+            "AND",
+            "BEL",
+            "DEU",
+            "ITA",
+            "LUX",
+            "MCO",
+            "ESP",
+            "CHE"
+        ],
+        "area": 551695,
+        "demonyms": {
+            "eng": {
+                "f": "French",
+                "m": "French"
+            },
+            "fra": {
+                "f": "Fran\xe7aise",
+                "m": "Fran\xe7ais"
+            }
+        },
+        "cca3": "FRA",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629",
+                "common": "\u0641\u0631\u0646\u0633\u0627"
+            },
+            "bre": {
+                "official": "Republik Fra\xf1s",
+                "common": "Fra\xf1s"
+            },
+            "ces": {
+                "official": "Francouzsk\xe1 republika",
+                "common": "Francie"
+            },
+            "cym": {
+                "official": "French Republic",
+                "common": "France"
+            },
+            "deu": {
+                "official": "Franz\xf6sische Republik",
+                "common": "Frankreich"
+            },
+            "est": {
+                "official": "Prantsuse Vabariik",
+                "common": "Prantsusmaa"
+            },
+            "fin": {
+                "official": "Ranskan tasavalta",
+                "common": "Ranska"
+            },
+            "fra": {
+                "official": "R\xe9publique fran\xe7aise",
+                "common": "France"
+            },
+            "hrv": {
+                "official": "Francuska Republika",
+                "common": "Francuska"
+            },
+            "hun": {
+                "official": "Francia K\xf6zt\xe1rsas\xe1g",
+                "common": "Franciaorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Prancis",
+                "common": "Prancis"
+            },
+            "ita": {
+                "official": "Repubblica francese",
+                "common": "Francia"
+            },
+            "jpn": {
+                "official": "\u30D5\u30E9\u30F3\u30B9\u5171\u548C\u56FD",
+                "common": "\u30D5\u30E9\u30F3\u30B9"
+            },
+            "kor": {
+                "official": "\uD504\uB791\uC2A4 \uACF5\uD654\uAD6D",
+                "common": "\uD504\uB791\uC2A4"
+            },
+            "nld": {
+                "official": "Franse Republiek",
+                "common": "Frankrijk"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0641\u0631\u0627\u0646\u0633\u0647",
+                "common": "\u0641\u0631\u0627\u0646\u0633\u0647"
+            },
+            "pol": {
+                "official": "Republika Francuska",
+                "common": "Francja"
+            },
+            "por": {
+                "official": "Rep\xfablica Francesa",
+                "common": "Fran\xe7a"
+            },
+            "rus": {
+                "official": "\u0424\u0440\u0430\u043D\u0446\u0443\u0437\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0424\u0440\u0430\u043D\u0446\u0438\u044F"
+            },
+            "slk": {
+                "official": "Franc\xfazska republika",
+                "common": "Franc\xfazsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica franc\xe9s",
+                "common": "Francia"
+            },
+            "srp": {
+                "official": "\u0424\u0440\u0430\u043D\u0446\u0443\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0424\u0440\u0430\u043D\u0446\u0443\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Frankrike",
+                "common": "Frankrike"
+            },
+            "tur": {
+                "official": "Fransa Cumhuriyeti",
+                "common": "Fransa"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0641\u0631\u0627\u0646\u0633",
+                "common": "\u0641\u0631\u0627\u0646\u0633"
+            },
+            "zho": {
+                "official": "\u6CD5\u5170\u897F\u5171\u548C\u56FD",
+                "common": "\u6CD5\u56FD"
+            }
+        },
+        "flag": "\uD83C\uDDEB\uD83C\uDDF7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1403916"
+        },
+        "population": 67391582,
+        "gini": {
+            "2018": 32.4
+        },
+        "fifa": "FRA",
+        "car": {
+            "signs": [
+                "F"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-10:00",
+            "UTC-09:30",
+            "UTC-09:00",
+            "UTC-08:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC+01:00",
+            "UTC+02:00",
+            "UTC+03:00",
+            "UTC+04:00",
+            "UTC+05:00",
+            "UTC+10:00",
+            "UTC+11:00",
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/fr.png",
+            "svg": "https://flagcdn.com/fr.svg",
+            "alt": "The flag of France is composed of three equal vertical bands of blue, white and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/fr.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/fr.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                48.87,
+                2.33
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Denmark",
+            "official": "Kingdom of Denmark",
+            "nativeName": {
+                "dan": {
+                    "official": "Kongeriget Danmark",
+                    "common": "Danmark"
+                }
+            }
+        },
+        "tld": [
+            ".dk"
+        ],
+        "cca2": "DK",
+        "ccn3": "208",
+        "cioc": "DEN",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "DKK": {
+                "symbol": "kr",
+                "name": "Danish krone"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "5"
+            ]
+        },
+        "capital": [
+            "Copenhagen"
+        ],
+        "altSpellings": [
+            "DK",
+            "Danmark",
+            "Kingdom of Denmark",
+            "Kongeriget Danmark"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "dan": "Danish"
+        },
+        "latlng": [
+            56,
+            10
+        ],
+        "landlocked": false,
+        "borders": [
+            "DEU"
+        ],
+        "area": 43094,
+        "demonyms": {
+            "eng": {
+                "f": "Danish",
+                "m": "Danish"
+            },
+            "fra": {
+                "f": "Danoise",
+                "m": "Danois"
+            }
+        },
+        "cca3": "DNK",
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u062F\u0646\u0645\u0627\u0631\u0643",
+                "common": "\u0627\u0644\u062F\u0646\u0645\u0627\u0631\u0643"
+            },
+            "bre": {
+                "official": "Rouantelezh Danmark",
+                "common": "Danmark"
+            },
+            "ces": {
+                "official": "D\xe1nsk\xe9 kr\xe1lovstv\xed",
+                "common": "D\xe1nsko"
+            },
+            "cym": {
+                "official": "Teyrnas Denmarc",
+                "common": "Denmarc"
+            },
+            "deu": {
+                "official": "K\xf6nigreich D\xe4nemark",
+                "common": "D\xe4nemark"
+            },
+            "est": {
+                "official": "Taani Kuningriik",
+                "common": "Taani"
+            },
+            "fin": {
+                "official": "Tanskan kuningaskunta",
+                "common": "Tanska"
+            },
+            "fra": {
+                "official": "Royaume du Danemark",
+                "common": "Danemark"
+            },
+            "hrv": {
+                "official": "Kraljevina Danska",
+                "common": "Danska"
+            },
+            "hun": {
+                "official": "D\xe1n Kir\xe1lys\xe1g",
+                "common": "D\xe1nia"
+            },
+            "ind": {
+                "official": "Kerajaan Denmark",
+                "common": "Denmark"
+            },
+            "ita": {
+                "official": "Regno di Danimarca",
+                "common": "Danimarca"
+            },
+            "jpn": {
+                "official": "\u30C7\u30F3\u30DE\u30FC\u30AF\u738B\u56FD",
+                "common": "\u30C7\u30F3\u30DE\u30FC\u30AF"
+            },
+            "kor": {
+                "official": "\uB374\uB9C8\uD06C \uC655\uAD6D",
+                "common": "\uB374\uB9C8\uD06C"
+            },
+            "nld": {
+                "official": "Koninkrijk Denemarken",
+                "common": "Denemarken"
+            },
+            "per": {
+                "official": "\u067E\u0627\u062F\u0634\u0627\u0647\u06CC \u062F\u0627\u0646\u0645\u0627\u0631\u06A9",
+                "common": "\u062F\u0627\u0646\u0645\u0627\u0631\u06A9"
+            },
+            "pol": {
+                "official": "Kr\xf3lestwo Danii",
+                "common": "Dania"
+            },
+            "por": {
+                "official": "Reino da Dinamarca",
+                "common": "Dinamarca"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0414\u0430\u043D\u0438\u044F",
+                "common": "\u0414\u0430\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "D\xe1nske kr\xe1\u013Eovstvo",
+                "common": "D\xe1nsko"
+            },
+            "spa": {
+                "official": "Reino de Dinamarca",
+                "common": "Dinamarca"
+            },
+            "srp": {
+                "official": "\u041A\u0440\u0430\u0459\u0435\u0432\u0438\u043D\u0430 \u0414\u0430\u043D\u0441\u043A\u0430",
+                "common": "\u0414\u0430\u043D\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Konungariket Danmark",
+                "common": "Danmark"
+            },
+            "tur": {
+                "official": "Danimarka Krall\u0131\u011F\u0131",
+                "common": "Danimarka"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0688\u0646\u0645\u0627\u0631\u06A9",
+                "common": "\u0688\u0646\u0645\u0627\u0631\u06A9"
+            },
+            "zho": {
+                "official": "\u4E39\u9EA6\u738B\u56FD",
+                "common": "\u4E39\u9EA6"
+            }
+        },
+        "flag": "\uD83C\uDDE9\uD83C\uDDF0",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/UddGPN7hAyrtpFiT6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/50046"
+        },
+        "population": 5831404,
+        "gini": {
+            "2018": 28.2
+        },
+        "fifa": "DEN",
+        "car": {
+            "signs": [
+                "DK"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-01:00",
+            "UTC",
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/dk.png",
+            "svg": "https://flagcdn.com/dk.svg",
+            "alt": "The flag of Denmark has a red field with a large white cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/dk.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/dk.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                55.67,
+                12.58
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Ukraine",
+            "official": "Ukraine",
+            "nativeName": {
+                "ukr": {
+                    "official": "\u0423\u043A\u0440\u0430\u0457\u043D\u0430",
+                    "common": "\u0423\u043A\u0440\u0430\u0457\u043D\u0430"
+                }
+            }
+        },
+        "tld": [
+            ".ua",
+            ".\u0443\u043A\u0440"
+        ],
+        "cca2": "UA",
+        "ccn3": "804",
+        "cioc": "UKR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "UAH": {
+                "symbol": "\u20B4",
+                "name": "Ukrainian hryvnia"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "80"
+            ]
+        },
+        "capital": [
+            "Kyiv"
+        ],
+        "altSpellings": [
+            "UA",
+            "Ukrayina"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": {
+            "ukr": "Ukrainian"
+        },
+        "latlng": [
+            49,
+            32
+        ],
+        "landlocked": false,
+        "borders": [
+            "BLR",
+            "HUN",
+            "MDA",
+            "POL",
+            "ROU",
+            "RUS",
+            "SVK"
+        ],
+        "area": 603500,
+        "demonyms": {
+            "eng": {
+                "f": "Ukrainian",
+                "m": "Ukrainian"
+            },
+            "fra": {
+                "f": "Ukrainienne",
+                "m": "Ukrainien"
+            }
+        },
+        "cca3": "UKR",
+        "translations": {
+            "ara": {
+                "official": "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627",
+                "common": "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Ukraina",
+                "common": "Ukraina"
+            },
+            "ces": {
+                "official": "Ukrajina",
+                "common": "Ukrajina"
+            },
+            "cym": {
+                "official": "Ukraine",
+                "common": "Ukraine"
+            },
+            "deu": {
+                "official": "Ukraine",
+                "common": "Ukraine"
+            },
+            "est": {
+                "official": "Ukraina",
+                "common": "Ukraina"
+            },
+            "fin": {
+                "official": "Ukraina",
+                "common": "Ukraina"
+            },
+            "fra": {
+                "official": "Ukraine",
+                "common": "Ukraine"
+            },
+            "hrv": {
+                "official": "Ukrajina",
+                "common": "Ukrajina"
+            },
+            "hun": {
+                "official": "Ukrajna",
+                "common": "Ukrajna"
+            },
+            "ind": {
+                "official": "Ukraina",
+                "common": "Ukraina"
+            },
+            "ita": {
+                "official": "Ucraina",
+                "common": "Ucraina"
+            },
+            "jpn": {
+                "official": "\u30A6\u30AF\u30E9\u30A4\u30CA",
+                "common": "\u30A6\u30AF\u30E9\u30A4\u30CA"
+            },
+            "kor": {
+                "official": "\uC6B0\uD06C\uB77C\uC774\uB098",
+                "common": "\uC6B0\uD06C\uB77C\uC774\uB098"
+            },
+            "nld": {
+                "official": "Oekra\xefne",
+                "common": "Oekra\xefne"
+            },
+            "per": {
+                "official": "\u0627\u0648\u06A9\u0631\u0627\u06CC\u0646",
+                "common": "\u0627\u0648\u06A9\u0631\u0627\u06CC\u0646"
+            },
+            "pol": {
+                "official": "Ukraina",
+                "common": "Ukraina"
+            },
+            "por": {
+                "official": "Ucr\xe2nia",
+                "common": "Ucr\xe2nia"
+            },
+            "rus": {
+                "official": "\u0423\u043A\u0440\u0430\u0438\u043D\u0430",
+                "common": "\u0423\u043A\u0440\u0430\u0438\u043D\u0430"
+            },
+            "slk": {
+                "official": "Ukrajina",
+                "common": "Ukrajina"
+            },
+            "spa": {
+                "official": "Ucrania",
+                "common": "Ucrania"
+            },
+            "srp": {
+                "official": "\u0423\u043A\u0440\u0430\u0458\u0438\u043D\u0430",
+                "common": "\u0423\u043A\u0440\u0430\u0458\u0438\u043D\u0430"
+            },
+            "swe": {
+                "official": "Ukraina",
+                "common": "Ukraina"
+            },
+            "tur": {
+                "official": "Ukrayna",
+                "common": "Ukrayna"
+            },
+            "urd": {
+                "official": "\u06CC\u0648\u06A9\u0631\u06CC\u0646",
+                "common": "\u06CC\u0648\u06A9\u0631\u06CC\u0646"
+            },
+            "zho": {
+                "official": "\u4E4C\u514B\u5170",
+                "common": "\u4E4C\u514B\u5170"
+            }
+        },
+        "flag": "\uD83C\uDDFA\uD83C\uDDE6",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/60199"
+        },
+        "population": 44134693,
+        "gini": {
+            "2019": 26.6
+        },
+        "fifa": "UKR",
+        "car": {
+            "signs": [
+                "UA"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ua.png",
+            "svg": "https://flagcdn.com/ua.svg",
+            "alt": "The flag of Ukraine is composed of two equal horizontal bands of blue and yellow."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ua.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ua.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                50.43,
+                30.52
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Liechtenstein",
+            "official": "Principality of Liechtenstein",
+            "nativeName": {
+                "deu": {
+                    "official": "F\xfcrstentum Liechtenstein",
+                    "common": "Liechtenstein"
+                }
+            }
+        },
+        "tld": [
+            ".li"
+        ],
+        "cca2": "LI",
+        "ccn3": "438",
+        "cioc": "LIE",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "CHF": {
+                "symbol": "Fr",
+                "name": "Swiss franc"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "23"
+            ]
+        },
+        "capital": [
+            "Vaduz"
+        ],
+        "altSpellings": [
+            "LI",
+            "Principality of Liechtenstein",
+            "F\xfcrstentum Liechtenstein"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German"
+        },
+        "latlng": [
+            47.26666666,
+            9.53333333
+        ],
+        "landlocked": true,
+        "borders": [
+            "AUT",
+            "CHE"
+        ],
+        "area": 160,
+        "demonyms": {
+            "eng": {
+                "f": "Liechtensteiner",
+                "m": "Liechtensteiner"
+            },
+            "fra": {
+                "f": "Liechtensteinoise",
+                "m": "Liechtensteinois"
+            }
+        },
+        "cca3": "LIE",
+        "translations": {
+            "ara": {
+                "official": "\u0625\u0645\u0627\u0631\u0629 \u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646",
+                "common": "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"
+            },
+            "bre": {
+                "official": "Pri\xf1selezh Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "ces": {
+                "official": "Kn\xed\u017Eectv\xed Lichten\u0161tejnsk\xe9",
+                "common": "Lichten\u0161tejnsko"
+            },
+            "cym": {
+                "official": "Principality of Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "deu": {
+                "official": "F\xfcrstentum Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "est": {
+                "official": "Liechtensteini V\xfcrstiriik",
+                "common": "Liechtenstein"
+            },
+            "fin": {
+                "official": "Liechensteinin ruhtinaskunta",
+                "common": "Liechenstein"
+            },
+            "fra": {
+                "official": "Principaut\xe9 du Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "hrv": {
+                "official": "Kne\u017Eevina Lihten\u0161tajn",
+                "common": "Lihten\u0161tajn"
+            },
+            "hun": {
+                "official": "Liechtensteini Hercegs\xe9g",
+                "common": "Liechtenstein"
+            },
+            "ind": {
+                "official": "Kepangeranan Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "ita": {
+                "official": "Principato del Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "jpn": {
+                "official": "\u30EA\u30D2\u30C6\u30F3\u30B7\u30E5\u30BF\u30A4\u30F3\u516C\u56FD",
+                "common": "\u30EA\u30D2\u30C6\u30F3\u30B7\u30E5\u30BF\u30A4\u30F3"
+            },
+            "kor": {
+                "official": "\uB9AC\uD788\uD150\uC288\uD0C0\uC778 \uACF5\uAD6D",
+                "common": "\uB9AC\uD788\uD150\uC288\uD0C0\uC778"
+            },
+            "nld": {
+                "official": "Vorstendom Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "per": {
+                "official": "\u0634\u0627\u0647\u0632\u0627\u062F\u0647\u200C\u0646\u0634\u06CC\u0646 \u0644\u06CC\u062E\u062A\u0646\u200C\u0627\u0634\u062A\u0627\u06CC\u0646",
+                "common": "\u0644\u06CC\u062E\u062A\u0646\u200C\u0627\u0634\u062A\u0627\u06CC\u0646"
+            },
+            "pol": {
+                "official": "Ksi\u0119stwo Liechtensteinu",
+                "common": "Liechtenstein"
+            },
+            "por": {
+                "official": "Principado de Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "rus": {
+                "official": "\u041A\u043D\u044F\u0436\u0435\u0441\u0442\u0432\u043E \u041B\u0438\u0445\u0442\u0435\u043D\u0448\u0442\u0435\u0439\u043D",
+                "common": "\u041B\u0438\u0445\u0442\u0435\u043D\u0448\u0442\u0435\u0439\u043D"
+            },
+            "slk": {
+                "official": "Lichten\u0161tajnsk\xe9 knie\u017Eatstvo",
+                "common": "Lichten\u0161tajnsko"
+            },
+            "spa": {
+                "official": "Principado de Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "srp": {
+                "official": "\u041A\u043D\u0435\u0436\u0435\u0432\u0438\u043D\u0430 \u041B\u0438\u0445\u0442\u0435\u043D\u0448\u0442\u0430\u0458\u043D",
+                "common": "\u041B\u0438\u0445\u0442\u0435\u043D\u0448\u0442\u0430\u0458\u043D"
+            },
+            "swe": {
+                "official": "Furstend\xf6met Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            "tur": {
+                "official": "Lihten\u015Ftayn Prensli\u011Fi",
+                "common": "Lihten\u015Ftayn"
+            },
+            "urd": {
+                "official": "\u0627\u0645\u0627\u0631\u0627\u062A \u0644\u06CC\u062E\u062A\u06CC\u0646\u0633\u062A\u0627\u0626\u0646",
+                "common": "\u0644\u06CC\u062E\u062A\u06CC\u0646\u0633\u062A\u0627\u0626\u0646"
+            },
+            "zho": {
+                "official": "\u5217\u652F\u6566\u58EB\u767B\u516C\u56FD",
+                "common": "\u5217\u652F\u6566\u58EB\u767B"
+            }
+        },
+        "flag": "\uD83C\uDDF1\uD83C\uDDEE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1155955"
+        },
+        "population": 38137,
+        "fifa": "LIE",
+        "car": {
+            "signs": [
+                "FL"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/li.png",
+            "svg": "https://flagcdn.com/li.svg",
+            "alt": "The flag of Liechtenstein is composed of two equal horizontal bands of blue and red, with a golden-yellow crown on the hoist side of the blue band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/li.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/li.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                47.13,
+                9.52
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Lithuania",
+            "official": "Republic of Lithuania",
+            "nativeName": {
+                "lit": {
+                    "official": "Lietuvos Respublikos",
+                    "common": "Lietuva"
+                }
+            }
+        },
+        "tld": [
+            ".lt"
+        ],
+        "cca2": "LT",
+        "ccn3": "440",
+        "cioc": "LTU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "70"
+            ]
+        },
+        "capital": [
+            "Vilnius"
+        ],
+        "altSpellings": [
+            "LT",
+            "Republic of Lithuania",
+            "Lietuvos Respublika"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "lit": "Lithuanian"
+        },
+        "latlng": [
+            56,
+            24
+        ],
+        "landlocked": false,
+        "borders": [
+            "BLR",
+            "LVA",
+            "POL",
+            "RUS"
+        ],
+        "area": 65300,
+        "demonyms": {
+            "eng": {
+                "f": "Lithuanian",
+                "m": "Lithuanian"
+            },
+            "fra": {
+                "f": "Lituanienne",
+                "m": "Lituanien"
+            }
+        },
+        "cca3": "LTU",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627",
+                "common": "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Lituania",
+                "common": "Lituania"
+            },
+            "ces": {
+                "official": "Litevsk\xe1 republika",
+                "common": "Litva"
+            },
+            "cym": {
+                "official": "Republic of Lithuania",
+                "common": "Lithuania"
+            },
+            "deu": {
+                "official": "Republik Litauen",
+                "common": "Litauen"
+            },
+            "est": {
+                "official": "Leedu Vabariik",
+                "common": "Leedu"
+            },
+            "fin": {
+                "official": "Liettuan tasavalta",
+                "common": "Liettua"
+            },
+            "fra": {
+                "official": "R\xe9publique de Lituanie",
+                "common": "Lituanie"
+            },
+            "hrv": {
+                "official": "Republika Litva",
+                "common": "Litva"
+            },
+            "hun": {
+                "official": "Litv\xe1n K\xf6zt\xe1rsas\xe1g",
+                "common": "Litv\xe1nia"
+            },
+            "ind": {
+                "official": "Republik Lithuania",
+                "common": "Lithuania"
+            },
+            "ita": {
+                "official": "Repubblica di Lituania",
+                "common": "Lituania"
+            },
+            "jpn": {
+                "official": "\u30EA\u30C8\u30A2\u30CB\u30A2\u5171\u548C\u56FD",
+                "common": "\u30EA\u30C8\u30A2\u30CB\u30A2"
+            },
+            "kor": {
+                "official": "\uB9AC\uD22C\uC544\uB2C8\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uB9AC\uD22C\uC544\uB2C8\uC544"
+            },
+            "nld": {
+                "official": "Republiek Litouwen",
+                "common": "Litouwen"
+            },
+            "per": {
+                "official": "\u0644\u06CC\u062A\u0648\u0627\u0646\u06CC\u0627\u06CC\u06CC\u200C\u0647\u0627",
+                "common": "\u0644\u06CC\u062A\u0648\u0627\u0646\u06CC\u0627\u06CC\u06CC\u200C\u0647\u0627"
+            },
+            "pol": {
+                "official": "Republika Litewska",
+                "common": "Litwa"
+            },
+            "por": {
+                "official": "Rep\xfablica da Litu\xe2nia",
+                "common": "Litu\xe2nia"
+            },
+            "rus": {
+                "official": "\u041B\u0438\u0442\u043E\u0432\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041B\u0438\u0442\u0432\u0430"
+            },
+            "slk": {
+                "official": "Litovsk\xe1 republika",
+                "common": "Litva"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Lituania",
+                "common": "Lituania"
+            },
+            "srp": {
+                "official": "\u041B\u0438\u0442\u0432\u0430\u043D\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041B\u0438\u0442\u0432\u0430\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Litauen",
+                "common": "Litauen"
+            },
+            "tur": {
+                "official": "Litvanya Cumhuriyeti",
+                "common": "Litvanya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0644\u062A\u06BE\u0648\u0648\u06CC\u0646\u06CC\u0627",
+                "common": "\u0644\u062A\u06BE\u0648\u0648\u06CC\u0646\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u7ACB\u9676\u5B9B\u5171\u548C\u56FD",
+                "common": "\u7ACB\u9676\u5B9B"
+            }
+        },
+        "flag": "\uD83C\uDDF1\uD83C\uDDF9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/dd1s9rrLjrK2G8yY6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/72596"
+        },
+        "population": 2794700,
+        "gini": {
+            "2018": 35.7
+        },
+        "fifa": "LTU",
+        "car": {
+            "signs": [
+                "LT"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/lt.png",
+            "svg": "https://flagcdn.com/lt.svg",
+            "alt": "The flag of Lithuania is composed of three equal horizontal bands of yellow, green and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/lt.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/lt.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                54.68,
+                25.32
+            ]
+        },
+        "postalCode": {
+            "format": "LT-#####",
+            "regex": "^(?:LT)*(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Austria",
+            "official": "Republic of Austria",
+            "nativeName": {
+                "bar": {
+                    "official": "Republik \xd6sterreich",
+                    "common": "\xd6sterreich"
+                }
+            }
+        },
+        "tld": [
+            ".at"
+        ],
+        "cca2": "AT",
+        "ccn3": "040",
+        "cioc": "AUT",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "3"
+            ]
+        },
+        "capital": [
+            "Vienna"
+        ],
+        "altSpellings": [
+            "AT",
+            "Osterreich",
+            "Oesterreich"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": {
+            "deu": "German"
+        },
+        "latlng": [
+            47.33333333,
+            13.33333333
+        ],
+        "landlocked": true,
+        "borders": [
+            "CZE",
+            "DEU",
+            "HUN",
+            "ITA",
+            "LIE",
+            "SVK",
+            "SVN",
+            "CHE"
+        ],
+        "area": 83871,
+        "demonyms": {
+            "eng": {
+                "f": "Austrian",
+                "m": "Austrian"
+            },
+            "fra": {
+                "f": "Autrichienne",
+                "m": "Autrichien"
+            }
+        },
+        "cca3": "AUT",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0646\u0645\u0633\u0627",
+                "common": "\u0627\u0644\u0646\u0645\u0633\u0627"
+            },
+            "bre": {
+                "official": "Republik Aostria",
+                "common": "Aostria"
+            },
+            "ces": {
+                "official": "Rakousk\xe1 republika",
+                "common": "Rakousko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Awstria",
+                "common": "Awstria"
+            },
+            "deu": {
+                "official": "Republik \xd6sterreich",
+                "common": "\xd6sterreich"
+            },
+            "est": {
+                "official": "Austria Vabariik",
+                "common": "Austria"
+            },
+            "fin": {
+                "official": "It\xe4vallan tasavalta",
+                "common": "It\xe4valta"
+            },
+            "fra": {
+                "official": "R\xe9publique d'Autriche",
+                "common": "Autriche"
+            },
+            "hrv": {
+                "official": "Republika Austrija",
+                "common": "Austrija"
+            },
+            "hun": {
+                "official": "Ausztria",
+                "common": "Ausztria"
+            },
+            "ind": {
+                "official": "Republik Austria",
+                "common": "Austria"
+            },
+            "ita": {
+                "official": "Repubblica d'Austria",
+                "common": "Austria"
+            },
+            "jpn": {
+                "official": "\u30AA\u30FC\u30B9\u30C8\u30EA\u30A2\u5171\u548C\u56FD",
+                "common": "\u30AA\u30FC\u30B9\u30C8\u30EA\u30A2"
+            },
+            "kor": {
+                "official": "\uC624\uC2A4\uD2B8\uB9AC\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC624\uC2A4\uD2B8\uB9AC\uC544"
+            },
+            "nld": {
+                "official": "Republiek Oostenrijk",
+                "common": "Oostenrijk"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0627\u062A\u0631\u06CC\u0634",
+                "common": "\u0627\u062A\u0631\u06CC\u0634"
+            },
+            "pol": {
+                "official": "Republika Austrii",
+                "common": "Austria"
+            },
+            "por": {
+                "official": "Rep\xfablica da \xc1ustria",
+                "common": "\xc1ustria"
+            },
+            "rus": {
+                "official": "\u0410\u0432\u0441\u0442\u0440\u0438\u0439\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0410\u0432\u0441\u0442\u0440\u0438\u044F"
+            },
+            "slk": {
+                "official": "Rak\xfaska republika",
+                "common": "Rak\xfasko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Austria",
+                "common": "Austria"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0410\u0443\u0441\u0442\u0440\u0438\u0458\u0430",
+                "common": "\u0410\u0443\u0441\u0442\u0440\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken \xd6sterrike",
+                "common": "\xd6sterrike"
+            },
+            "tur": {
+                "official": "Avusturya Cumhuriyeti",
+                "common": "Avusturya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0622\u0633\u0679\u0631\u06CC\u0627",
+                "common": "\u0622\u0633\u0679\u0631\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u5965\u5730\u5229\u5171\u548C\u56FD",
+                "common": "\u5965\u5730\u5229"
+            }
+        },
+        "flag": "\uD83C\uDDE6\uD83C\uDDF9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/16239"
+        },
+        "population": 8917205,
+        "gini": {
+            "2018": 30.8
+        },
+        "fifa": "AUT",
+        "car": {
+            "signs": [
+                "A"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/at.png",
+            "svg": "https://flagcdn.com/at.svg",
+            "alt": "The flag of Austria is composed of three equal horizontal bands of red, white and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/at.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/at.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                48.2,
+                16.37
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Montenegro",
+            "official": "Montenegro",
+            "nativeName": {
+                "cnr": {
+                    "official": "\u0426\u0440\u043D\u0430 \u0413\u043E\u0440\u0430",
+                    "common": "\u0426\u0440\u043D\u0430 \u0413\u043E\u0440\u0430"
+                }
+            }
+        },
+        "tld": [
+            ".me"
+        ],
+        "cca2": "ME",
+        "ccn3": "499",
+        "cioc": "MNE",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "82"
+            ]
+        },
+        "capital": [
+            "Podgorica"
+        ],
+        "altSpellings": [
+            "ME",
+            "Crna Gora"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "cnr": "Montenegrin"
+        },
+        "latlng": [
+            42.5,
+            19.3
+        ],
+        "landlocked": false,
+        "borders": [
+            "ALB",
+            "BIH",
+            "HRV",
+            "UNK",
+            "SRB"
+        ],
+        "area": 13812,
+        "demonyms": {
+            "eng": {
+                "f": "Montenegrin",
+                "m": "Montenegrin"
+            },
+            "fra": {
+                "f": "Mont\xe9n\xe9grine",
+                "m": "Mont\xe9n\xe9grin"
+            }
+        },
+        "cca3": "MNE",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0627\u0633\u0648\u062F",
+                "common": "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0627\u0633\u0648\u062F"
+            },
+            "bre": {
+                "official": "Republik Montenegro",
+                "common": "Montenegro"
+            },
+            "ces": {
+                "official": "\u010Cern\xe1 Hora",
+                "common": "\u010Cern\xe1 Hora"
+            },
+            "cym": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "deu": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "est": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "fin": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "fra": {
+                "official": "Mont\xe9n\xe9gro",
+                "common": "Mont\xe9n\xe9gro"
+            },
+            "hrv": {
+                "official": "Crna Gora",
+                "common": "Crna Gora"
+            },
+            "hun": {
+                "official": "Montenegr\xf3",
+                "common": "Montenegr\xf3"
+            },
+            "ind": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "ita": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "jpn": {
+                "official": "\u30E2\u30F3\u30C6\u30CD\u30B0\u30ED",
+                "common": "\u30E2\u30F3\u30C6\u30CD\u30B0\u30ED"
+            },
+            "kor": {
+                "official": "\uBAAC\uD14C\uB124\uADF8\uB85C",
+                "common": "\uBAAC\uD14C\uB124\uADF8\uB85C"
+            },
+            "nld": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "per": {
+                "official": "\u0645\u0648\u0646\u062A\u0647\u200C\u0646\u06AF\u0631\u0648",
+                "common": "\u0645\u0648\u0646\u062A\u0647\u200C\u0646\u06AF\u0631\u0648"
+            },
+            "pol": {
+                "official": "Czarnog\xf3ra",
+                "common": "Czarnog\xf3ra"
+            },
+            "por": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "rus": {
+                "official": "\u0427\u0435\u0440\u043D\u043E\u0433\u043E\u0440\u0438\u044F",
+                "common": "\u0427\u0435\u0440\u043D\u043E\u0433\u043E\u0440\u0438\u044F"
+            },
+            "slk": {
+                "official": "\u010Cierna Hora",
+                "common": "\u010Cierna Hora"
+            },
+            "spa": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "srp": {
+                "official": "\u0426\u0440\u043D\u0430 \u0413\u043E\u0440\u0430",
+                "common": "\u0426\u0440\u043D\u0430 \u0413\u043E\u0440\u0430"
+            },
+            "swe": {
+                "official": "Montenegro",
+                "common": "Montenegro"
+            },
+            "tur": {
+                "official": "Karada\u011F",
+                "common": "Karada\u011F"
+            },
+            "urd": {
+                "official": "\u0645\u0648\u0646\u0679\u06CC\u0646\u06CC\u06AF\u0631\u0648",
+                "common": "\u0645\u0648\u0646\u0679\u06CC\u0646\u06CC\u06AF\u0631\u0648"
+            },
+            "zho": {
+                "official": "\u9ED1\u5C71",
+                "common": "\u9ED1\u5C71"
+            }
+        },
+        "flag": "\uD83C\uDDF2\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4THX1fM7WqANuPbB8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/53296"
+        },
+        "population": 621718,
+        "gini": {
+            "2016": 38.5
+        },
+        "fifa": "MNE",
+        "car": {
+            "signs": [
+                "SCG"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/me.png",
+            "svg": "https://flagcdn.com/me.svg",
+            "alt": "The flag of Montenegro features a large red central rectangular area surrounded by a golden-yellow border. The coat of arms of Montenegro is centered in the red rectangle."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/me.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/me.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                42.43,
+                19.27
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Andorra",
+            "official": "Principality of Andorra",
+            "nativeName": {
+                "cat": {
+                    "official": "Principat d'Andorra",
+                    "common": "Andorra"
+                }
+            }
+        },
+        "tld": [
+            ".ad"
+        ],
+        "cca2": "AD",
+        "ccn3": "020",
+        "cioc": "AND",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "76"
+            ]
+        },
+        "capital": [
+            "Andorra la Vella"
+        ],
+        "altSpellings": [
+            "AD",
+            "Principality of Andorra",
+            "Principat d'Andorra"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "cat": "Catalan"
+        },
+        "latlng": [
+            42.5,
+            1.5
+        ],
+        "landlocked": true,
+        "borders": [
+            "FRA",
+            "ESP"
+        ],
+        "area": 468,
+        "demonyms": {
+            "eng": {
+                "f": "Andorran",
+                "m": "Andorran"
+            },
+            "fra": {
+                "f": "Andorrane",
+                "m": "Andorran"
+            }
+        },
+        "cca3": "AND",
+        "translations": {
+            "ara": {
+                "official": "\u0625\u0645\u0627\u0631\u0629 \u0623\u0646\u062F\u0648\u0631\u0627",
+                "common": "\u0623\u0646\u062F\u0648\u0631\u0627"
+            },
+            "bre": {
+                "official": "Pri\xf1selezh Andorra",
+                "common": "Andorra"
+            },
+            "ces": {
+                "official": "Andorrsk\xe9 kn\xed\u017Eectv\xed",
+                "common": "Andorra"
+            },
+            "cym": {
+                "official": "Tywysogaeth Andorra",
+                "common": "Andorra"
+            },
+            "deu": {
+                "official": "F\xfcrstentum Andorra",
+                "common": "Andorra"
+            },
+            "est": {
+                "official": "Andorra V\xfcrstiriik",
+                "common": "Andorra"
+            },
+            "fin": {
+                "official": "Andorran ruhtinaskunta",
+                "common": "Andorra"
+            },
+            "fra": {
+                "official": "Principaut\xe9 d'Andorre",
+                "common": "Andorre"
+            },
+            "hrv": {
+                "official": "Kne\u017Eevina Andora",
+                "common": "Andora"
+            },
+            "hun": {
+                "official": "Andorra",
+                "common": "Andorra"
+            },
+            "ind": {
+                "official": "Kepangeranan Andorra",
+                "common": "Andorra"
+            },
+            "ita": {
+                "official": "Principato di Andorra",
+                "common": "Andorra"
+            },
+            "jpn": {
+                "official": "\u30A2\u30F3\u30C9\u30E9\u516C\u56FD",
+                "common": "\u30A2\u30F3\u30C9\u30E9"
+            },
+            "kor": {
+                "official": "\uC548\uB3C4\uB77C \uACF5\uAD6D",
+                "common": "\uC548\uB3C4\uB77C"
+            },
+            "nld": {
+                "official": "Prinsdom Andorra",
+                "common": "Andorra"
+            },
+            "per": {
+                "official": "\u0634\u0627\u0647\u0632\u0627\u062F\u0647\u200C\u0646\u0634\u06CC\u0646 \u0622\u0646\u062F\u0648\u0631\u0627",
+                "common": "\u0622\u0646\u062F\u0648\u0631\u0627"
+            },
+            "pol": {
+                "official": "Ksi\u0119stwo Andory",
+                "common": "Andora"
+            },
+            "por": {
+                "official": "Principado de Andorra",
+                "common": "Andorra"
+            },
+            "rus": {
+                "official": "\u041A\u043D\u044F\u0436\u0435\u0441\u0442\u0432\u043E \u0410\u043D\u0434\u043E\u0440\u0440\u0430",
+                "common": "\u0410\u043D\u0434\u043E\u0440\u0440\u0430"
+            },
+            "slk": {
+                "official": "Andorrsk\xe9 knie\u017Eatstvo",
+                "common": "Andorra"
+            },
+            "spa": {
+                "official": "Principado de Andorra",
+                "common": "Andorra"
+            },
+            "srp": {
+                "official": "\u041A\u043D\u0435\u0436\u0435\u0432\u0438\u043D\u0430 \u0410\u043D\u0434\u043E\u0440\u0430",
+                "common": "\u0410\u043D\u0434\u043E\u0440\u0430"
+            },
+            "swe": {
+                "official": "Furstend\xf6met Andorra",
+                "common": "Andorra"
+            },
+            "tur": {
+                "official": "Andorra Prensli\u011Fi",
+                "common": "Andorra"
+            },
+            "urd": {
+                "official": "\u0627\u0645\u0627\u0631\u0627\u062A\u0650 \u0627\u0646\u0688\u0648\u0631\u0627",
+                "common": "\u0627\u0646\u0688\u0648\u0631\u0627"
+            },
+            "zho": {
+                "official": "\u5B89\u9053\u5C14\u516C\u56FD",
+                "common": "\u5B89\u9053\u5C14"
+            }
+        },
+        "flag": "\uD83C\uDDE6\uD83C\uDDE9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/JqAnacWE2qEznKgw7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/9407"
+        },
+        "population": 77265,
+        "fifa": "AND",
+        "car": {
+            "signs": [
+                "AND"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ad.png",
+            "svg": "https://flagcdn.com/ad.svg",
+            "alt": "The flag of Andorra features three equal vertical bands of blue, yellow and red, with the coat of arms of Andorra centered in the yellow band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ad.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ad.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                42.5,
+                1.52
+            ]
+        },
+        "postalCode": {
+            "format": "AD###",
+            "regex": "^(?:AD)*(\\d{3})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Italy",
+            "official": "Italian Republic",
+            "nativeName": {
+                "ita": {
+                    "official": "Repubblica italiana",
+                    "common": "Italia"
+                }
+            }
+        },
+        "tld": [
+            ".it"
+        ],
+        "cca2": "IT",
+        "ccn3": "380",
+        "cioc": "ITA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "9"
+            ]
+        },
+        "capital": [
+            "Rome"
+        ],
+        "altSpellings": [
+            "IT",
+            "Italian Republic",
+            "Repubblica italiana"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "ita": "Italian",
+            "cat": "Catalan"
+        },
+        "latlng": [
+            42.83333333,
+            12.83333333
+        ],
+        "landlocked": false,
+        "borders": [
+            "AUT",
+            "FRA",
+            "SMR",
+            "SVN",
+            "CHE",
+            "VAT"
+        ],
+        "area": 301336,
+        "demonyms": {
+            "eng": {
+                "f": "Italian",
+                "m": "Italian"
+            },
+            "fra": {
+                "f": "Italienne",
+                "m": "Italien"
+            }
+        },
+        "cca3": "ITA",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0625\u064A\u0637\u0627\u0644\u064A\u0629",
+                "common": "\u0625\u064A\u0637\u0627\u0644\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Italia",
+                "common": "Italia"
+            },
+            "ces": {
+                "official": "Italsk\xe1 republika",
+                "common": "It\xe1lie"
+            },
+            "cym": {
+                "official": "Italian Republic",
+                "common": "Italy"
+            },
+            "deu": {
+                "official": "Italienische Republik",
+                "common": "Italien"
+            },
+            "est": {
+                "official": "Itaalia Vabariik",
+                "common": "Itaalia"
+            },
+            "fin": {
+                "official": "Italian tasavalta",
+                "common": "Italia"
+            },
+            "fra": {
+                "official": "R\xe9publique italienne",
+                "common": "Italie"
+            },
+            "hrv": {
+                "official": "talijanska Republika",
+                "common": "Italija"
+            },
+            "hun": {
+                "official": "Olasz K\xf6zt\xe1rsas\xe1g",
+                "common": "Olaszorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Italia",
+                "common": "Italia"
+            },
+            "ita": {
+                "official": "Repubblica italiana",
+                "common": "Italia"
+            },
+            "jpn": {
+                "official": "\u30A4\u30BF\u30EA\u30A2\u5171\u548C\u56FD",
+                "common": "\u30A4\u30BF\u30EA\u30A2"
+            },
+            "kor": {
+                "official": "\uC774\uD0C8\uB9AC\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC774\uD0C8\uB9AC\uC544"
+            },
+            "nld": {
+                "official": "Italiaanse Republiek",
+                "common": "Itali\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0627\u06CC\u062A\u0627\u0644\u06CC\u0627",
+                "common": "\u0627\u06CC\u062A\u0627\u0644\u06CC\u0627"
+            },
+            "pol": {
+                "official": "Republika W\u0142oska",
+                "common": "W\u0142ochy"
+            },
+            "por": {
+                "official": "Rep\xfablica Italiana",
+                "common": "It\xe1lia"
+            },
+            "rus": {
+                "official": "\u0438\u0442\u0430\u043B\u044C\u044F\u043D\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0418\u0442\u0430\u043B\u0438\u044F"
+            },
+            "slk": {
+                "official": "Talianska republika",
+                "common": "Taliansko"
+            },
+            "spa": {
+                "official": "Rep\xfablica Italiana",
+                "common": "Italia"
+            },
+            "srp": {
+                "official": "\u0418\u0442\u0430\u043B\u0438\u0458\u0430\u043D\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0418\u0442\u0430\u043B\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Italien",
+                "common": "Italien"
+            },
+            "tur": {
+                "official": "\u0130talyan Cumhuriyeti",
+                "common": "\u0130talya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0627\u0637\u0627\u0644\u06CC\u06C1",
+                "common": "\u0627\u0637\u0627\u0644\u06CC\u06C1"
+            },
+            "zho": {
+                "official": "\u610F\u5927\u5229\u5171\u548C\u56FD",
+                "common": "\u610F\u5927\u5229"
+            }
+        },
+        "flag": "\uD83C\uDDEE\uD83C\uDDF9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/8M1K27TDj7StTRTq8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/365331"
+        },
+        "population": 59554023,
+        "gini": {
+            "2017": 35.9
+        },
+        "fifa": "ITA",
+        "car": {
+            "signs": [
+                "I"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/it.png",
+            "svg": "https://flagcdn.com/it.svg",
+            "alt": "The flag of Italy is composed of three equal vertical bands of green, white and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/it.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/it.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                41.9,
+                12.48
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Switzerland",
+            "official": "Swiss Confederation",
+            "nativeName": {
+                "fra": {
+                    "official": "Conf\xe9d\xe9ration suisse",
+                    "common": "Suisse"
+                },
+                "gsw": {
+                    "official": "Schweizerische Eidgenossenschaft",
+                    "common": "Schweiz"
+                },
+                "ita": {
+                    "official": "Confederazione Svizzera",
+                    "common": "Svizzera"
+                },
+                "roh": {
+                    "official": "Confederaziun svizra",
+                    "common": "Svizra"
+                }
+            }
+        },
+        "tld": [
+            ".ch"
+        ],
+        "cca2": "CH",
+        "ccn3": "756",
+        "cioc": "SUI",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "CHF": {
+                "symbol": "Fr.",
+                "name": "Swiss franc"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "Bern"
+        ],
+        "altSpellings": [
+            "CH",
+            "Swiss Confederation",
+            "Schweiz",
+            "Suisse",
+            "Svizzera",
+            "Svizra"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "fra": "French",
+            "gsw": "Swiss German",
+            "ita": "Italian",
+            "roh": "Romansh"
+        },
+        "latlng": [
+            47,
+            8
+        ],
+        "landlocked": true,
+        "borders": [
+            "AUT",
+            "FRA",
+            "ITA",
+            "LIE",
+            "DEU"
+        ],
+        "area": 41284,
+        "demonyms": {
+            "eng": {
+                "f": "Swiss",
+                "m": "Swiss"
+            },
+            "fra": {
+                "f": "Suisse",
+                "m": "Suisse"
+            }
+        },
+        "cca3": "CHE",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u0627\u062A\u062D\u0627\u062F \u0627\u0644\u0633\u0648\u064A\u0633\u0631\u064A",
+                "common": "\u0633\u0648\u064A\u0633\u0631\u0627"
+            },
+            "bre": {
+                "official": "Kengevredad Suis",
+                "common": "Suis"
+            },
+            "ces": {
+                "official": "\u0160v\xfdcarsk\xe1 konfederace",
+                "common": "\u0160v\xfdcarsko"
+            },
+            "cym": {
+                "official": "Swiss Confederation",
+                "common": "Switzerland"
+            },
+            "deu": {
+                "official": "Schweizerische Eidgenossenschaft",
+                "common": "Schweiz"
+            },
+            "est": {
+                "official": "\u0160veitsi Konf\xf6deratsioon",
+                "common": "\u0160veits"
+            },
+            "fin": {
+                "official": "Sveitsin valaliitto",
+                "common": "Sveitsi"
+            },
+            "fra": {
+                "official": "Conf\xe9d\xe9ration suisse",
+                "common": "Suisse"
+            },
+            "hrv": {
+                "official": "\u0161vicarska Konfederacija",
+                "common": "\u0160vicarska"
+            },
+            "hun": {
+                "official": "Sv\xe1jc",
+                "common": "Sv\xe1jc"
+            },
+            "ind": {
+                "official": "Konfederasi Swiss",
+                "common": "Swiss"
+            },
+            "ita": {
+                "official": "Confederazione svizzera",
+                "common": "Svizzera"
+            },
+            "jpn": {
+                "official": "\u30B9\u30A4\u30B9\u9023\u90A6",
+                "common": "\u30B9\u30A4\u30B9"
+            },
+            "kor": {
+                "official": "\uC2A4\uC704\uC2A4 \uC5F0\uBC29",
+                "common": "\uC2A4\uC704\uC2A4"
+            },
+            "nld": {
+                "official": "Zwitserse Confederatie",
+                "common": "Zwitserland"
+            },
+            "per": {
+                "official": "\u06A9\u0646\u0641\u062F\u0631\u0627\u0633\u06CC\u0648\u0646 \u0633\u0648\u0626\u06CC\u0633",
+                "common": "\u0633\u0648\u0626\u06CC\u0633"
+            },
+            "pol": {
+                "official": "Konfederacja Szwajcarska",
+                "common": "Szwajcaria"
+            },
+            "por": {
+                "official": "Confedera\xe7\xe3o Su\xed\xe7a",
+                "common": "Su\xed\xe7a"
+            },
+            "rus": {
+                "official": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043A\u0430\u044F \u041A\u043E\u043D\u0444\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044F",
+                "common": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044F"
+            },
+            "slk": {
+                "official": "\u0160vaj\u010Diarska konfeder\xe1cia",
+                "common": "\u0160vaj\u010Diarsko"
+            },
+            "spa": {
+                "official": "Confederaci\xf3n Suiza",
+                "common": "Suiza"
+            },
+            "srp": {
+                "official": "\u0428\u0432\u0430\u0458\u0446\u0430\u0440\u0441\u043A\u0430 \u041A\u043E\u043D\u0444\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0458\u0430",
+                "common": "\u0428\u0432\u0430\u0458\u0446\u0430\u0440\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Schweiziska edsf\xf6rbundet",
+                "common": "Schweiz"
+            },
+            "tur": {
+                "official": "\u0130svi\xe7re Konfederasyonu",
+                "common": "\u0130svi\xe7re"
+            },
+            "urd": {
+                "official": "\u0633\u0648\u0626\u06CC\u0633  \u0645\u062A\u062D\u062F\u06C1",
+                "common": "\u0633\u0648\u06CC\u0679\u0630\u0631\u0644\u06CC\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u745E\u58EB\u8054\u90A6",
+                "common": "\u745E\u58EB"
+            }
+        },
+        "flag": "\uD83C\uDDE8\uD83C\uDDED",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/uVuZcXaxSx5jLyEC9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/51701"
+        },
+        "population": 8654622,
+        "gini": {
+            "2018": 33.1
+        },
+        "fifa": "SUI",
+        "car": {
+            "signs": [
+                "CH"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ch.png",
+            "svg": "https://flagcdn.com/ch.svg",
+            "alt": "The flag of Switzerland is square shaped. It features a white Swiss cross centered on a red field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ch.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ch.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                46.92,
+                7.47
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Faroe Islands",
+            "official": "Faroe Islands",
+            "nativeName": {
+                "dan": {
+                    "official": "F\xe6r\xf8erne",
+                    "common": "F\xe6r\xf8erne"
+                },
+                "fao": {
+                    "official": "F\xf8royar",
+                    "common": "F\xf8royar"
+                }
+            }
+        },
+        "tld": [
+            ".fo"
+        ],
+        "cca2": "FO",
+        "ccn3": "234",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "DKK": {
+                "symbol": "kr",
+                "name": "Danish krone"
+            },
+            "FOK": {
+                "symbol": "kr",
+                "name": "Faroese kr\xf3na"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "98"
+            ]
+        },
+        "capital": [
+            "T\xf3rshavn"
+        ],
+        "altSpellings": [
+            "FO",
+            "F\xf8royar",
+            "F\xe6r\xf8erne"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "dan": "Danish",
+            "fao": "Faroese"
+        },
+        "latlng": [
+            62,
+            -7
+        ],
+        "landlocked": false,
+        "area": 1393,
+        "demonyms": {
+            "eng": {
+                "f": "Faroese",
+                "m": "Faroese"
+            },
+            "fra": {
+                "f": "F\xe9ro\xefenne",
+                "m": "F\xe9ro\xefen"
+            }
+        },
+        "cca3": "FRO",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648",
+                "common": "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"
+            },
+            "bre": {
+                "official": "Inizi Faero",
+                "common": "Inizi Faero"
+            },
+            "ces": {
+                "official": "Faersk\xe9 ostrovy",
+                "common": "Faersk\xe9 ostrovy"
+            },
+            "cym": {
+                "official": "Faroe Islands",
+                "common": "Faroe Islands"
+            },
+            "deu": {
+                "official": "F\xe4r\xf6er",
+                "common": "F\xe4r\xf6er-Inseln"
+            },
+            "est": {
+                "official": "F\xe4\xe4ri saared",
+                "common": "F\xe4\xe4ri saared"
+            },
+            "fin": {
+                "official": "F\xe4rsaaret",
+                "common": "F\xe4rsaaret"
+            },
+            "fra": {
+                "official": "\xceles F\xe9ro\xe9",
+                "common": "\xceles F\xe9ro\xe9"
+            },
+            "hrv": {
+                "official": "Farski Otoci",
+                "common": "Farski Otoci"
+            },
+            "hun": {
+                "official": "Fer\xf6er",
+                "common": "Fer\xf6er"
+            },
+            "ind": {
+                "official": "Kepulauan Faroe",
+                "common": "Kepulauan Faroe"
+            },
+            "ita": {
+                "official": "Isole Faroe",
+                "common": "Isole Far Oer"
+            },
+            "jpn": {
+                "official": "\u30D5\u30A7\u30ED\u30FC\u8AF8\u5CF6",
+                "common": "\u30D5\u30A7\u30ED\u30FC\u8AF8\u5CF6"
+            },
+            "kor": {
+                "official": "\uD398\uB85C \uC81C\uB3C4",
+                "common": "\uD398\uB85C \uC81C\uB3C4"
+            },
+            "nld": {
+                "official": "Faer\xf6er",
+                "common": "Faer\xf6er"
+            },
+            "per": {
+                "official": "\u062C\u0632\u0627\u06CC\u0631 \u0641\u0627\u0631\u0648\u0626\u0647",
+                "common": "\u062C\u0632\u0627\u06CC\u0631 \u0641\u0627\u0631\u0648\u0626\u0647"
+            },
+            "pol": {
+                "official": "Wyspy Owcze",
+                "common": "Wyspy Owcze"
+            },
+            "por": {
+                "official": "Ilhas Faroe",
+                "common": "Ilhas Faro\xe9"
+            },
+            "rus": {
+                "official": "\u0424\u0430\u0440\u0435\u0440\u0441\u043A\u0438\u0435 \u043E\u0441\u0442\u0440\u043E\u0432\u0430",
+                "common": "\u0424\u0430\u0440\u0435\u0440\u0441\u043A\u0438\u0435 \u043E\u0441\u0442\u0440\u043E\u0432\u0430"
+            },
+            "slk": {
+                "official": "Faersk\xe9 ostrovy",
+                "common": "Faersk\xe9 ostrovy"
+            },
+            "spa": {
+                "official": "Islas Feroe",
+                "common": "Islas Faroe"
+            },
+            "srp": {
+                "official": "\u0424\u0430\u0440\u0441\u043A\u0430 \u043E\u0441\u0442\u0440\u0432\u0430",
+                "common": "\u0424\u0430\u0440\u0441\u043A\u0430 \u043E\u0441\u0442\u0440\u0432\u0430"
+            },
+            "swe": {
+                "official": "F\xe4r\xf6arna",
+                "common": "F\xe4r\xf6arna"
+            },
+            "tur": {
+                "official": "Faroe Adalar\u0131",
+                "common": "Faroe Adalar\u0131"
+            },
+            "urd": {
+                "official": "\u062C\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
+                "common": "\u062C\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
+            },
+            "zho": {
+                "official": "\u6CD5\u7F57\u7FA4\u5C9B",
+                "common": "\u6CD5\u7F57\u7FA4\u5C9B"
+            }
+        },
+        "flag": "\uD83C\uDDEB\uD83C\uDDF4",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/52939"
+        },
+        "population": 48865,
+        "fifa": "FRO",
+        "car": {
+            "signs": [
+                "FO"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/fo.png",
+            "svg": "https://flagcdn.com/fo.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/fo.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/fo.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                62.01,
+                -6.77
+            ]
+        },
+        "postalCode": {
+            "format": "FO-###",
+            "regex": "^(?:FO)*(\\d{3})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Greece",
+            "official": "Hellenic Republic",
+            "nativeName": {
+                "ell": {
+                    "official": "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AE \u0394\u03B7\u03BC\u03BF\u03BA\u03C1\u03B1\u03C4\u03AF\u03B1",
+                    "common": "\u0395\u03BB\u03BB\u03AC\u03B4\u03B1"
+                }
+            }
+        },
+        "tld": [
+            ".gr"
+        ],
+        "cca2": "GR",
+        "ccn3": "300",
+        "cioc": "GRE",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "0"
+            ]
+        },
+        "capital": [
+            "Athens"
+        ],
+        "altSpellings": [
+            "GR",
+            "Ell\xe1da",
+            "Hellenic Republic",
+            "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AE \u0394\u03B7\u03BC\u03BF\u03BA\u03C1\u03B1\u03C4\u03AF\u03B1"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "ell": "Greek"
+        },
+        "latlng": [
+            39,
+            22
+        ],
+        "landlocked": false,
+        "borders": [
+            "ALB",
+            "BGR",
+            "TUR",
+            "MKD"
+        ],
+        "area": 131990,
+        "demonyms": {
+            "eng": {
+                "f": "Greek",
+                "m": "Greek"
+            },
+            "fra": {
+                "f": "Grecque",
+                "m": "Grec"
+            }
+        },
+        "cca3": "GRC",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0647\u064A\u0644\u064A\u0646\u064A\u0629",
+                "common": "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"
+            },
+            "bre": {
+                "official": "Republik Hellenek",
+                "common": "Gres"
+            },
+            "ces": {
+                "official": "\u0158eck\xe1 republika",
+                "common": "\u0158ecko"
+            },
+            "cym": {
+                "official": "Hellenic Republic",
+                "common": "Greece"
+            },
+            "deu": {
+                "official": "Hellenische Republik",
+                "common": "Griechenland"
+            },
+            "est": {
+                "official": "Kreeka Vabariik",
+                "common": "Kreeka"
+            },
+            "fin": {
+                "official": "Helleenien tasavalta",
+                "common": "Kreikka"
+            },
+            "fra": {
+                "official": "R\xe9publique hell\xe9nique",
+                "common": "Gr\xe8ce"
+            },
+            "hrv": {
+                "official": "Helenska Republika",
+                "common": "Gr\u010Dka"
+            },
+            "hun": {
+                "official": "G\xf6r\xf6g K\xf6zt\xe1rsas\xe1g",
+                "common": "G\xf6r\xf6gorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Yunani",
+                "common": "Yunani"
+            },
+            "ita": {
+                "official": "Repubblica ellenica",
+                "common": "Grecia"
+            },
+            "jpn": {
+                "official": "\u30AE\u30EA\u30B7\u30E3\u5171\u548C\u56FD",
+                "common": "\u30AE\u30EA\u30B7\u30E3"
+            },
+            "kor": {
+                "official": "\uADF8\uB9AC\uC2A4 \uACF5\uD654\uAD6D",
+                "common": "\uADF8\uB9AC\uC2A4"
+            },
+            "nld": {
+                "official": "Helleense Republiek",
+                "common": "Griekenland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u06CC\u0648\u0646\u0627\u0646",
+                "common": "\u06CC\u0648\u0646\u0627\u0646"
+            },
+            "pol": {
+                "official": "Republika Grecka",
+                "common": "Grecja"
+            },
+            "por": {
+                "official": "Rep\xfablica Hel\xe9nica",
+                "common": "Gr\xe9cia"
+            },
+            "rus": {
+                "official": "\u0413\u0440\u0435\u0447\u0435\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0413\u0440\u0435\u0446\u0438\u044F"
+            },
+            "slk": {
+                "official": "Gr\xe9cka republika",
+                "common": "Gre\xe9cko"
+            },
+            "spa": {
+                "official": "Rep\xfablica Hel\xe9nica",
+                "common": "Grecia"
+            },
+            "srp": {
+                "official": "\u0425\u0435\u043B\u0435\u043D\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0413\u0440\u0447\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Grekland",
+                "common": "Grekland"
+            },
+            "tur": {
+                "official": "Helen Cumhuriyeti",
+                "common": "Yunanistan"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u06C1\u06CC\u0644\u06CC\u0646\u06CC\u06C1",
+                "common": "\u06CC\u0648\u0646\u0627\u0646"
+            },
+            "zho": {
+                "official": "\u5E0C\u814A\u5171\u548C\u56FD",
+                "common": "\u5E0C\u814A"
+            }
+        },
+        "flag": "\uD83C\uDDEC\uD83C\uDDF7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/192307"
+        },
+        "population": 10715549,
+        "gini": {
+            "2018": 32.9
+        },
+        "fifa": "GRE",
+        "car": {
+            "signs": [
+                "GR"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/gr.png",
+            "svg": "https://flagcdn.com/gr.svg",
+            "alt": "The flag of Greece is composed of nine equal horizontal bands of blue alternating with white. A blue square bearing a white cross is superimposed in the canton."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/gr.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/gr.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                37.98,
+                23.73
+            ]
+        },
+        "postalCode": {
+            "format": "### ##",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Russia",
+            "official": "Russian Federation",
+            "nativeName": {
+                "rus": {
+                    "official": "\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0430\u044F \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044F",
+                    "common": "\u0420\u043E\u0441\u0441\u0438\u044F"
+                }
+            }
+        },
+        "tld": [
+            ".ru",
+            ".su",
+            ".\u0440\u0444"
+        ],
+        "cca2": "RU",
+        "ccn3": "643",
+        "cioc": "RUS",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "RUB": {
+                "symbol": "\u20BD",
+                "name": "Russian ruble"
+            }
+        },
+        "idd": {
+            "root": "+7",
+            "suffixes": [
+                "3",
+                "4",
+                "5",
+                "8",
+                "9"
+            ]
+        },
+        "capital": [
+            "Moscow"
+        ],
+        "altSpellings": [
+            "RU",
+            "Russian Federation",
+            "\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0430\u044F \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044F"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": {
+            "rus": "Russian"
+        },
+        "latlng": [
+            60,
+            100
+        ],
+        "landlocked": false,
+        "borders": [
+            "AZE",
+            "BLR",
+            "CHN",
+            "EST",
+            "FIN",
+            "GEO",
+            "KAZ",
+            "PRK",
+            "LVA",
+            "LTU",
+            "MNG",
+            "NOR",
+            "POL",
+            "UKR"
+        ],
+        "area": 17098242,
+        "demonyms": {
+            "eng": {
+                "f": "Russian",
+                "m": "Russian"
+            },
+            "fra": {
+                "f": "Russe",
+                "m": "Russe"
+            }
+        },
+        "cca3": "RUS",
+        "translations": {
+            "ara": {
+                "official": "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0627\u062A\u062D\u0627\u062F\u064A\u0629",
+                "common": "\u0631\u0648\u0633\u064A\u0627"
+            },
+            "bre": {
+                "official": "Kevread Rusia",
+                "common": "Rusia"
+            },
+            "ces": {
+                "official": "Rusk\xe1 federace",
+                "common": "Rusko"
+            },
+            "cym": {
+                "official": "Russian Federation",
+                "common": "Russia"
+            },
+            "deu": {
+                "official": "Russische F\xf6deration",
+                "common": "Russland"
+            },
+            "est": {
+                "official": "Venemaa F\xf6deratsioon",
+                "common": "Venemaa"
+            },
+            "fin": {
+                "official": "Ven\xe4j\xe4n federaatio",
+                "common": "Ven\xe4j\xe4"
+            },
+            "fra": {
+                "official": "F\xe9d\xe9ration de Russie",
+                "common": "Russie"
+            },
+            "hrv": {
+                "official": "Ruska Federacija",
+                "common": "Rusija"
+            },
+            "hun": {
+                "official": "Oroszorsz\xe1gi F\xf6der\xe1ci\xf3",
+                "common": "Oroszorsz\xe1g"
+            },
+            "ind": {
+                "official": "Federasi Rusia",
+                "common": "Rusia"
+            },
+            "ita": {
+                "official": "Federazione russa",
+                "common": "Russia"
+            },
+            "jpn": {
+                "official": "\u30ED\u30B7\u30A2\u9023\u90A6",
+                "common": "\u30ED\u30B7\u30A2\u9023\u90A6"
+            },
+            "kor": {
+                "official": "\uB7EC\uC2DC\uC544 \uC5F0\uBC29",
+                "common": "\uB7EC\uC2DC\uC544"
+            },
+            "nld": {
+                "official": "Russische Federatie",
+                "common": "Rusland"
+            },
+            "per": {
+                "official": "\u0641\u062F\u0631\u0627\u0633\u06CC\u0648\u0646 \u0631\u0648\u0633\u06CC\u0647",
+                "common": "\u0631\u0648\u0633\u06CC\u0647"
+            },
+            "pol": {
+                "official": "Federacja Rosyjska",
+                "common": "Rosja"
+            },
+            "por": {
+                "official": "Federa\xe7\xe3o Russa",
+                "common": "R\xfassia"
+            },
+            "rus": {
+                "official": "\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0430\u044F \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044F",
+                "common": "\u0420\u043E\u0441\u0441\u0438\u044F"
+            },
+            "slk": {
+                "official": "Rusk\xe1 feder\xe1cia",
+                "common": "Rusko"
+            },
+            "spa": {
+                "official": "Federaci\xf3n de Rusia",
+                "common": "Rusia"
+            },
+            "srp": {
+                "official": "\u0420\u0443\u0441\u043A\u0430 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0458\u0430",
+                "common": "\u0420\u0443\u0441\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Ryska federationen",
+                "common": "Ryssland"
+            },
+            "tur": {
+                "official": "Rusya Federasyonu",
+                "common": "Rusya"
+            },
+            "urd": {
+                "official": "\u0631\u0648\u0633\u06CC \u0648\u0641\u0627\u0642",
+                "common": "\u0631\u0648\u0633"
+            },
+            "zho": {
+                "official": "\u4FC4\u7F57\u65AF\u8054\u90A6",
+                "common": "\u4FC4\u7F57\u65AF"
+            }
+        },
+        "flag": "\uD83C\uDDF7\uD83C\uDDFA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4F4PpDhGJgVvLby57",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29"
+        },
+        "population": 144104080,
+        "gini": {
+            "2018": 37.5
+        },
+        "fifa": "RUS",
+        "car": {
+            "signs": [
+                "RUS"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+03:00",
+            "UTC+04:00",
+            "UTC+06:00",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:00",
+            "UTC+10:00",
+            "UTC+11:00",
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Europe",
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ru.png",
+            "svg": "https://flagcdn.com/ru.svg",
+            "alt": "The flag of Russia is composed of three equal horizontal bands of white, blue and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ru.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ru.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                55.75,
+                37.6
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Albania",
+            "official": "Republic of Albania",
+            "nativeName": {
+                "sqi": {
+                    "official": "Republika e Shqip\xebris\xeb",
+                    "common": "Shqip\xebria"
+                }
+            }
+        },
+        "tld": [
+            ".al"
+        ],
+        "cca2": "AL",
+        "ccn3": "008",
+        "cioc": "ALB",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "ALL": {
+                "symbol": "L",
+                "name": "Albanian lek"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "55"
+            ]
+        },
+        "capital": [
+            "Tirana"
+        ],
+        "altSpellings": [
+            "AL",
+            "Shqip\xebri",
+            "Shqip\xebria",
+            "Shqipnia"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "sqi": "Albanian"
+        },
+        "latlng": [
+            41,
+            20
+        ],
+        "landlocked": false,
+        "borders": [
+            "MNE",
+            "GRC",
+            "MKD",
+            "UNK"
+        ],
+        "area": 28748,
+        "demonyms": {
+            "eng": {
+                "f": "Albanian",
+                "m": "Albanian"
+            },
+            "fra": {
+                "f": "Albanaise",
+                "m": "Albanais"
+            }
+        },
+        "cca3": "ALB",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0623\u0644\u0628\u0627\u0646\u064A\u0627",
+                "common": "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Albania",
+                "common": "Albania"
+            },
+            "ces": {
+                "official": "Alb\xe1nsk\xe1 republika",
+                "common": "Alb\xe1nie"
+            },
+            "cym": {
+                "official": "Gweriniaeth Albania",
+                "common": "Albania"
+            },
+            "deu": {
+                "official": "Republik Albanien",
+                "common": "Albanien"
+            },
+            "est": {
+                "official": "Albaania Vabariik",
+                "common": "Albaania"
+            },
+            "fin": {
+                "official": "Albanian tasavalta",
+                "common": "Albania"
+            },
+            "fra": {
+                "official": "R\xe9publique d'Albanie",
+                "common": "Albanie"
+            },
+            "hrv": {
+                "official": "Republika Albanija",
+                "common": "Albanija"
+            },
+            "hun": {
+                "official": "Alb\xe1n K\xf6zt\xe1rsas\xe1g",
+                "common": "Alb\xe1nia"
+            },
+            "ind": {
+                "official": "Republik Albania",
+                "common": "Albania"
+            },
+            "ita": {
+                "official": "Repubblica d'Albania",
+                "common": "Albania"
+            },
+            "jpn": {
+                "official": "\u30A2\u30EB\u30D0\u30CB\u30A2\u5171\u548C\u56FD",
+                "common": "\u30A2\u30EB\u30D0\u30CB\u30A2"
+            },
+            "kor": {
+                "official": "\uC54C\uBC14\uB2C8\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC54C\uBC14\uB2C8\uC544"
+            },
+            "nld": {
+                "official": "Republiek Albani\xeb",
+                "common": "Albani\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0622\u0644\u0628\u0627\u0646\u06CC",
+                "common": "\u0622\u0644\u0628\u0627\u0646\u06CC"
+            },
+            "pol": {
+                "official": "Republika Albanii",
+                "common": "Albania"
+            },
+            "por": {
+                "official": "Rep\xfablica da Alb\xe2nia",
+                "common": "Alb\xe2nia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0410\u043B\u0431\u0430\u043D\u0438\u044F",
+                "common": "\u0410\u043B\u0431\u0430\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Alb\xe1nska republika",
+                "common": "Alb\xe1nsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Albania",
+                "common": "Albania"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0410\u043B\u0431\u0430\u043D\u0438\u0458\u0430",
+                "common": "\u0410\u043B\u0431\u0430\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Albanien",
+                "common": "Albanien"
+            },
+            "tur": {
+                "official": "Arnavutluk Cumhuriyeti",
+                "common": "Arnavutluk"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0627\u0644\u0628\u0627\u0646\u06CC\u0627",
+                "common": "\u0627\u0644\u0628\u0627\u0646\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u963F\u5C14\u5DF4\u5C3C\u4E9A\u5171\u548C\u56FD",
+                "common": "\u963F\u5C14\u5DF4\u5C3C\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDE6\uD83C\uDDF1",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/53292"
+        },
+        "population": 2837743,
+        "gini": {
+            "2017": 33.2
+        },
+        "fifa": "ALB",
+        "car": {
+            "signs": [
+                "AL"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/al.png",
+            "svg": "https://flagcdn.com/al.svg",
+            "alt": "The flag of Albania features a silhouetted double-headed black eagle at the center of a red field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/al.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/al.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                41.32,
+                19.82
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "nativeName": {
+                "deu": {
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            }
+        },
+        "tld": [
+            ".de"
+        ],
+        "cca2": "DE",
+        "ccn3": "276",
+        "cioc": "GER",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "9"
+            ]
+        },
+        "capital": [
+            "Berlin"
+        ],
+        "altSpellings": [
+            "DE",
+            "Federal Republic of Germany",
+            "Bundesrepublik Deutschland"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German"
+        },
+        "latlng": [
+            51,
+            9
+        ],
+        "landlocked": false,
+        "borders": [
+            "AUT",
+            "BEL",
+            "CZE",
+            "DNK",
+            "FRA",
+            "LUX",
+            "NLD",
+            "POL",
+            "CHE"
+        ],
+        "area": 357114,
+        "demonyms": {
+            "eng": {
+                "f": "German",
+                "m": "German"
+            },
+            "fra": {
+                "f": "Allemande",
+                "m": "Allemand"
+            }
+        },
+        "cca3": "DEU",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0623\u0644\u0645\u0627\u0646\u064A\u0627 \u0627\u0644\u0627\u062A\u062D\u0627\u062F\u064A\u0629",
+                "common": "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Kevreadel Alamagn",
+                "common": "Alamagn"
+            },
+            "ces": {
+                "official": "Spolkov\xe1 republika N\u011Bmecko",
+                "common": "N\u011Bmecko"
+            },
+            "cym": {
+                "official": "Federal Republic of Germany",
+                "common": "Germany"
+            },
+            "deu": {
+                "official": "Bundesrepublik Deutschland",
+                "common": "Deutschland"
+            },
+            "est": {
+                "official": "Saksamaa Liitvabariik",
+                "common": "Saksamaa"
+            },
+            "fin": {
+                "official": "Saksan liittotasavalta",
+                "common": "Saksa"
+            },
+            "fra": {
+                "official": "R\xe9publique f\xe9d\xe9rale d'Allemagne",
+                "common": "Allemagne"
+            },
+            "hrv": {
+                "official": "Njema\u010Dka Federativna Republika",
+                "common": "Njema\u010Dka"
+            },
+            "hun": {
+                "official": "N\xe9met Sz\xf6vets\xe9gi K\xf6zt\xe1rsas\xe1g",
+                "common": "N\xe9metorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Federal Jerman",
+                "common": "Jerman"
+            },
+            "ita": {
+                "official": "Repubblica federale di Germania",
+                "common": "Germania"
+            },
+            "jpn": {
+                "official": "\u30C9\u30A4\u30C4\u9023\u90A6\u5171\u548C\u56FD",
+                "common": "\u30C9\u30A4\u30C4"
+            },
+            "kor": {
+                "official": "\uB3C5\uC77C \uC5F0\uBC29 \uACF5\uD654\uAD6D",
+                "common": "\uB3C5\uC77C"
+            },
+            "nld": {
+                "official": "Bondsrepubliek Duitsland",
+                "common": "Duitsland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0641\u062F\u0631\u0627\u0644 \u0622\u0644\u0645\u0627\u0646",
+                "common": "\u0622\u0644\u0645\u0627\u0646"
+            },
+            "pol": {
+                "official": "Republika Federalna Niemiec",
+                "common": "Niemcy"
+            },
+            "por": {
+                "official": "Rep\xfablica Federal da Alemanha",
+                "common": "Alemanha"
+            },
+            "rus": {
+                "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F",
+                "common": "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Nemeck\xe1 spolkov\xe1 republika",
+                "common": "Nemecko"
+            },
+            "spa": {
+                "official": "Rep\xfablica Federal de Alemania",
+                "common": "Alemania"
+            },
+            "srp": {
+                "official": "\u0421\u0430\u0432\u0435\u0437\u043D\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041D\u0435\u043C\u0430\u0447\u043A\u0430",
+                "common": "\u041D\u0435\u043C\u0430\u0447\u043A\u0430"
+            },
+            "swe": {
+                "official": "F\xf6rbundsrepubliken Tyskland",
+                "common": "Tyskland"
+            },
+            "tur": {
+                "official": "Almanya Federal Cumhuriyeti",
+                "common": "Almanya"
+            },
+            "urd": {
+                "official": "\u0648\u0641\u0627\u0642\u06CC \u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u062C\u0631\u0645\u0646\u06CC",
+                "common": "\u062C\u0631\u0645\u0646\u06CC"
+            },
+            "zho": {
+                "official": "\u5FB7\u610F\u5FD7\u8054\u90A6\u5171\u548C\u56FD",
+                "common": "\u5FB7\u56FD"
+            }
+        },
+        "flag": "\uD83C\uDDE9\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+        },
+        "population": 83240525,
+        "gini": {
+            "2016": 31.9
+        },
+        "fifa": "GER",
+        "car": {
+            "signs": [
+                "DY"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/de.png",
+            "svg": "https://flagcdn.com/de.svg",
+            "alt": "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/de.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                52.52,
+                13.4
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Kosovo",
+            "official": "Republic of Kosovo",
+            "nativeName": {
+                "sqi": {
+                    "official": "Republika e Kosov\xebs",
+                    "common": "Kosova"
+                },
+                "srp": {
+                    "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0441\u043E\u0432\u043E",
+                    "common": "\u041A\u043E\u0441\u043E\u0432\u043E"
+                }
+            }
+        },
+        "cca2": "XK",
+        "cioc": "KOS",
+        "independent": true,
+        "status": "user-assigned",
+        "unMember": false,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "83"
+            ]
+        },
+        "capital": [
+            "Pristina"
+        ],
+        "altSpellings": [
+            "XK",
+            "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0441\u043E\u0432\u043E"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "sqi": "Albanian",
+            "srp": "Serbian"
+        },
+        "latlng": [
+            42.666667,
+            21.166667
+        ],
+        "landlocked": true,
+        "borders": [
+            "ALB",
+            "MKD",
+            "MNE",
+            "SRB"
+        ],
+        "area": 10908,
+        "demonyms": {
+            "eng": {
+                "f": "Kosovar",
+                "m": "Kosovar"
+            },
+            "fra": {
+                "f": "Kosovare",
+                "m": "Kosovar"
+            }
+        },
+        "cca3": "UNK",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0643\u0648\u0633\u0648\u0641\u0648",
+                "common": "\u0643\u0648\u0633\u0648\u0641\u0648"
+            },
+            "bre": {
+                "official": "Republik Kosovo",
+                "common": "Kosovo"
+            },
+            "ces": {
+                "official": "Kosovsk\xe1 republika",
+                "common": "Kosovo"
+            },
+            "cym": {
+                "official": "Republic of Kosovo",
+                "common": "Kosovo"
+            },
+            "deu": {
+                "official": "Republik Kosovo",
+                "common": "Kosovo"
+            },
+            "est": {
+                "official": "Kosovo Vabariik",
+                "common": "Kosovo"
+            },
+            "fin": {
+                "official": "Kosovon tasavalta",
+                "common": "Kosovo"
+            },
+            "fra": {
+                "official": "R\xe9publique du Kosovo",
+                "common": "Kosovo"
+            },
+            "hrv": {
+                "official": "Republika Kosovo",
+                "common": "Kosovo"
+            },
+            "hun": {
+                "official": "Koszov\xf3",
+                "common": "Koszov\xf3"
+            },
+            "ind": {
+                "official": "Republik Kosovo",
+                "common": "Kosovo"
+            },
+            "ita": {
+                "official": "Repubblica del Kosovo",
+                "common": "Kosovo"
+            },
+            "kor": {
+                "official": "\uCF54\uC18C\uBCF4 \uACF5\uD654\uAD6D",
+                "common": "\uCF54\uC18C\uBCF4"
+            },
+            "nld": {
+                "official": "Republiek Kosovo",
+                "common": "Kosovo"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u06A9\u0648\u0632\u0648\u0648",
+                "common": "\u06A9\u0648\u0632\u0648\u0648"
+            },
+            "pol": {
+                "official": "Republika Kosowa",
+                "common": "Kosowo"
+            },
+            "por": {
+                "official": "Rep\xfablica do Kosovo",
+                "common": "Kosovo"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0441\u043E\u0432\u043E",
+                "common": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0441\u043E\u0432\u043E"
+            },
+            "slk": {
+                "official": "Republika Kosovo",
+                "common": "Kosovo"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Kosovo",
+                "common": "Kosovo"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0441\u043E\u0432\u043E",
+                "common": "\u041A\u043E\u0441\u043E\u0432\u043E"
+            },
+            "swe": {
+                "official": "Republiken Kosovo",
+                "common": "Kosovo"
+            },
+            "tur": {
+                "official": "Kosova Cumhuriyeti",
+                "common": "Kosova"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u06A9\u0648\u0633\u0648\u0648\u06C1",
+                "common": "\u06A9\u0648\u0633\u0648\u0648\u06C1"
+            },
+            "zho": {
+                "official": "\u79D1\u7D22\u6C83\u5171\u548C\u56FD",
+                "common": "\u79D1\u7D22\u6C83"
+            }
+        },
+        "flag": "\uD83C\uDDFD\uD83C\uDDF0",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/CSC4Yc8SWPgburuD9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2088990"
+        },
+        "population": 1775378,
+        "gini": {
+            "2017": 29
+        },
+        "fifa": "KVX",
+        "car": {
+            "signs": [
+                "CS"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/xk.png",
+            "svg": "https://flagcdn.com/xk.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/xk.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/xk.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                42.67,
+                21.17
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Croatia",
+            "official": "Republic of Croatia",
+            "nativeName": {
+                "hrv": {
+                    "official": "Republika Hrvatska",
+                    "common": "Hrvatska"
+                }
+            }
+        },
+        "tld": [
+            ".hr"
+        ],
+        "cca2": "HR",
+        "ccn3": "191",
+        "cioc": "CRO",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "85"
+            ]
+        },
+        "capital": [
+            "Zagreb"
+        ],
+        "altSpellings": [
+            "HR",
+            "Hrvatska",
+            "Republic of Croatia",
+            "Republika Hrvatska"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "hrv": "Croatian"
+        },
+        "latlng": [
+            45.16666666,
+            15.5
+        ],
+        "landlocked": false,
+        "borders": [
+            "BIH",
+            "HUN",
+            "MNE",
+            "SRB",
+            "SVN"
+        ],
+        "area": 56594,
+        "demonyms": {
+            "eng": {
+                "f": "Croatian",
+                "m": "Croatian"
+            },
+            "fra": {
+                "f": "Croate",
+                "m": "Croate"
+            }
+        },
+        "cca3": "HRV",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0643\u0631\u0648\u0627\u062A\u064A\u0627",
+                "common": "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Kroatia",
+                "common": "Kroatia"
+            },
+            "ces": {
+                "official": "Chorvatsk\xe1 republika",
+                "common": "Chorvatsko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Croatia",
+                "common": "Croatia"
+            },
+            "deu": {
+                "official": "Republik Kroatien",
+                "common": "Kroatien"
+            },
+            "est": {
+                "official": "Horvaatia Vabariik",
+                "common": "Horvaatia"
+            },
+            "fin": {
+                "official": "Kroatian tasavalta",
+                "common": "Kroatia"
+            },
+            "fra": {
+                "official": "R\xe9publique de Croatie",
+                "common": "Croatie"
+            },
+            "hrv": {
+                "official": "Republika Hrvatska",
+                "common": "Hrvatska"
+            },
+            "hun": {
+                "official": "Horv\xe1t K\xf6zt\xe1rsas\xe1g",
+                "common": "Horv\xe1torsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Kroasia",
+                "common": "Kroasia"
+            },
+            "ita": {
+                "official": "Repubblica di Croazia",
+                "common": "Croazia"
+            },
+            "jpn": {
+                "official": "\u30AF\u30ED\u30A2\u30C1\u30A2\u5171\u548C\u56FD",
+                "common": "\u30AF\u30ED\u30A2\u30C1\u30A2"
+            },
+            "kor": {
+                "official": "\uD06C\uB85C\uC544\uD2F0\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uD06C\uB85C\uC544\uD2F0\uC544"
+            },
+            "nld": {
+                "official": "Republiek Kroati\xeb",
+                "common": "Kroati\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u06A9\u0631\u0648\u0627\u0633\u06CC",
+                "common": "\u06A9\u0631\u064F\u0648\u0627\u0633\u06CC"
+            },
+            "pol": {
+                "official": "Republika Chorwacji",
+                "common": "Chorwacja"
+            },
+            "por": {
+                "official": "Rep\xfablica da Cro\xe1cia",
+                "common": "Cro\xe1cia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0425\u043E\u0440\u0432\u0430\u0442\u0438\u044F",
+                "common": "\u0425\u043E\u0440\u0432\u0430\u0442\u0438\u044F"
+            },
+            "slk": {
+                "official": "Chorv\xe1tska republika",
+                "common": "Chorv\xe1tsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Croacia",
+                "common": "Croacia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0425\u0440\u0432\u0430\u0442\u0441\u043A\u0430",
+                "common": "\u0425\u0440\u0432\u0430\u0442\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Kroatien",
+                "common": "Kroatien"
+            },
+            "tur": {
+                "official": "H\u0131rvatistan Cumhuriyeti",
+                "common": "H\u0131rvatistan"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u06A9\u0631\u0648\u06CC\u0626\u0634\u0627",
+                "common": "\u06A9\u0631\u0648\u06CC\u0626\u0634\u0627"
+            },
+            "zho": {
+                "official": "\u514B\u7F57\u5730\u4E9A\u5171\u548C\u56FD",
+                "common": "\u514B\u7F57\u5730\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDED\uD83C\uDDF7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/qSG6xTKUmrYpwmGQ6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/214885"
+        },
+        "population": 4047200,
+        "gini": {
+            "2018": 29.7
+        },
+        "fifa": "CRO",
+        "car": {
+            "signs": [
+                "HR"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/hr.png",
+            "svg": "https://flagcdn.com/hr.svg",
+            "alt": "The flag of Croatia is composed of three equal horizontal bands of red, white and blue, with coat of arms of Croatia superimposed in the center."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/hr.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/hr.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                45.8,
+                16
+            ]
+        },
+        "postalCode": {
+            "format": "HR-#####",
+            "regex": "^(?:HR)*(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Czechia",
+            "official": "Czech Republic",
+            "nativeName": {
+                "ces": {
+                    "official": "\u010Cesk\xe1 republika",
+                    "common": "\u010Cesko"
+                },
+                "slk": {
+                    "official": "\u010Cesk\xe1 republika",
+                    "common": "\u010Cesko"
+                }
+            }
+        },
+        "tld": [
+            ".cz"
+        ],
+        "cca2": "CZ",
+        "ccn3": "203",
+        "cioc": "CZE",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "CZK": {
+                "symbol": "K\u010D",
+                "name": "Czech koruna"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "20"
+            ]
+        },
+        "capital": [
+            "Prague"
+        ],
+        "altSpellings": [
+            "CZ",
+            "\u010Cesk\xe1 republika",
+            "\u010Cesko"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": {
+            "ces": "Czech",
+            "slk": "Slovak"
+        },
+        "latlng": [
+            49.75,
+            15.5
+        ],
+        "landlocked": true,
+        "borders": [
+            "AUT",
+            "DEU",
+            "POL",
+            "SVK"
+        ],
+        "area": 78865,
+        "demonyms": {
+            "eng": {
+                "f": "Czech",
+                "m": "Czech"
+            },
+            "fra": {
+                "f": "Tch\xe8que",
+                "m": "Tch\xe8que"
+            }
+        },
+        "cca3": "CZE",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643",
+                "common": "\u0627\u0644\u062A\u0634\u064A\u0643"
+            },
+            "bre": {
+                "official": "Republik Tchek",
+                "common": "Tchekia"
+            },
+            "ces": {
+                "official": "\u010Cesk\xe1 republika",
+                "common": "\u010Cesko"
+            },
+            "cym": {
+                "official": "Y Weriniaeth Tsiec",
+                "common": "Y Weriniaeth Tsiec"
+            },
+            "deu": {
+                "official": "Tschechische Republik",
+                "common": "Tschechien"
+            },
+            "est": {
+                "official": "T\u0161ehhi Vabariik",
+                "common": "T\u0161ehhi"
+            },
+            "fin": {
+                "official": "T\u0161ekin tasavalta",
+                "common": "T\u0161ekki"
+            },
+            "fra": {
+                "official": "R\xe9publique tch\xe8que",
+                "common": "Tch\xe9quie"
+            },
+            "hrv": {
+                "official": "\u010Ce\u0161ka",
+                "common": "\u010Ce\u0161ka"
+            },
+            "hun": {
+                "official": "Cseh K\xf6zt\xe1rsas\xe1g",
+                "common": "Csehorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Ceko",
+                "common": "Ceko"
+            },
+            "ita": {
+                "official": "Repubblica Ceca",
+                "common": "Cechia"
+            },
+            "jpn": {
+                "official": "\u30C1\u30A7\u30B3\u5171\u548C\u56FD",
+                "common": "\u30C1\u30A7\u30B3"
+            },
+            "kor": {
+                "official": "\uCCB4\uCF54",
+                "common": "\uCCB4\uCF54"
+            },
+            "nld": {
+                "official": "Tsjechische Republiek",
+                "common": "Tsjechi\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0686\u06A9",
+                "common": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0686\u06A9"
+            },
+            "pol": {
+                "official": "Republika Czeska",
+                "common": "Czechy"
+            },
+            "por": {
+                "official": "Rep\xfablica Checa",
+                "common": "Ch\xe9quia"
+            },
+            "rus": {
+                "official": "\u0427\u0435\u0448\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0427\u0435\u0445\u0438\u044F"
+            },
+            "slk": {
+                "official": "\u010Cesk\xe1 republika",
+                "common": "\u010Cesko"
+            },
+            "spa": {
+                "official": "Rep\xfablica Checa",
+                "common": "Chequia"
+            },
+            "srp": {
+                "official": "\u0427\u0435\u0448\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0427\u0435\u0448\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Tjeckien",
+                "common": "Tjeckien"
+            },
+            "tur": {
+                "official": "\xc7ek Cumhuriyeti",
+                "common": "\xc7ekya"
+            },
+            "urd": {
+                "official": "\u0686\u064A\u06A9 \u062C\u0645\u06C1\u0648\u0631\u064A\u06C1",
+                "common": "\u0686\u064A\u06A9"
+            },
+            "zho": {
+                "official": "\u6377\u514B\u5171\u548C\u56FD",
+                "common": "\u6377\u514B"
+            }
+        },
+        "flag": "\uD83C\uDDE8\uD83C\uDDFF",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/47dmgeXMZyhDHyQW8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/51684"
+        },
+        "population": 10698896,
+        "gini": {
+            "2018": 25
+        },
+        "fifa": "CZE",
+        "car": {
+            "signs": [
+                "CZ"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cz.png",
+            "svg": "https://flagcdn.com/cz.svg",
+            "alt": "The flag of Czechia is composed of two equal horizontal bands of white and red, with a blue isosceles triangle superimposed on the hoist side of the field. The triangle has its base on the hoist end and spans about two-fifth the width of the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/cz.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/cz.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                50.08,
+                14.47
+            ]
+        },
+        "postalCode": {
+            "format": "### ##",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "San Marino",
+            "official": "Republic of San Marino",
+            "nativeName": {
+                "ita": {
+                    "official": "Repubblica di San Marino",
+                    "common": "San Marino"
+                }
+            }
+        },
+        "tld": [
+            ".sm"
+        ],
+        "cca2": "SM",
+        "ccn3": "674",
+        "cioc": "SMR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "78"
+            ]
+        },
+        "capital": [
+            "City of San Marino"
+        ],
+        "altSpellings": [
+            "SM",
+            "Republic of San Marino",
+            "Repubblica di San Marino"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "ita": "Italian"
+        },
+        "latlng": [
+            43.76666666,
+            12.41666666
+        ],
+        "landlocked": true,
+        "borders": [
+            "ITA"
+        ],
+        "area": 61,
+        "demonyms": {
+            "eng": {
+                "f": "Sammarinese",
+                "m": "Sammarinese"
+            },
+            "fra": {
+                "f": "Saint-Marinaise",
+                "m": "Saint-Marinais"
+            }
+        },
+        "cca3": "SMR",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648",
+                "common": "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"
+            },
+            "bre": {
+                "official": "Republik San Marino",
+                "common": "San Marino"
+            },
+            "ces": {
+                "official": "Republika San Marino",
+                "common": "San Marino"
+            },
+            "cym": {
+                "official": "Republic of San Marino",
+                "common": "San Marino"
+            },
+            "deu": {
+                "official": "Republik San Marino",
+                "common": "San Marino"
+            },
+            "est": {
+                "official": "San Marino Vabariik",
+                "common": "San Marino"
+            },
+            "fin": {
+                "official": "San Marinon seesteinen tasavalta",
+                "common": "San Marino"
+            },
+            "fra": {
+                "official": "R\xe9publique de Saint-Marin",
+                "common": "Saint-Marin"
+            },
+            "hrv": {
+                "official": "Ve\u0107ina Serene Republika San Marino",
+                "common": "San Marino"
+            },
+            "hun": {
+                "official": "San Marino K\xf6zt\xe1rsas\xe1g",
+                "common": "San Marino"
+            },
+            "ind": {
+                "official": "Republik San Marino",
+                "common": "San Marino"
+            },
+            "ita": {
+                "official": "Serenissima Repubblica di San Marino",
+                "common": "San Marino"
+            },
+            "jpn": {
+                "official": "\u30B5\u30F3\u30DE\u30EA\u30CE\u306E\u307B\u3068\u3093\u3069\u30BB\u30EA\u30FC\u30CC\u5171\u548C\u56FD",
+                "common": "\u30B5\u30F3\u30DE\u30EA\u30CE"
+            },
+            "kor": {
+                "official": "\uC0B0\uB9C8\uB9AC\uB178 \uACF5\uD654\uAD6D",
+                "common": "\uC0B0\uB9C8\uB9AC\uB178"
+            },
+            "nld": {
+                "official": "Meest Serene Republiek San Marino",
+                "common": "San Marino"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0633\u0627\u0646 \u0645\u0627\u0631\u06CC\u0646\u0648",
+                "common": "\u0633\u0627\u0646 \u0645\u0627\u0631\u06CC\u0646\u0648"
+            },
+            "pol": {
+                "official": "Republika San Marino",
+                "common": "San Marino"
+            },
+            "por": {
+                "official": "Seren\xedssima Rep\xfablica de San Marino",
+                "common": "San Marino"
+            },
+            "rus": {
+                "official": "\u0411\u043E\u043B\u044C\u0448\u0438\u043D\u0441\u0442\u0432\u043E Serene \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0430\u043D-\u041C\u0430\u0440\u0438\u043D\u043E",
+                "common": "\u0421\u0430\u043D-\u041C\u0430\u0440\u0438\u043D\u043E"
+            },
+            "slk": {
+                "official": "Sanmar\xednska republika",
+                "common": "San Mar\xedno"
+            },
+            "spa": {
+                "official": "Seren\xedsima Rep\xfablica de San Marino",
+                "common": "San Marino"
+            },
+            "srp": {
+                "official": "\u041D\u0430\u0458\u0443\u0437\u0432\u0438\u0448\u0435\u043D\u0438\u0458\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0430\u043D \u041C\u0430\u0440\u0438\u043D\u043E",
+                "common": "\u0421\u0430\u043D \u041C\u0430\u0440\u0438\u043D\u043E"
+            },
+            "swe": {
+                "official": "Republiken San Marino",
+                "common": "San Marino"
+            },
+            "tur": {
+                "official": "San Marino Cumhuriyeti",
+                "common": "San Marino"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0633\u0627\u0646 \u0645\u0627\u0631\u06CC\u0646\u0648",
+                "common": "\u0633\u0627\u0646 \u0645\u0627\u0631\u06CC\u0646\u0648"
+            },
+            "zho": {
+                "official": "\u5723\u9A6C\u529B\u8BFA\u5171\u548C\u56FD",
+                "common": "\u5723\u9A6C\u529B\u8BFA"
+            }
+        },
+        "flag": "\uD83C\uDDF8\uD83C\uDDF2",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/54624"
+        },
+        "population": 33938,
+        "fifa": "SMR",
+        "car": {
+            "signs": [
+                "RSM"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/sm.png",
+            "svg": "https://flagcdn.com/sm.svg",
+            "alt": "The flag of San Marino is composed of two equal horizontal bands of white and light blue, with the national coat of arms superimposed in the center."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/sm.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/sm.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                43.94,
+                12.45
+            ]
+        },
+        "postalCode": {
+            "format": "4789#",
+            "regex": "^(4789\\d)$"
+        }
+    },
+    {
+        "name": {
+            "common": "Finland",
+            "official": "Republic of Finland",
+            "nativeName": {
+                "fin": {
+                    "official": "Suomen tasavalta",
+                    "common": "Suomi"
+                },
+                "swe": {
+                    "official": "Republiken Finland",
+                    "common": "Finland"
+                }
+            }
+        },
+        "tld": [
+            ".fi"
+        ],
+        "cca2": "FI",
+        "ccn3": "246",
+        "cioc": "FIN",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "58"
+            ]
+        },
+        "capital": [
+            "Helsinki"
+        ],
+        "altSpellings": [
+            "FI",
+            "Suomi",
+            "Republic of Finland",
+            "Suomen tasavalta",
+            "Republiken Finland"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "fin": "Finnish",
+            "swe": "Swedish"
+        },
+        "latlng": [
+            64,
+            26
+        ],
+        "landlocked": false,
+        "borders": [
+            "NOR",
+            "SWE",
+            "RUS"
+        ],
+        "area": 338424,
+        "demonyms": {
+            "eng": {
+                "f": "Finnish",
+                "m": "Finnish"
+            },
+            "fra": {
+                "f": "Finlandaise",
+                "m": "Finlandais"
+            }
+        },
+        "cca3": "FIN",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0641\u0646\u0644\u0646\u062F\u0627",
+                "common": "\u0641\u0646\u0644\u0646\u062F\u0627"
+            },
+            "bre": {
+                "official": "Republik Finland",
+                "common": "Finland"
+            },
+            "ces": {
+                "official": "Finsk\xe1 republika",
+                "common": "Finsko"
+            },
+            "cym": {
+                "official": "Republic of Finland",
+                "common": "Finland"
+            },
+            "deu": {
+                "official": "Republik Finnland",
+                "common": "Finnland"
+            },
+            "est": {
+                "official": "Soome Vabariik",
+                "common": "Soome"
+            },
+            "fin": {
+                "official": "Suomen tasavalta",
+                "common": "Suomi"
+            },
+            "fra": {
+                "official": "R\xe9publique de Finlande",
+                "common": "Finlande"
+            },
+            "hrv": {
+                "official": "Republika Finska",
+                "common": "Finska"
+            },
+            "hun": {
+                "official": "Finn K\xf6zt\xe1rsas\xe1g",
+                "common": "Finnorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Finlandia",
+                "common": "Finlandia"
+            },
+            "ita": {
+                "official": "Repubblica di Finlandia",
+                "common": "Finlandia"
+            },
+            "jpn": {
+                "official": "\u30D5\u30A3\u30F3\u30E9\u30F3\u30C9\u5171\u548C\u56FD",
+                "common": "\u30D5\u30A3\u30F3\u30E9\u30F3\u30C9"
+            },
+            "kor": {
+                "official": "\uD540\uB780\uB4DC \uACF5\uD654\uAD6D",
+                "common": "\uD540\uB780\uB4DC"
+            },
+            "nld": {
+                "official": "Republiek Finland",
+                "common": "Finland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0641\u0646\u0644\u0627\u0646\u062F",
+                "common": "\u0641\u0646\u0644\u0627\u0646\u062F"
+            },
+            "pol": {
+                "official": "Republika Finlandii",
+                "common": "Finlandia"
+            },
+            "por": {
+                "official": "Rep\xfablica da Finl\xe2ndia",
+                "common": "Finl\xe2ndia"
+            },
+            "rus": {
+                "official": "\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F"
+            },
+            "slk": {
+                "official": "F\xednska republika",
+                "common": "F\xednsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Finlandia",
+                "common": "Finlandia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0424\u0438\u043D\u0441\u043A\u0430",
+                "common": "\u0424\u0438\u043D\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Finland",
+                "common": "Finland"
+            },
+            "tur": {
+                "official": "Finlandiya Cumhuriyeti",
+                "common": "Finlandiya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0641\u0646 \u0644\u06CC\u0646\u0688",
+                "common": "\u0641\u0646 \u0644\u06CC\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u82AC\u5170\u5171\u548C\u56FD",
+                "common": "\u82AC\u5170"
+            }
+        },
+        "flag": "\uD83C\uDDEB\uD83C\uDDEE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
+            "openStreetMaps": "openstreetmap.org/relation/54224"
+        },
+        "population": 5530719,
+        "gini": {
+            "2018": 27.3
+        },
+        "fifa": "FIN",
+        "car": {
+            "signs": [
+                "FIN"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/fi.png",
+            "svg": "https://flagcdn.com/fi.svg",
+            "alt": "The flag of Finland has a white field with a large blue cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/fi.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/fi.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                60.17,
+                24.93
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(?:FI)*(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Luxembourg",
+            "official": "Grand Duchy of Luxembourg",
+            "nativeName": {
+                "deu": {
+                    "official": "Gro\xdfherzogtum Luxemburg",
+                    "common": "Luxemburg"
+                },
+                "fra": {
+                    "official": "Grand-Duch\xe9 de Luxembourg",
+                    "common": "Luxembourg"
+                },
+                "ltz": {
+                    "official": "Groussherzogtum L\xebtzebuerg",
+                    "common": "L\xebtzebuerg"
+                }
+            }
+        },
+        "tld": [
+            ".lu"
+        ],
+        "cca2": "LU",
+        "ccn3": "442",
+        "cioc": "LUX",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "52"
+            ]
+        },
+        "capital": [
+            "Luxembourg"
+        ],
+        "altSpellings": [
+            "LU",
+            "Grand Duchy of Luxembourg",
+            "Grand-Duch\xe9 de Luxembourg",
+            "Gro\xdfherzogtum Luxemburg",
+            "Groussherzogtum L\xebtzebuerg"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German",
+            "fra": "French",
+            "ltz": "Luxembourgish"
+        },
+        "latlng": [
+            49.75,
+            6.16666666
+        ],
+        "landlocked": true,
+        "borders": [
+            "BEL",
+            "FRA",
+            "DEU"
+        ],
+        "area": 2586,
+        "demonyms": {
+            "eng": {
+                "f": "Luxembourger",
+                "m": "Luxembourger"
+            },
+            "fra": {
+                "f": "Luxembourgeoise",
+                "m": "Luxembourgeois"
+            }
+        },
+        "cca3": "LUX",
+        "translations": {
+            "ara": {
+                "official": "\u062F\u0648\u0642\u064A\u0629 \u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u063A",
+                "common": "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u063A"
+            },
+            "bre": {
+                "official": "Dugelezh Veur Luksembourg",
+                "common": "Luksembourg"
+            },
+            "ces": {
+                "official": "Lucembursk\xe9 velkov\xe9vodstv\xed",
+                "common": "Lucembursko"
+            },
+            "cym": {
+                "official": "Grand Duchy of Luxembourg",
+                "common": "Luxembourg"
+            },
+            "deu": {
+                "official": "Gro\xdfherzogtum Luxemburg,",
+                "common": "Luxemburg"
+            },
+            "est": {
+                "official": "Luksemburgi Suurhertsogiriik",
+                "common": "Luksemburg"
+            },
+            "fin": {
+                "official": "Luxemburgin suurherttuakunta",
+                "common": "Luxemburg"
+            },
+            "fra": {
+                "official": "Grand-Duch\xe9 de Luxembourg",
+                "common": "Luxembourg"
+            },
+            "hrv": {
+                "official": "Veliko Vojvodstvo Luksemburg",
+                "common": "Luksemburg"
+            },
+            "hun": {
+                "official": "Luxemburgi Nagyhercegs\xe9g",
+                "common": "Luxemburg"
+            },
+            "ind": {
+                "official": "Keharyapatihan Luksemburg",
+                "common": "Luksemburg"
+            },
+            "ita": {
+                "official": "Granducato di Lussemburgo",
+                "common": "Lussemburgo"
+            },
+            "jpn": {
+                "official": "\u30EB\u30AF\u30BB\u30F3\u30D6\u30EB\u30AF\u5927\u516C\u56FD",
+                "common": "\u30EB\u30AF\u30BB\u30F3\u30D6\u30EB\u30AF"
+            },
+            "kor": {
+                "official": "\uB8E9\uC148\uBD80\uB974\uD06C \uB300\uACF5\uAD6D",
+                "common": "\uB8E9\uC148\uBD80\uB974\uD06C"
+            },
+            "nld": {
+                "official": "Groothertogdom Luxemburg",
+                "common": "Luxemburg"
+            },
+            "per": {
+                "official": "\u062F\u0648\u06A9\u200C\u0646\u0634\u06CC\u0646 \u0644\u0648\u06A9\u0632\u0627\u0645\u0628\u0648\u0631\u06AF",
+                "common": "\u0644\u0648\u06A9\u0632\u0627\u0645\u0628\u0648\u0631\u06AF"
+            },
+            "pol": {
+                "official": "Wielkie Ksi\u0119stwo Luksemburga",
+                "common": "Luksemburg"
+            },
+            "por": {
+                "official": "Gr\xe3o-Ducado do Luxemburgo",
+                "common": "Luxemburgo"
+            },
+            "rus": {
+                "official": "\u0412\u0435\u043B\u0438\u043A\u043E\u0435 \u0413\u0435\u0440\u0446\u043E\u0433\u0441\u0442\u0432\u043E \u041B\u044E\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433",
+                "common": "\u041B\u044E\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433"
+            },
+            "slk": {
+                "official": "Luxembursk\xe9 ve\u013Ekovojvodstvo",
+                "common": "Luxembursko"
+            },
+            "spa": {
+                "official": "Gran Ducado de Luxemburgo",
+                "common": "Luxemburgo"
+            },
+            "srp": {
+                "official": "\u0412\u0435\u043B\u0438\u043A\u043E \u0412\u043E\u0458\u0432\u043E\u0434\u0441\u0442\u0432\u043E \u041B\u0443\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433",
+                "common": "\u041B\u0443\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433"
+            },
+            "swe": {
+                "official": "Storhertigd\xf6met Luxemburg",
+                "common": "Luxemburg"
+            },
+            "tur": {
+                "official": "L\xfcksemburg B\xfcy\xfck D\xfckal\u0131\u011F\u0131",
+                "common": "L\xfcksemburg"
+            },
+            "urd": {
+                "official": "\u062F\u0648\u0642\u06CC\u06C1 \u06A9\u0628\u06CC\u0631\u0644\u06A9\u0633\u0645\u0628\u0631\u06AF",
+                "common": "\u0644\u06A9\u0633\u0645\u0628\u0631\u06AF"
+            },
+            "zho": {
+                "official": "\u5362\u68EE\u5821\u5927\u516C\u56FD",
+                "common": "\u5362\u68EE\u5821"
+            }
+        },
+        "flag": "\uD83C\uDDF1\uD83C\uDDFA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
+        },
+        "population": 632275,
+        "gini": {
+            "2018": 35.4
+        },
+        "fifa": "LUX",
+        "car": {
+            "signs": [
+                "L"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/lu.png",
+            "svg": "https://flagcdn.com/lu.svg",
+            "alt": "The flag of Luxembourg is composed of three equal horizontal bands of red, white and light blue."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/lu.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/lu.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                49.6,
+                6.12
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Jersey",
+            "official": "Bailiwick of Jersey",
+            "nativeName": {
+                "eng": {
+                    "official": "Bailiwick of Jersey",
+                    "common": "Jersey"
+                },
+                "fra": {
+                    "official": "Bailliage de Jersey",
+                    "common": "Jersey"
+                },
+                "nrf": {
+                    "official": "Bailliage d\xe9 J\xe8rri",
+                    "common": "J\xe8rri"
+                }
+            }
+        },
+        "tld": [
+            ".je"
+        ],
+        "cca2": "JE",
+        "ccn3": "832",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "GBP": {
+                "symbol": "\xa3",
+                "name": "British pound"
+            },
+            "JEP": {
+                "symbol": "\xa3",
+                "name": "Jersey pound"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Saint Helier"
+        ],
+        "altSpellings": [
+            "JE",
+            "Bailiwick of Jersey",
+            "Bailliage de Jersey",
+            "Bailliage d\xe9 J\xe8rri"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "eng": "English",
+            "fra": "French",
+            "nrf": "J\xe8rriais"
+        },
+        "latlng": [
+            49.25,
+            -2.16666666
+        ],
+        "landlocked": false,
+        "area": 116,
+        "demonyms": {
+            "eng": {
+                "f": "Channel Islander",
+                "m": "Channel Islander"
+            },
+            "fra": {
+                "f": "Jersiaise",
+                "m": "Jersiais"
+            }
+        },
+        "cca3": "JEY",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u064A\u0631\u0632\u064A",
+                "common": "\u062C\u064A\u0631\u0632\u064A"
+            },
+            "bre": {
+                "official": "Jerzenez",
+                "common": "Jerzenez"
+            },
+            "ces": {
+                "official": "Rycht\xe1\u0159stv\xed Jersey",
+                "common": "Jersey"
+            },
+            "cym": {
+                "official": "Bailiwick of Jersey",
+                "common": "Jersey"
+            },
+            "deu": {
+                "official": "Vogtei Jersey",
+                "common": "Jersey"
+            },
+            "est": {
+                "official": "Jersey foogtkond",
+                "common": "Jersey"
+            },
+            "fin": {
+                "official": "Jersey",
+                "common": "Jersey"
+            },
+            "fra": {
+                "official": "Bailliage de Jersey",
+                "common": "Jersey"
+            },
+            "hrv": {
+                "official": "Struka od Jersey",
+                "common": "Jersey"
+            },
+            "hun": {
+                "official": "Jersey",
+                "common": "Jersey"
+            },
+            "ind": {
+                "official": "Bailiwick Jersey",
+                "common": "Jersey"
+            },
+            "ita": {
+                "official": "Baliato di Jersey",
+                "common": "Isola di Jersey"
+            },
+            "jpn": {
+                "official": "\u30B8\u30E3\u30FC\u30B8\u306E\u5F97\u610F\u5206\u91CE",
+                "common": "\u30B8\u30E3\u30FC\u30B8\u30FC"
+            },
+            "kor": {
+                "official": "\uC800\uC9C0 \uC12C",
+                "common": "\uC800\uC9C0 \uC12C"
+            },
+            "nld": {
+                "official": "Baljuwschap Jersey",
+                "common": "Jersey"
+            },
+            "per": {
+                "official": "\u062C\u0631\u0632\u06CC",
+                "common": "\u062C\u0631\u0632\u06CC"
+            },
+            "pol": {
+                "official": "Jersey",
+                "common": "Jersey"
+            },
+            "por": {
+                "official": "Bailiado de Jersey",
+                "common": "Jersey"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043D\u043D\u043E\u0435 \u0432\u043B\u0430\u0434\u0435\u043D\u0438\u0435 \u0414\u0436\u0435\u0440\u0441\u0438",
+                "common": "\u0414\u0436\u0435\u0440\u0441\u0438"
+            },
+            "slk": {
+                "official": "Bailiwick Jersey",
+                "common": "Jersey"
+            },
+            "spa": {
+                "official": "Bail\xeda de Jersey",
+                "common": "Jersey"
+            },
+            "srp": {
+                "official": "\u040F\u0435\u0440\u0437\u0438",
+                "common": "\u040F\u0435\u0440\u0437\u0438"
+            },
+            "swe": {
+                "official": "Jersey",
+                "common": "Jersey"
+            },
+            "tur": {
+                "official": "Jersey",
+                "common": "Jersey"
+            },
+            "urd": {
+                "official": "\u062C\u0631\u0632\u06CC",
+                "common": "\u062C\u0631\u0632\u06CC"
+            },
+            "zho": {
+                "official": "\u6CFD\u897F\u5C9B",
+                "common": "\u6CFD\u897F\u5C9B"
+            }
+        },
+        "flag": "\uD83C\uDDEF\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/rXG8GZZtsqK92kTCA",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/367988"
+        },
+        "population": 100800,
+        "car": {
+            "signs": [
+                "GBJ"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/je.png",
+            "svg": "https://flagcdn.com/je.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/je.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/je.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                49.18,
+                -2.1
+            ]
+        },
+        "postalCode": {
+            "format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+            "regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"
+        }
+    },
+    {
+        "name": {
+            "common": "United Kingdom",
+            "official": "United Kingdom of Great Britain and Northern Ireland",
+            "nativeName": {
+                "eng": {
+                    "official": "United Kingdom of Great Britain and Northern Ireland",
+                    "common": "United Kingdom"
+                }
+            }
+        },
+        "tld": [
+            ".uk"
+        ],
+        "cca2": "GB",
+        "ccn3": "826",
+        "cioc": "GBR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "GBP": {
+                "symbol": "\xa3",
+                "name": "British pound"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "London"
+        ],
+        "altSpellings": [
+            "GB",
+            "UK",
+            "Great Britain"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "eng": "English"
+        },
+        "latlng": [
+            54,
+            -2
+        ],
+        "landlocked": false,
+        "borders": [
+            "IRL"
+        ],
+        "area": 242900,
+        "demonyms": {
+            "eng": {
+                "f": "British",
+                "m": "British"
+            },
+            "fra": {
+                "f": "Britannique",
+                "m": "Britannique"
+            }
+        },
+        "cca3": "GBR",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0627 \u0627\u0644\u0639\u0638\u0645\u0649 \u0648\u0627\u064A\u0631\u0644\u0646\u062F\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629",
+                "common": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"
+            },
+            "bre": {
+                "official": "Rouantelezh-Unanet Breizh-Veur ha Norzhiwerzhon",
+                "common": "Rouantelezh-Unanet"
+            },
+            "ces": {
+                "official": "Spojen\xe9 kr\xe1lovstv\xed Velk\xe9 Brit\xe1nie a Severn\xedho Irska",
+                "common": "Spojen\xe9 kr\xe1lovstv\xed"
+            },
+            "cym": {
+                "official": "United Kingdom of Great Britain and Northern Ireland",
+                "common": "United Kingdom"
+            },
+            "deu": {
+                "official": "Vereinigtes K\xf6nigreich Gro\xdfbritannien und Nordirland",
+                "common": "Vereinigtes K\xf6nigreich"
+            },
+            "est": {
+                "official": "Suurbritannia ja P\xf5hja-Iiri \xdchendkuningriik",
+                "common": "Suurbritannia"
+            },
+            "fin": {
+                "official": "Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta",
+                "common": "Yhdistynyt kuningaskunta"
+            },
+            "fra": {
+                "official": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+                "common": "Royaume-Uni"
+            },
+            "hrv": {
+                "official": "Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske",
+                "common": "Ujedinjeno Kraljevstvo"
+            },
+            "hun": {
+                "official": "Nagy-Britannia \xe9s \xc9szak-\xcdrorsz\xe1g Egyes\xfclt Kir\xe1lys\xe1ga",
+                "common": "Egyes\xfclt Kir\xe1lys\xe1g"
+            },
+            "ind": {
+                "official": "Perserikatan Kerajaan Britania Raya dan Irlandia Utara",
+                "common": "Britania Raya"
+            },
+            "ita": {
+                "official": "Regno Unito di Gran Bretagna e Irlanda del Nord",
+                "common": "Regno Unito"
+            },
+            "jpn": {
+                "official": "\u30B0\u30EC\u30FC\u30C8\xb7\u30D6\u30EA\u30C6\u30F3\u304A\u3088\u3073\u5317\u30A2\u30A4\u30EB\u30E9\u30F3\u30C9\u9023\u5408\u738B\u56FD",
+                "common": "\u30A4\u30AE\u30EA\u30B9"
+            },
+            "kor": {
+                "official": "\uADF8\uB808\uC774\uD2B8\uBE0C\uB9AC\uD2BC \uBD81\uC544\uC77C\uB79C\uB4DC \uC5F0\uD569 \uC655\uAD6D",
+                "common": "\uC601\uAD6D"
+            },
+            "nld": {
+                "official": "Verenigd Koninkrijk van Groot-Brittanni\xeb en Noord-Ierland",
+                "common": "Verenigd Koninkrijk"
+            },
+            "per": {
+                "official": "\u067E\u0627\u062F\u0634\u0627\u0647\u06CC \u0645\u062A\u062D\u062F \u0628\u0631\u06CC\u062A\u0627\u0646\u06CC\u0627\u06CC \u06A9\u0628\u06CC\u0631 \u0648 \u0627\u06CC\u0631\u0644\u0646\u062F \u0634\u0645\u0627\u0644\u06CC",
+                "common": "\u0627\u0646\u06AF\u0644\u06CC\u0633"
+            },
+            "pol": {
+                "official": "Zjednoczone Kr\xf3lestwo Wielkiej Brytanii i Irlandii P\xf3\u0142nocnej",
+                "common": "Zjednoczone Kr\xf3lestwo"
+            },
+            "por": {
+                "official": "Reino Unido da Gr\xe3-Bretanha e Irlanda do Norte",
+                "common": "Reino Unido"
+            },
+            "rus": {
+                "official": "\u0421\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u043E\u0435 \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0412\u0435\u043B\u0438\u043A\u043E\u0431\u0440\u0438\u0442\u0430\u043D\u0438\u0438 \u0438 \u0421\u0435\u0432\u0435\u0440\u043D\u043E\u0439 \u0418\u0440\u043B\u0430\u043D\u0434\u0438\u0438",
+                "common": "\u0412\u0435\u043B\u0438\u043A\u043E\u0431\u0440\u0438\u0442\u0430\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Spojen\xe9 kr\xe1\u013Eovstvo Ve\u013Ekej Brit\xe1nie a Severn\xe9ho\xccrska",
+                "common": "Ve\u013Ek\xe1 Brit\xe1nia (Spojen\xe9 kr\xe1\u013Eovstvo)"
+            },
+            "spa": {
+                "official": "Reino Unido de Gran Breta\xf1a e Irlanda del Norte",
+                "common": "Reino Unido"
+            },
+            "srp": {
+                "official": "\u0423\u0458\u0435\u0434\u0438\u045A\u0435\u043D\u043E \u041A\u0440\u0430\u0459\u0435\u0432\u0441\u0442\u0432\u043E \u0412\u0435\u043B\u0438\u043A\u0435 \u0411\u0440\u0438\u0442\u0430\u043D\u0438\u0458\u0435 \u0438 \u0421\u0435\u0432\u0435\u0440\u043D\u0435 \u0418\u0440\u0441\u043A\u0435",
+                "common": "\u0423\u0458\u0435\u0434\u0438\u045A\u0435\u043D\u043E \u041A\u0440\u0430\u0459\u0435\u0432\u0441\u0442\u0432\u043E"
+            },
+            "swe": {
+                "official": "F\xf6renade konungariket Storbritannien och Nordirland",
+                "common": "Storbritannien"
+            },
+            "tur": {
+                "official": "B\xfcy\xfck Britanya ve Kuzey \u0130rlanda Birle\u015Fik Krall\u0131\u011F\u0131",
+                "common": "Birle\u015Fik Krall\u0131k"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0645\u062A\u062D\u062F\u06C1 \u0628\u0631\u0637\u0627\u0646\u06CC\u06C1 \u0639\u0638\u0645\u06CC \u0648 \u0634\u0645\u0627\u0644\u06CC \u0622\u0626\u0631\u0644\u06CC\u0646\u0688",
+                "common": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0645\u062A\u062D\u062F\u06C1"
+            },
+            "zho": {
+                "official": "\u5927\u4E0D\u5217\u98A0\u53CA\u5317\u7231\u5C14\u5170\u8054\u5408\u738B\u56FD",
+                "common": "\u82F1\u56FD"
+            }
+        },
+        "flag": "\uD83C\uDDEC\uD83C\uDDE7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/62149"
+        },
+        "population": 67215293,
+        "gini": {
+            "2017": 35.1
+        },
+        "car": {
+            "signs": [
+                "GB"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC-08:00",
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-02:00",
+            "UTC",
+            "UTC+01:00",
+            "UTC+02:00",
+            "UTC+06:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/gb.png",
+            "svg": "https://flagcdn.com/gb.svg",
+            "alt": "The flag of the United Kingdom \u2014 the Union Jack \u2014 has a blue field. It features the white-edged red cross of Saint George superimposed on the diagonal red cross of Saint Patrick which is superimposed on the diagonal white cross of Saint Andrew."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/gb.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/gb.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                51.5,
+                -0.08
+            ]
+        },
+        "postalCode": {
+            "format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+            "regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"
+        }
+    },
+    {
+        "name": {
+            "common": "Gibraltar",
+            "official": "Gibraltar",
+            "nativeName": {
+                "eng": {
+                    "official": "Gibraltar",
+                    "common": "Gibraltar"
+                }
+            }
+        },
+        "tld": [
+            ".gi"
+        ],
+        "cca2": "GI",
+        "ccn3": "292",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "GIP": {
+                "symbol": "\xa3",
+                "name": "Gibraltar pound"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "50"
+            ]
+        },
+        "capital": [
+            "Gibraltar"
+        ],
+        "altSpellings": [
+            "GI"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "eng": "English"
+        },
+        "latlng": [
+            36.13333333,
+            -5.35
+        ],
+        "landlocked": false,
+        "borders": [
+            "ESP"
+        ],
+        "area": 6,
+        "demonyms": {
+            "eng": {
+                "f": "Gibraltar",
+                "m": "Gibraltar"
+            },
+            "fra": {
+                "f": "Gibraltarienne",
+                "m": "Gibraltarien"
+            }
+        },
+        "cca3": "GIB",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642",
+                "common": "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"
+            },
+            "bre": {
+                "official": "Jibraltar",
+                "common": "Jibraltar"
+            },
+            "ces": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "cym": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "deu": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "est": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "fin": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "fra": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "hrv": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "hun": {
+                "official": "Gibralt\xe1r",
+                "common": "Gibralt\xe1r"
+            },
+            "ind": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "ita": {
+                "official": "Gibilterra",
+                "common": "Gibilterra"
+            },
+            "jpn": {
+                "official": "\u30B8\u30D6\u30E9\u30EB\u30BF\u30EB",
+                "common": "\u30B8\u30D6\u30E9\u30EB\u30BF\u30EB"
+            },
+            "kor": {
+                "official": "\uC9C0\uBE0C\uB864\uD130",
+                "common": "\uC9C0\uBE0C\uB864\uD130"
+            },
+            "nld": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "per": {
+                "official": "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642",
+                "common": "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"
+            },
+            "pol": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "por": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "rus": {
+                "official": "\u0413\u0438\u0431\u0440\u0430\u043B\u0442\u0430\u0440",
+                "common": "\u0413\u0438\u0431\u0440\u0430\u043B\u0442\u0430\u0440"
+            },
+            "slk": {
+                "official": "Gibralt\xe1r",
+                "common": "Gibralt\xe1r"
+            },
+            "spa": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "srp": {
+                "official": "\u0413\u0438\u0431\u0440\u0430\u043B\u0442\u0430\u0440",
+                "common": "\u0413\u0438\u0431\u0440\u0430\u043B\u0442\u0430\u0440"
+            },
+            "swe": {
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            "tur": {
+                "official": "Cebelitar\u0131k",
+                "common": "Cebelitar\u0131k"
+            },
+            "urd": {
+                "official": "\u062C\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642",
+                "common": "\u062C\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642"
+            },
+            "zho": {
+                "official": "\u76F4\u5E03\u7F57\u9640",
+                "common": "\u76F4\u5E03\u7F57\u9640"
+            }
+        },
+        "flag": "\uD83C\uDDEC\uD83C\uDDEE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1278736"
+        },
+        "population": 33691,
+        "fifa": "GIB",
+        "car": {
+            "signs": [
+                "GBZ"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/gi.png",
+            "svg": "https://flagcdn.com/gi.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/gi.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/gi.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                36.13,
+                -5.35
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Slovakia",
+            "official": "Slovak Republic",
+            "nativeName": {
+                "slk": {
+                    "official": "Slovensk\xe1 republika",
+                    "common": "Slovensko"
+                }
+            }
+        },
+        "tld": [
+            ".sk"
+        ],
+        "cca2": "SK",
+        "ccn3": "703",
+        "cioc": "SVK",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "21"
+            ]
+        },
+        "capital": [
+            "Bratislava"
+        ],
+        "altSpellings": [
+            "SK",
+            "Slovak Republic",
+            "Slovensk\xe1 republika"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": {
+            "slk": "Slovak"
+        },
+        "latlng": [
+            48.66666666,
+            19.5
+        ],
+        "landlocked": true,
+        "borders": [
+            "AUT",
+            "CZE",
+            "HUN",
+            "POL",
+            "UKR"
+        ],
+        "area": 49037,
+        "demonyms": {
+            "eng": {
+                "f": "Slovak",
+                "m": "Slovak"
+            },
+            "fra": {
+                "f": "Slovaque",
+                "m": "Slovaque"
+            }
+        },
+        "cca3": "SVK",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627",
+                "common": "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Slovak",
+                "common": "Slovakia"
+            },
+            "ces": {
+                "official": "Slovensk\xe1 republika",
+                "common": "Slovensko"
+            },
+            "cym": {
+                "official": "Slovak Republic",
+                "common": "Slovakia"
+            },
+            "deu": {
+                "official": "Slowakische Republik",
+                "common": "Slowakei"
+            },
+            "est": {
+                "official": "Slovaki Vabariik",
+                "common": "Slovakkia"
+            },
+            "fin": {
+                "official": "Slovakian tasavalta",
+                "common": "Slovakia"
+            },
+            "fra": {
+                "official": "R\xe9publique slovaque",
+                "common": "Slovaquie"
+            },
+            "hrv": {
+                "official": "slova\u010Dka",
+                "common": "Slova\u010Dka"
+            },
+            "hun": {
+                "official": "Szlov\xe1k K\xf6zt\xe1rsas\xe1g",
+                "common": "Szlov\xe1kia"
+            },
+            "ind": {
+                "official": "Republik Slowakia",
+                "common": "Slowakia"
+            },
+            "ita": {
+                "official": "Repubblica slovacca",
+                "common": "Slovacchia"
+            },
+            "jpn": {
+                "official": "\u30B9\u30ED\u30D0\u30AD\u30A2\u5171\u548C\u56FD",
+                "common": "\u30B9\u30ED\u30D0\u30AD\u30A2"
+            },
+            "kor": {
+                "official": "\uC2AC\uB85C\uBC14\uD0A4\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC2AC\uB85C\uBC14\uD0A4\uC544"
+            },
+            "nld": {
+                "official": "Slowaakse Republiek",
+                "common": "Slowakije"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0627\u0633\u0644\u0648\u0627\u06A9\u06CC",
+                "common": "\u0627\u0650\u0633\u0644\u064F\u0648\u0627\u06A9\u06CC"
+            },
+            "pol": {
+                "official": "Republika S\u0142owacka",
+                "common": "S\u0142owacja"
+            },
+            "por": {
+                "official": "Rep\xfablica Eslovaca",
+                "common": "Eslov\xe1quia"
+            },
+            "rus": {
+                "official": "\u0421\u043B\u043E\u0432\u0430\u0446\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0421\u043B\u043E\u0432\u0430\u043A\u0438\u044F"
+            },
+            "slk": {
+                "official": "Slovensk\xe1 republika",
+                "common": "Slovensko"
+            },
+            "spa": {
+                "official": "Rep\xfablica Eslovaca",
+                "common": "Rep\xfablica Eslovaca"
+            },
+            "srp": {
+                "official": "\u0421\u043B\u043E\u0432\u0430\u0447\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u0421\u043B\u043E\u0432\u0430\u0447\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Slovakien",
+                "common": "Slovakien"
+            },
+            "tur": {
+                "official": "Slovak Cumhuriyeti",
+                "common": "Slovakya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0633\u0644\u0648\u0648\u0627\u06A9\u06CC\u06C1",
+                "common": "\u0633\u0644\u0648\u0648\u0627\u06A9\u06CC\u06C1"
+            },
+            "zho": {
+                "official": "\u65AF\u6D1B\u4F10\u514B\u5171\u548C\u56FD",
+                "common": "\u65AF\u6D1B\u4F10\u514B"
+            }
+        },
+        "flag": "\uD83C\uDDF8\uD83C\uDDF0",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/uNSH2wW4bLoZVYJj7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/14296"
+        },
+        "population": 5458827,
+        "gini": {
+            "2018": 25
+        },
+        "fifa": "SVK",
+        "car": {
+            "signs": [
+                "SK"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/sk.png",
+            "svg": "https://flagcdn.com/sk.svg",
+            "alt": "The flag of Slovakia is composed of three equal horizontal bands of white, blue and red. The coat of arms of Slovakia is superimposed at the center of the field slightly towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/sk.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/sk.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                48.15,
+                17.12
+            ]
+        },
+        "postalCode": {
+            "format": "###  ##",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Iceland",
+            "official": "Iceland",
+            "nativeName": {
+                "isl": {
+                    "official": "\xcdsland",
+                    "common": "\xcdsland"
+                }
+            }
+        },
+        "tld": [
+            ".is"
+        ],
+        "cca2": "IS",
+        "ccn3": "352",
+        "cioc": "ISL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "ISK": {
+                "symbol": "kr",
+                "name": "Icelandic kr\xf3na"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "54"
+            ]
+        },
+        "capital": [
+            "Reykjavik"
+        ],
+        "altSpellings": [
+            "IS",
+            "Island",
+            "Republic of Iceland",
+            "L\xfd\xf0veldi\xf0 \xcdsland"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "isl": "Icelandic"
+        },
+        "latlng": [
+            65,
+            -18
+        ],
+        "landlocked": false,
+        "area": 103000,
+        "demonyms": {
+            "eng": {
+                "f": "Icelander",
+                "m": "Icelander"
+            },
+            "fra": {
+                "f": "Islandaise",
+                "m": "Islandais"
+            }
+        },
+        "cca3": "ISL",
+        "translations": {
+            "ara": {
+                "official": "\u0622\u064A\u0633\u0644\u0646\u062F\u0627",
+                "common": "\u0622\u064A\u0633\u0644\u0646\u062F\u0627"
+            },
+            "bre": {
+                "official": "Island",
+                "common": "Island"
+            },
+            "ces": {
+                "official": "Island",
+                "common": "Island"
+            },
+            "cym": {
+                "official": "Iceland",
+                "common": "Iceland"
+            },
+            "deu": {
+                "official": "Island",
+                "common": "Island"
+            },
+            "est": {
+                "official": "Islandi Vabariik",
+                "common": "Island"
+            },
+            "fin": {
+                "official": "Islanti",
+                "common": "Islanti"
+            },
+            "fra": {
+                "official": "R\xe9publique d'Islande",
+                "common": "Islande"
+            },
+            "hrv": {
+                "official": "Island",
+                "common": "Island"
+            },
+            "hun": {
+                "official": "Izland",
+                "common": "Izland"
+            },
+            "ind": {
+                "official": "Islandia",
+                "common": "Islandia"
+            },
+            "ita": {
+                "official": "Islanda",
+                "common": "Islanda"
+            },
+            "jpn": {
+                "official": "\u30A2\u30A4\u30B9\u30E9\u30F3\u30C9",
+                "common": "\u30A2\u30A4\u30B9\u30E9\u30F3\u30C9"
+            },
+            "kor": {
+                "official": "\uC544\uC774\uC2AC\uB780\uB4DC \uACF5\uD654\uAD6D",
+                "common": "\uC544\uC774\uC2AC\uB780\uB4DC"
+            },
+            "nld": {
+                "official": "IJsland",
+                "common": "IJsland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0627\u06CC\u0633\u0644\u0646\u062F",
+                "common": "\u0627\u06CC\u0633\u0644\u0646\u062F"
+            },
+            "pol": {
+                "official": "Republika Islandii",
+                "common": "Islandia"
+            },
+            "por": {
+                "official": "Isl\xe2ndia",
+                "common": "Isl\xe2ndia"
+            },
+            "rus": {
+                "official": "\u0418\u0441\u043B\u0430\u043D\u0434\u0438\u044F",
+                "common": "\u0418\u0441\u043B\u0430\u043D\u0434\u0438\u044F"
+            },
+            "slk": {
+                "official": "Islandsk\xe1 republika",
+                "common": "Island"
+            },
+            "spa": {
+                "official": "Islandia",
+                "common": "Islandia"
+            },
+            "srp": {
+                "official": "\u0418\u0441\u043B\u0430\u043D\u0434",
+                "common": "\u0418\u0441\u043B\u0430\u043D\u0434"
+            },
+            "swe": {
+                "official": "Island",
+                "common": "Island"
+            },
+            "tur": {
+                "official": "\u0130zlanda",
+                "common": "\u0130zlanda"
+            },
+            "urd": {
+                "official": "\u0622\u0626\u0633 \u0644\u06CC\u0646\u0688",
+                "common": "\u0622\u0626\u0633 \u0644\u06CC\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u51B0\u5C9B",
+                "common": "\u51B0\u5C9B"
+            }
+        },
+        "flag": "\uD83C\uDDEE\uD83C\uDDF8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/WxFWSQuc3oamNxoE6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/299133"
+        },
+        "population": 366425,
+        "gini": {
+            "2017": 26.1
+        },
+        "fifa": "ISL",
+        "car": {
+            "signs": [
+                "IS"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/is.png",
+            "svg": "https://flagcdn.com/is.svg",
+            "alt": "The flag of Iceland has a blue field with a large white-edged red cross that extends to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/is.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/is.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                64.15,
+                -21.95
+            ]
+        },
+        "postalCode": {
+            "format": "###",
+            "regex": "^(\\d{3})$"
+        }
+    },
+    {
+        "name": {
+            "common": "North Macedonia",
+            "official": "Republic of North Macedonia",
+            "nativeName": {
+                "mkd": {
+                    "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0435\u0432\u0435\u0440\u043D\u0430 \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u0458\u0430",
+                    "common": "\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u0458\u0430"
+                }
+            }
+        },
+        "tld": [
+            ".mk"
+        ],
+        "cca2": "MK",
+        "ccn3": "807",
+        "cioc": "MKD",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "MKD": {
+                "symbol": "den",
+                "name": "denar"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "89"
+            ]
+        },
+        "capital": [
+            "Skopje"
+        ],
+        "altSpellings": [
+            "MK",
+            "The former Yugoslav Republic of Macedonia",
+            "Republic of North Macedonia",
+            "Macedonia, The Former Yugoslav Republic of",
+            "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0435\u0432\u0435\u0440\u043D\u0430 \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u0458\u0430"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "mkd": "Macedonian"
+        },
+        "latlng": [
+            41.83333333,
+            22
+        ],
+        "landlocked": true,
+        "borders": [
+            "ALB",
+            "BGR",
+            "GRC",
+            "UNK",
+            "SRB"
+        ],
+        "area": 25713,
+        "demonyms": {
+            "eng": {
+                "f": "Macedonian",
+                "m": "Macedonian"
+            },
+            "fra": {
+                "f": "Mac\xe9donienne",
+                "m": "Mac\xe9donien"
+            }
+        },
+        "cca3": "MKD",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0634\u0645\u0627\u0644 \u0645\u0642\u062F\u0648\u0646\u064A\u0627",
+                "common": "\u0634\u0645\u0627\u0644 \u0645\u0642\u062F\u0648\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Makedonia an Norzh",
+                "common": "Makedonia an Norzh"
+            },
+            "ces": {
+                "official": "Republika Severn\xed Makedonie",
+                "common": "Severn\xed Makedonie"
+            },
+            "cym": {
+                "official": "Republic of North Macedonia",
+                "common": "North Macedonia"
+            },
+            "deu": {
+                "official": "Republik Nordmazedonien",
+                "common": "Nordmazedonien"
+            },
+            "est": {
+                "official": "P\xf5hja-Makedoonia Vabariik",
+                "common": "P\xf5hja-Makedoonia"
+            },
+            "fin": {
+                "official": "Pohjois-Makedonian tasavalta",
+                "common": "Pohjois-Makedonia"
+            },
+            "fra": {
+                "official": "R\xe9publique de Mac\xe9doine du Nord",
+                "common": "Mac\xe9doine du Nord"
+            },
+            "hrv": {
+                "official": "Republika Sjeverna Makedonija",
+                "common": "Sjeverna Makedonija"
+            },
+            "hun": {
+                "official": "\xc9szak-maced\xf3n K\xf6zt\xe1rsas\xe1g",
+                "common": "\xc9szak-Maced\xf3nia"
+            },
+            "ind": {
+                "official": "Republik Makedonia Utara",
+                "common": "Makedonia Utara"
+            },
+            "ita": {
+                "official": "Repubblica di Macedonia del Nord",
+                "common": "Macedonia del Nord"
+            },
+            "jpn": {
+                "official": "\u5317\u30DE\u30B1\u30C9\u30CB\u30A2\u5171\u548C\u56FD",
+                "common": "\u5317\u30DE\u30B1\u30C9\u30CB\u30A2 "
+            },
+            "kor": {
+                "official": "\uBD81\uB9C8\uCF00\uB3C4\uB2C8\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uBD81\uB9C8\uCF00\uB3C4\uB2C8\uC544"
+            },
+            "nld": {
+                "official": "Republiek Noord-Macedoni\xeb",
+                "common": "Noord-Macedoni\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0645\u0642\u062F\u0648\u0646\u06CC\u0647 \u0634\u0645\u0627\u0644\u06CC",
+                "common": "\u0645\u0642\u062F\u0648\u0646\u06CC\u0647 \u0634\u0645\u0627\u0644\u06CC"
+            },
+            "pol": {
+                "official": "Republika Macedonii P\xf3\u0142nocnej",
+                "common": "Macedonia P\xf3\u0142nocna"
+            },
+            "por": {
+                "official": "Rep\xfablica da Maced\xf4nia do Norte",
+                "common": "Maced\xf3nia do Norte"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0435\u0432\u0435\u0440\u043D\u0430\u044F \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u044F",
+                "common": "\u0421\u0435\u0432\u0435\u0440\u043D\u0430\u044F \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Severomaced\xf3nska republika",
+                "common": "Severn\xe9 Maced\xf3nsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Macedonia del Norte",
+                "common": "Macedonia del Norte"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0435\u0432\u0435\u0440\u043D\u0430 \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u0458\u0430",
+                "common": "\u0421\u0435\u0432\u0435\u0440\u043D\u0430 \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Nordmakedonien",
+                "common": "Nordmakedonien"
+            },
+            "tur": {
+                "official": "Kuzey Makedonya Cumhuriyeti",
+                "common": "Kuzey Makedonya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0645\u0642\u062F\u0648\u0646\u06CC\u06C1",
+                "common": "\u0634\u0645\u0627\u0644\u06CC \u0645\u0642\u062F\u0648\u0646\u06CC\u06C1"
+            },
+            "zho": {
+                "official": "\u5317\u99AC\u5176\u9813\u5171\u548C\u570B",
+                "common": "\u5317\u99AC\u5176\u9813"
+            }
+        },
+        "flag": "\uD83C\uDDF2\uD83C\uDDF0",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/55Q8MEnF6ACdu3q79",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/53293"
+        },
+        "population": 2077132,
+        "gini": {
+            "2018": 33
+        },
+        "fifa": "MKD",
+        "car": {
+            "signs": [
+                "MK"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/mk.png",
+            "svg": "https://flagcdn.com/mk.svg",
+            "alt": "The flag of North Macedonia has a red field, at the center of which is a golden-yellow sun with eight broadening rays that extend to the edges of the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/mk.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/mk.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                42,
+                21.43
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Svalbard and Jan Mayen",
+            "official": "Svalbard og Jan Mayen",
+            "nativeName": {
+                "nor": {
+                    "official": "Svalbard og Jan Mayen",
+                    "common": "Svalbard og Jan Mayen"
+                }
+            }
+        },
+        "tld": [
+            ".sj"
+        ],
+        "cca2": "SJ",
+        "ccn3": "744",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "NOK": {
+                "symbol": "kr",
+                "name": "krone"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "779"
+            ]
+        },
+        "capital": [
+            "Longyearbyen"
+        ],
+        "altSpellings": [
+            "SJ",
+            "Svalbard and Jan Mayen Islands"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "nor": "Norwegian"
+        },
+        "latlng": [
+            78,
+            20
+        ],
+        "landlocked": false,
+        "area": 61399,
+        "demonyms": {
+            "eng": {
+                "f": "Norwegian",
+                "m": "Norwegian"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        },
+        "cca3": "SJM",
+        "translations": {
+            "ara": {
+                "official": "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u064A\u0627\u0646 \u0645\u0627\u064A\u0646",
+                "common": "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u064A\u0627\u0646 \u0645\u0627\u064A\u0646"
+            },
+            "bre": {
+                "official": "Svalbard ha Jan Mayen",
+                "common": "Svalbard ha Jan Mayen"
+            },
+            "ces": {
+                "official": "\u0160picberky a Jan Mayen",
+                "common": "\u0160picberky a Jan Mayen"
+            },
+            "cym": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Svalbard and Jan Mayen"
+            },
+            "deu": {
+                "official": "Spitzbergen und Jan Mayen",
+                "common": "Spitzbergen und Jan Mayen"
+            },
+            "est": {
+                "official": "Svalbard",
+                "common": "Svalbard"
+            },
+            "fin": {
+                "official": "Huippuvuoret",
+                "common": "Huippuvuoret"
+            },
+            "fra": {
+                "official": "Jan Mayen Svalbard",
+                "common": "Svalbard et Jan Mayen"
+            },
+            "hrv": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Svalbard i Jan Mayen"
+            },
+            "hun": {
+                "official": "Svalbard \xe9s Jan Mayen",
+                "common": "Svalbard \xe9s Jan Mayen"
+            },
+            "ind": {
+                "official": "Svalbard dan Jan Mayen",
+                "common": "Svalbard dan Jan Mayen"
+            },
+            "ita": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Svalbard e Jan Mayen"
+            },
+            "jpn": {
+                "official": "\u30B9\u30D0\u30FC\u30EB\u30D0\u30EB\u8AF8\u5CF6OG\u30E4\u30F3\u30DE\u30A4\u30A8\u30F3",
+                "common": "\u30B9\u30F4\u30A1\u30FC\u30EB\u30D0\u30EB\u8AF8\u5CF6\u304A\u3088\u3073\u30E4\u30F3\u30DE\u30A4\u30A8\u30F3\u5CF6"
+            },
+            "kor": {
+                "official": "\uC2A4\uBC1C\uBC14\uB974 \uC580\uB9C8\uC60C \uC81C\uB3C4",
+                "common": "\uC2A4\uBC1C\uBC14\uB974 \uC580\uB9C8\uC60C \uC81C\uB3C4"
+            },
+            "nld": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Svalbard en Jan Mayen"
+            },
+            "per": {
+                "official": "\u0633\u0648\u0627\u0644\u0628\u0627\u0631\u062F \u0648 \u06CC\u0627\u0646 \u0645\u0627\u06CC\u0646",
+                "common": "\u0633\u0648\u0627\u0644\u0628\u0627\u0631\u062F \u0648 \u06CC\u0627\u0646 \u0645\u0627\u06CC\u0646"
+            },
+            "pol": {
+                "official": "Svalbard i Jan Mayen",
+                "common": "Svalbard i Jan Mayen"
+            },
+            "por": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Ilhas Svalbard e Jan Mayen"
+            },
+            "rus": {
+                "official": "\u0421\u0432\u0430\u043B\u044C\u0431\u0430\u0440\u0434\u0430 \u043E\u0433 \u042F\u043D-\u041C\u0430\u0439\u0435\u043D",
+                "common": "\u0428\u043F\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043D \u0438 \u042F\u043D-\u041C\u0430\u0439\u0435\u043D"
+            },
+            "slk": {
+                "official": "Svalbard a Jan Mayen",
+                "common": "Svalbard a Jan Mayen"
+            },
+            "spa": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Islas Svalbard y Jan Mayen"
+            },
+            "srp": {
+                "official": "\u0421\u0432\u0430\u043B\u0431\u0430\u0440\u0434 \u0438 \u0408\u0430\u043D \u041C\u0430\u0458\u0435\u043D",
+                "common": "\u0421\u0432\u0430\u043B\u0431\u0430\u0440\u0434 \u0438 \u0408\u0430\u043D \u041C\u0430\u0458\u0435\u043D"
+            },
+            "swe": {
+                "official": "Svalbard och Jan Mayen",
+                "common": "Svalbard och Jan Mayen"
+            },
+            "tur": {
+                "official": "Svalbard ve Jan Mayen",
+                "common": "Svalbard ve Jan Mayen"
+            },
+            "urd": {
+                "official": "\u0633\u0648\u0627\u0644\u0628\u0627\u0631\u0688 \u0627\u0648\u0631 \u062C\u0627\u0646 \u0645\u06CC\u0626\u0646",
+                "common": "\u0633\u0648\u0627\u0644\u0628\u0627\u0631\u0688 \u0627\u0648\u0631 \u062C\u0627\u0646 \u0645\u06CC\u0626\u0646"
+            },
+            "zho": {
+                "official": "\u65AF\u74E6\u5C14\u5DF4\u7279",
+                "common": "\u65AF\u74E6\u5C14\u5DF4\u7279"
+            }
+        },
+        "flag": "\uD83C\uDDF8\uD83C\uDDEF",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1337397"
+        },
+        "population": 2562,
+        "car": {
+            "signs": [
+                "N"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/sj.png",
+            "svg": "https://flagcdn.com/sj.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                78.22,
+                15.63
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Netherlands",
+            "official": "Kingdom of the Netherlands",
+            "nativeName": {
+                "nld": {
+                    "official": "Koninkrijk der Nederlanden",
+                    "common": "Nederland"
+                }
+            }
+        },
+        "tld": [
+            ".nl"
+        ],
+        "cca2": "NL",
+        "ccn3": "528",
+        "cioc": "NED",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "Amsterdam"
+        ],
+        "altSpellings": [
+            "NL",
+            "Holland",
+            "Nederland",
+            "The Netherlands"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "nld": "Dutch"
+        },
+        "latlng": [
+            52.5,
+            5.75
+        ],
+        "landlocked": false,
+        "borders": [
+            "BEL",
+            "DEU"
+        ],
+        "area": 41850,
+        "demonyms": {
+            "eng": {
+                "f": "Dutch",
+                "m": "Dutch"
+            },
+            "fra": {
+                "f": "N\xe9erlandaise",
+                "m": "N\xe9erlandais"
+            }
+        },
+        "cca3": "NLD",
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0647\u0648\u0644\u0646\u062F\u0627",
+                "common": "\u0647\u0648\u0644\u0646\u062F\u0627"
+            },
+            "bre": {
+                "official": "Rouantelezh an Izelvroio\xf9",
+                "common": "Izelvroio\xf9"
+            },
+            "ces": {
+                "official": "Nizozemsk\xe9 kr\xe1lovstv\xed",
+                "common": "Nizozemsko"
+            },
+            "cym": {
+                "official": "Kingdom of the Netherlands",
+                "common": "Netherlands"
+            },
+            "deu": {
+                "official": "Niederlande",
+                "common": "Niederlande"
+            },
+            "est": {
+                "official": "Madalmaade Kuningriik",
+                "common": "Holland"
+            },
+            "fin": {
+                "official": "Alankomaat",
+                "common": "Alankomaat"
+            },
+            "fra": {
+                "official": "Pays-Bas",
+                "common": "Pays-Bas"
+            },
+            "hrv": {
+                "official": "Holandija",
+                "common": "Nizozemska"
+            },
+            "hun": {
+                "official": "Holland Kir\xe1lys\xe1g",
+                "common": "Hollandia"
+            },
+            "ind": {
+                "official": "Kerajaan Belanda",
+                "common": "Belanda"
+            },
+            "ita": {
+                "official": "Paesi Bassi",
+                "common": "Paesi Bassi"
+            },
+            "jpn": {
+                "official": "\u30AA\u30E9\u30F3\u30C0",
+                "common": "\u30AA\u30E9\u30F3\u30C0"
+            },
+            "kor": {
+                "official": "\uB124\uB35C\uB780\uB4DC \uC655\uAD6D",
+                "common": "\uB124\uB35C\uB780\uB4DC"
+            },
+            "nld": {
+                "official": "Nederland",
+                "common": "Nederland"
+            },
+            "per": {
+                "official": "\u0647\u0644\u0646\u062F",
+                "common": "\u0647\u0644\u0646\u062F"
+            },
+            "pol": {
+                "official": "Kr\xf3lestwo Niderland\xf3w",
+                "common": "Holandia"
+            },
+            "por": {
+                "official": "Holanda",
+                "common": "Holanda"
+            },
+            "rus": {
+                "official": "\u041D\u0438\u0434\u0435\u0440\u043B\u0430\u043D\u0434\u044B",
+                "common": "\u041D\u0438\u0434\u0435\u0440\u043B\u0430\u043D\u0434\u044B"
+            },
+            "slk": {
+                "official": "Holandsk\xe9 kr\xe1\u013Eovstvo",
+                "common": "Holansko"
+            },
+            "spa": {
+                "official": "Pa\xedses Bajos",
+                "common": "Pa\xedses Bajos"
+            },
+            "srp": {
+                "official": "\u041A\u0440\u0430\u0459\u0435\u0432\u0438\u043D\u0430 \u0425\u043E\u043B\u0430\u043D\u0434\u0438\u0458\u0430",
+                "common": "\u0425\u043E\u043B\u0430\u043D\u0434\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Nederl\xe4nderna",
+                "common": "Nederl\xe4nderna"
+            },
+            "tur": {
+                "official": "Hollanda",
+                "common": "Hollanda"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0646\u06CC\u062F\u0631\u0644\u06CC\u0646\u0688\u0632",
+                "common": "\u0646\u06CC\u062F\u0631\u0644\u06CC\u0646\u0688\u0632"
+            },
+            "zho": {
+                "official": "\u8377\u5170",
+                "common": "\u8377\u5170"
+            }
+        },
+        "flag": "\uD83C\uDDF3\uD83C\uDDF1",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/Hv6zQswGhFxoVVBm6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/47796"
+        },
+        "population": 16655799,
+        "gini": {
+            "2018": 28.1
+        },
+        "fifa": "NED",
+        "car": {
+            "signs": [
+                "NL"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nl.png",
+            "svg": "https://flagcdn.com/nl.svg",
+            "alt": "The flag of the Netherlands is composed of three equal horizontal bands of red, white and blue."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/nl.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/nl.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                52.35,
+                4.92
+            ]
+        },
+        "postalCode": {
+            "format": "#### @@",
+            "regex": "^(\\d{4}[A-Z]{2})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Belarus",
+            "official": "Republic of Belarus",
+            "nativeName": {
+                "bel": {
+                    "official": "\u0420\u044D\u0441\u043F\u0443\u0431\u043B\u0456\u043A\u0430 \u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C",
+                    "common": "\u0411\u0435\u043B\u0430\u0440\u0443\u0301\u0441\u044C"
+                },
+                "rus": {
+                    "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C",
+                    "common": "\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C"
+                }
+            }
+        },
+        "tld": [
+            ".by"
+        ],
+        "cca2": "BY",
+        "ccn3": "112",
+        "cioc": "BLR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BYN": {
+                "symbol": "Br",
+                "name": "Belarusian ruble"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "75"
+            ]
+        },
+        "capital": [
+            "Minsk"
+        ],
+        "altSpellings": [
+            "BY",
+            "Bielaru\u015B",
+            "Republic of Belarus",
+            "\u0411\u0435\u043B\u043E\u0440\u0443\u0441\u0441\u0438\u044F",
+            "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u0435\u043B\u043E\u0440\u0443\u0441\u0441\u0438\u044F"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": {
+            "bel": "Belarusian",
+            "rus": "Russian"
+        },
+        "latlng": [
+            53,
+            28
+        ],
+        "landlocked": true,
+        "borders": [
+            "LVA",
+            "LTU",
+            "POL",
+            "RUS",
+            "UKR"
+        ],
+        "area": 207600,
+        "demonyms": {
+            "eng": {
+                "f": "Belarusian",
+                "m": "Belarusian"
+            },
+            "fra": {
+                "f": "Bi\xe9lorusse",
+                "m": "Bi\xe9lorusse"
+            }
+        },
+        "cca3": "BLR",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0628\u064A\u0644\u0627\u0631\u0648\u0633\u064A\u0627",
+                "common": "\u0628\u064A\u0644\u0627\u0631\u0648\u0633\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Belarus",
+                "common": "Belarus"
+            },
+            "ces": {
+                "official": "B\u011Blorusk\xe1 republika",
+                "common": "B\u011Blorusko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Belarws",
+                "common": "Belarws"
+            },
+            "deu": {
+                "official": "Republik Belarus",
+                "common": "Wei\xdfrussland"
+            },
+            "est": {
+                "official": "Valgevene Vabariik",
+                "common": "Valgevene"
+            },
+            "fin": {
+                "official": "Valko-Ven\xe4j\xe4n tasavalta",
+                "common": "Valko-Ven\xe4j\xe4"
+            },
+            "fra": {
+                "official": "R\xe9publique de Bi\xe9lorussie",
+                "common": "Bi\xe9lorussie"
+            },
+            "hrv": {
+                "official": "Republika Bjelorusija",
+                "common": "Bjelorusija"
+            },
+            "hun": {
+                "official": "Feh\xe9rorosz K\xf6zt\xe1rsas\xe1g",
+                "common": "Feh\xe9roroszorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Belarus",
+                "common": "Belarus"
+            },
+            "ita": {
+                "official": "Repubblica di Belarus",
+                "common": "Bielorussia"
+            },
+            "jpn": {
+                "official": "\u30D9\u30E9\u30EB\u30FC\u30B7\u5171\u548C\u56FD",
+                "common": "\u30D9\u30E9\u30EB\u30FC\u30B7"
+            },
+            "kor": {
+                "official": "\uBCA8\uB77C\uB8E8\uC2A4 \uACF5\uD654\uAD6D",
+                "common": "\uBCA8\uB77C\uB8E8\uC2A4"
+            },
+            "nld": {
+                "official": "Republiek Belarus",
+                "common": "Wit-Rusland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0628\u0644\u0627\u0631\u0648\u0633",
+                "common": "\u0628\u0644\u0627\u0631\u0648\u0633"
+            },
+            "pol": {
+                "official": "Republika Bia\u0142orusi",
+                "common": "Bia\u0142oru\u015B"
+            },
+            "por": {
+                "official": "Rep\xfablica da Bielorr\xfassia",
+                "common": "Bielor\xfassia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C",
+                "common": "\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C"
+            },
+            "slk": {
+                "official": "Bielorusk\xe1 republika",
+                "common": "Bielorusko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Belar\xfas",
+                "common": "Bielorrusia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u0435\u043B\u043E\u0440\u0443\u0441\u0438\u0458\u0430",
+                "common": "\u0411\u0435\u043B\u043E\u0440\u0443\u0441\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Vitryssland",
+                "common": "Belarus"
+            },
+            "tur": {
+                "official": "Belarus Cumhuriyeti",
+                "common": "Belarus"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0628\u06CC\u0644\u0627\u0631\u0648\u0633",
+                "common": "\u0628\u06CC\u0644\u0627\u0631\u0648\u0633"
+            },
+            "zho": {
+                "official": "\u767D\u4FC4\u7F57\u65AF\u5171\u548C\u56FD",
+                "common": "\u767D\u4FC4\u7F57\u65AF"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDFE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/59065"
+        },
+        "population": 9398861,
+        "gini": {
+            "2019": 25.3
+        },
+        "fifa": "BLR",
+        "car": {
+            "signs": [
+                "BY"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+03:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/by.png",
+            "svg": "https://flagcdn.com/by.svg",
+            "alt": "The flag of Belarus features a vertical band, with a white and red ornamental pattern, spanning about one-fifth the width of the field on the hoist side. Adjoining the vertical band are two horizontal bands of red and green, with the red band twice the height of the green band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/by.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/by.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                53.9,
+                27.57
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Malta",
+            "official": "Republic of Malta",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Malta",
+                    "common": "Malta"
+                },
+                "mlt": {
+                    "official": "Repubblika ta ' Malta",
+                    "common": "Malta"
+                }
+            }
+        },
+        "tld": [
+            ".mt"
+        ],
+        "cca2": "MT",
+        "ccn3": "470",
+        "cioc": "MLT",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "56"
+            ]
+        },
+        "capital": [
+            "Valletta"
+        ],
+        "altSpellings": [
+            "MT",
+            "Republic of Malta",
+            "Repubblika ta' Malta"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "eng": "English",
+            "mlt": "Maltese"
+        },
+        "latlng": [
+            35.9375,
+            14.3754
+        ],
+        "landlocked": false,
+        "area": 316,
+        "demonyms": {
+            "eng": {
+                "f": "Maltese",
+                "m": "Maltese"
+            },
+            "fra": {
+                "f": "Maltaise",
+                "m": "Maltais"
+            }
+        },
+        "cca3": "MLT",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0645\u0627\u0644\u0637\u0627",
+                "common": "\u0645\u0627\u0644\u0637\u0627"
+            },
+            "bre": {
+                "official": "Republik Malta",
+                "common": "Malta"
+            },
+            "ces": {
+                "official": "Maltsk\xe1 republika",
+                "common": "Malta"
+            },
+            "cym": {
+                "official": "Republic of Malta",
+                "common": "Malta"
+            },
+            "deu": {
+                "official": "Republik Malta",
+                "common": "Malta"
+            },
+            "est": {
+                "official": "Malta Vabariik",
+                "common": "Malta"
+            },
+            "fin": {
+                "official": "Maltan tasavalta",
+                "common": "Malta"
+            },
+            "fra": {
+                "official": "R\xe9publique de Malte",
+                "common": "Malte"
+            },
+            "hrv": {
+                "official": "Republika Malta",
+                "common": "Malta"
+            },
+            "hun": {
+                "official": "M\xe1ltai K\xf6zt\xe1rsas\xe1g",
+                "common": "M\xe1lta"
+            },
+            "ind": {
+                "official": "Republik Malta",
+                "common": "Malta"
+            },
+            "ita": {
+                "official": "Repubblica di Malta",
+                "common": "Malta"
+            },
+            "jpn": {
+                "official": "\u30DE\u30EB\u30BF\u5171\u548C\u56FD",
+                "common": "\u30DE\u30EB\u30BF"
+            },
+            "kor": {
+                "official": "\uBAB0\uD0C0 \uACF5\uD654\uAD6D",
+                "common": "\uBAB0\uD0C0"
+            },
+            "nld": {
+                "official": "Republiek Malta",
+                "common": "Malta"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0645\u0627\u0644\u062A",
+                "common": "\u0645\u0627\u0644\u062A"
+            },
+            "pol": {
+                "official": "Republika Malty",
+                "common": "Malta"
+            },
+            "por": {
+                "official": "Rep\xfablica de Malta",
+                "common": "Malta"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041C\u0430\u043B\u044C\u0442\u0430",
+                "common": "\u041C\u0430\u043B\u044C\u0442\u0430"
+            },
+            "slk": {
+                "official": "Maltsk\xe1 republika",
+                "common": "Malta"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Malta",
+                "common": "Malta"
+            },
+            "srp": {
+                "official": " \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041C\u0430\u043B\u0442\u0430",
+                "common": "\u041C\u0430\u043B\u0442\u0430"
+            },
+            "swe": {
+                "official": "Republiken Malta",
+                "common": "Malta"
+            },
+            "tur": {
+                "official": "Malta Cumhuriyeti",
+                "common": "Malta"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0645\u0627\u0644\u0679\u0627",
+                "common": "\u0645\u0627\u0644\u0679\u0627"
+            },
+            "zho": {
+                "official": "\u9A6C\u8033\u4ED6\u5171\u548C\u56FD",
+                "common": "\u9A6C\u8033\u4ED6"
+            }
+        },
+        "flag": "\uD83C\uDDF2\uD83C\uDDF9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/skXCqguxDxxEKVk47",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/365307"
+        },
+        "population": 525285,
+        "gini": {
+            "2018": 28.7
+        },
+        "fifa": "MLT",
+        "car": {
+            "signs": [
+                "M"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/mt.png",
+            "svg": "https://flagcdn.com/mt.svg",
+            "alt": "The flag of Malta is composed of two equal vertical bands of white and red. A representation of the George cross edged in red is situated on the upper hoist-side corner of the white band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/mt.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/mt.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                35.88,
+                14.5
+            ]
+        },
+        "postalCode": {
+            "format": "@@@ ###|@@@ ##",
+            "regex": "^([A-Z]{3}\\d{2}\\d?)$"
+        }
+    },
+    {
+        "name": {
+            "common": "Guernsey",
+            "official": "Bailiwick of Guernsey",
+            "nativeName": {
+                "eng": {
+                    "official": "Bailiwick of Guernsey",
+                    "common": "Guernsey"
+                },
+                "fra": {
+                    "official": "Bailliage de Guernesey",
+                    "common": "Guernesey"
+                },
+                "nfr": {
+                    "official": "Dg\xe8rn\xe9siais",
+                    "common": "Dg\xe8rn\xe9siais"
+                }
+            }
+        },
+        "tld": [
+            ".gg"
+        ],
+        "cca2": "GG",
+        "ccn3": "831",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "GBP": {
+                "symbol": "\xa3",
+                "name": "British pound"
+            },
+            "GGP": {
+                "symbol": "\xa3",
+                "name": "Guernsey pound"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "St. Peter Port"
+        ],
+        "altSpellings": [
+            "GG",
+            "Bailiwick of Guernsey",
+            "Bailliage de Guernesey"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "eng": "English",
+            "fra": "French",
+            "nfr": "Guern\xe9siais"
+        },
+        "latlng": [
+            49.46666666,
+            -2.58333333
+        ],
+        "landlocked": false,
+        "area": 78,
+        "demonyms": {
+            "eng": {
+                "f": "Channel Islander",
+                "m": "Channel Islander"
+            },
+            "fra": {
+                "f": "Guernesiaise",
+                "m": "Guernesiais"
+            }
+        },
+        "cca3": "GGY",
+        "translations": {
+            "ara": {
+                "official": "\u063A\u064A\u0631\u0646\u0632\u064A",
+                "common": "\u063A\u064A\u0631\u0646\u0632\u064A"
+            },
+            "bre": {
+                "official": "Gwernenez",
+                "common": "Gwernenez"
+            },
+            "ces": {
+                "official": "Rycht\xe1\u0159stv\xed Guernsey",
+                "common": "Guernsey"
+            },
+            "cym": {
+                "official": "Bailiwick of Guernsey",
+                "common": "Guernsey"
+            },
+            "deu": {
+                "official": "Vogtei Guernsey",
+                "common": "Guernsey"
+            },
+            "est": {
+                "official": "Guernsey foogtkond",
+                "common": "Guernsey"
+            },
+            "fin": {
+                "official": "Guernsey",
+                "common": "Guernsey"
+            },
+            "fra": {
+                "official": "Bailliage de Guernesey",
+                "common": "Guernesey"
+            },
+            "hrv": {
+                "official": "Struka Guernsey",
+                "common": "Guernsey"
+            },
+            "hun": {
+                "official": "Guernsey",
+                "common": "Guernsey"
+            },
+            "ind": {
+                "official": "Bailiwick Guernsey",
+                "common": "Guernsey"
+            },
+            "ita": {
+                "official": "Baliato di Guernsey",
+                "common": "Guernsey"
+            },
+            "jpn": {
+                "official": "\u30AC\u30FC\u30F3\u30B8\u30FC\u306E\u5F97\u610F\u5206\u91CE",
+                "common": "\u30AC\u30FC\u30F3\u30B8\u30FC"
+            },
+            "kor": {
+                "official": "\uAC74\uC9C0 \uC12C",
+                "common": "\uAC74\uC9C0 \uC12C"
+            },
+            "nld": {
+                "official": "Baljuwschap Guernsey",
+                "common": "Guernsey"
+            },
+            "per": {
+                "official": "\u06AF\u0631\u0646\u0632\u06CC",
+                "common": "\u06AF\u0631\u0646\u0632\u06CC"
+            },
+            "pol": {
+                "official": "Baliwat Guernsey",
+                "common": "Guernsey"
+            },
+            "por": {
+                "official": "Bailiado de Guernsey",
+                "common": "Guernsey"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043D\u043D\u043E\u0435 \u0432\u043B\u0430\u0434\u0435\u043D\u0438\u0435 \u0413\u0435\u0440\u043D\u0441\u0438",
+                "common": "\u0413\u0435\u0440\u043D\u0441\u0438"
+            },
+            "slk": {
+                "official": "Guernsey",
+                "common": "Guernsey"
+            },
+            "spa": {
+                "official": "Bail\xeda de Guernsey",
+                "common": "Guernsey"
+            },
+            "srp": {
+                "official": "\u0411\u0435\u0458\u043B\u0438\u0432\u0438\u043A \u0413\u0435\u0440\u043D\u0437\u0438",
+                "common": "\u0413\u0435\u0440\u043D\u0437\u0438"
+            },
+            "swe": {
+                "official": "Guernsey",
+                "common": "Guernsey"
+            },
+            "tur": {
+                "official": "Guernsey Muhaf\u0131zl\u0131\u011F\u0131",
+                "common": "Guernsey"
+            },
+            "urd": {
+                "official": "\u06AF\u0631\u0646\u0632\u06CC \u0631\u0648\u062F\u0628\u0627\u0631",
+                "common": "\u06AF\u0631\u0646\u0632\u06CC"
+            },
+            "zho": {
+                "official": "\u6839\u897F\u5C9B",
+                "common": "\u6839\u897F\u5C9B"
+            }
+        },
+        "flag": "\uD83C\uDDEC\uD83C\uDDEC",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/6kXnQU5QvEZMD9VB7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/270009"
+        },
+        "population": 62999,
+        "car": {
+            "signs": [
+                "GBG"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/gg.png",
+            "svg": "https://flagcdn.com/gg.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/gg.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/gg.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                49.45,
+                -2.54
+            ]
+        },
+        "postalCode": {
+            "format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+            "regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"
+        }
+    },
+    {
+        "name": {
+            "common": "Serbia",
+            "official": "Republic of Serbia",
+            "nativeName": {
+                "srp": {
+                    "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+                    "common": "\u0421\u0440\u0431\u0438\u0458\u0430"
+                }
+            }
+        },
+        "tld": [
+            ".rs",
+            ".\u0441\u0440\u0431"
+        ],
+        "cca2": "RS",
+        "ccn3": "688",
+        "cioc": "SRB",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "RSD": {
+                "symbol": "\u0434\u0438\u043D.",
+                "name": "Serbian dinar"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "81"
+            ]
+        },
+        "capital": [
+            "Belgrade"
+        ],
+        "altSpellings": [
+            "RS",
+            "Srbija",
+            "Republic of Serbia",
+            "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+            "Republika Srbija"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "srp": "Serbian"
+        },
+        "latlng": [
+            44,
+            21
+        ],
+        "landlocked": true,
+        "borders": [
+            "BIH",
+            "BGR",
+            "HRV",
+            "HUN",
+            "UNK",
+            "MKD",
+            "MNE",
+            "ROU"
+        ],
+        "area": 88361,
+        "demonyms": {
+            "eng": {
+                "f": "Serbian",
+                "m": "Serbian"
+            },
+            "fra": {
+                "f": "Serbe",
+                "m": "Serbe"
+            }
+        },
+        "cca3": "SRB",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0635\u064A\u0631\u0628\u064A\u0627",
+                "common": "\u0635\u064A\u0631\u0628\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Serbia",
+                "common": "Serbia"
+            },
+            "ces": {
+                "official": "Srbsk\xe1 republika",
+                "common": "Srbsko"
+            },
+            "cym": {
+                "official": "Republic of Serbia",
+                "common": "Serbia"
+            },
+            "deu": {
+                "official": "Republik Serbien",
+                "common": "Serbien"
+            },
+            "est": {
+                "official": "Serbia Vabariik",
+                "common": "Serbia"
+            },
+            "fin": {
+                "official": "Serbian tasavalta",
+                "common": "Serbia"
+            },
+            "fra": {
+                "official": "R\xe9publique de Serbie",
+                "common": "Serbie"
+            },
+            "hrv": {
+                "official": "Republika Srbija",
+                "common": "Srbija"
+            },
+            "hun": {
+                "official": "Szerb K\xf6zt\xe1rsas\xe1g",
+                "common": "Szerbia"
+            },
+            "ind": {
+                "official": "Republik Serbia",
+                "common": "Serbia"
+            },
+            "ita": {
+                "official": "Repubblica di Serbia",
+                "common": "Serbia"
+            },
+            "jpn": {
+                "official": "\u30BB\u30EB\u30D3\u30A2\u5171\u548C\u56FD",
+                "common": "\u30BB\u30EB\u30D3\u30A2"
+            },
+            "kor": {
+                "official": "\uC138\uB974\uBE44\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uC138\uB974\uBE44\uC544"
+            },
+            "nld": {
+                "official": "Republiek Servi\xeb",
+                "common": "Servi\xeb"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0635\u0631\u0628\u0633\u062A\u0627\u0646",
+                "common": "\u0635\u0631\u0628\u0633\u062A\u0627\u0646"
+            },
+            "pol": {
+                "official": "Republika Serbii",
+                "common": "Serbia"
+            },
+            "por": {
+                "official": "Rep\xfablica da S\xe9rvia",
+                "common": "S\xe9rvia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0435\u0440\u0431\u0438\u044F",
+                "common": "\u0421\u0435\u0440\u0431\u0438\u044F"
+            },
+            "slk": {
+                "official": "Srbsk\xe1 republika",
+                "common": "Srbsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Serbia",
+                "common": "Serbia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+                "common": "\u0421\u0440\u0431\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Serbien",
+                "common": "Serbien"
+            },
+            "tur": {
+                "official": "S\u0131rbistan Cumhuriyeti",
+                "common": "S\u0131rbistan"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0633\u0631\u0628\u06CC\u0627",
+                "common": "\u0633\u0631\u0628\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u585E\u5C14\u7EF4\u4E9A\u5171\u548C\u56FD",
+                "common": "\u585E\u5C14\u7EF4\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDF7\uD83C\uDDF8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1741311"
+        },
+        "population": 6908224,
+        "gini": {
+            "2017": 36.2
+        },
+        "fifa": "SRB",
+        "car": {
+            "signs": [
+                "SRB"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/rs.png",
+            "svg": "https://flagcdn.com/rs.svg",
+            "alt": "The flag of Serbia is composed of three equal horizontal bands of red, blue and white. The coat of arms of Serbia is superimposed at the center of the field slightly towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/rs.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/rs.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                44.83,
+                20.5
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Ireland",
+            "official": "Republic of Ireland",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Ireland",
+                    "common": "Ireland"
+                },
+                "gle": {
+                    "official": "Poblacht na h\xc9ireann",
+                    "common": "\xc9ire"
+                }
+            }
+        },
+        "tld": [
+            ".ie"
+        ],
+        "cca2": "IE",
+        "ccn3": "372",
+        "cioc": "IRL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "53"
+            ]
+        },
+        "capital": [
+            "Dublin"
+        ],
+        "altSpellings": [
+            "IE",
+            "\xc9ire",
+            "Republic of Ireland",
+            "Poblacht na h\xc9ireann"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "eng": "English",
+            "gle": "Irish"
+        },
+        "latlng": [
+            53,
+            -8
+        ],
+        "landlocked": false,
+        "borders": [
+            "GBR"
+        ],
+        "area": 70273,
+        "demonyms": {
+            "eng": {
+                "f": "Irish",
+                "m": "Irish"
+            },
+            "fra": {
+                "f": "Irlandaise",
+                "m": "Irlandais"
+            }
+        },
+        "cca3": "IRL",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0623\u064A\u0631\u0644\u0646\u062F\u0627",
+                "common": "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"
+            },
+            "bre": {
+                "official": "Republik Iwerzhon",
+                "common": "Iwerzhon"
+            },
+            "ces": {
+                "official": "Irsko",
+                "common": "Irsko"
+            },
+            "cym": {
+                "official": "Republic of Ireland",
+                "common": "Ireland"
+            },
+            "deu": {
+                "official": "Republik Irland",
+                "common": "Irland"
+            },
+            "est": {
+                "official": "Iirimaa",
+                "common": "Iirimaa"
+            },
+            "fin": {
+                "official": "Irlannin tasavalta",
+                "common": "Irlanti"
+            },
+            "fra": {
+                "official": "R\xe9publique d'Irlande",
+                "common": "Irlande"
+            },
+            "hrv": {
+                "official": "Republika Irska",
+                "common": "Irska"
+            },
+            "hun": {
+                "official": "\xcdr K\xf6zt\xe1rsas\xe1g",
+                "common": "\xcdrorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Irlandia",
+                "common": "Irlandia"
+            },
+            "ita": {
+                "official": "Repubblica d'Irlanda",
+                "common": "Irlanda"
+            },
+            "jpn": {
+                "official": "\u30A2\u30A4\u30EB\u30E9\u30F3\u30C9\u5171\u548C\u56FD",
+                "common": "\u30A2\u30A4\u30EB\u30E9\u30F3\u30C9"
+            },
+            "kor": {
+                "official": "\uC544\uC77C\uB79C\uB4DC \uACF5\uD654\uAD6D",
+                "common": "\uC544\uC77C\uB79C\uB4DC"
+            },
+            "nld": {
+                "official": "Republic of Ireland",
+                "common": "Ierland"
+            },
+            "per": {
+                "official": "\u0627\u06CC\u0631\u0644\u0646\u062F",
+                "common": "\u0627\u06CC\u0631\u0644\u0646\u062F"
+            },
+            "pol": {
+                "official": "Republika Irlandii",
+                "common": "Irlandia"
+            },
+            "por": {
+                "official": "Rep\xfablica da Irlanda",
+                "common": "Irlanda"
+            },
+            "rus": {
+                "official": "\u0418\u0440\u043B\u0430\u043D\u0434\u0438\u044F",
+                "common": "\u0418\u0440\u043B\u0430\u043D\u0434\u0438\u044F"
+            },
+            "slk": {
+                "official": "\xcdrska republika",
+                "common": "\xcdrsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Irlanda",
+                "common": "Irlanda"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0418\u0440\u0441\u043A\u0430",
+                "common": "\u0418\u0440\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Irland",
+                "common": "Irland"
+            },
+            "tur": {
+                "official": "\u0130rlanda Cumhuriyeti",
+                "common": "\u0130rlanda"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u062C\u0632\u06CC\u0631\u06C1 \u0622\u0626\u0631\u0644\u06CC\u0646\u0688",
+                "common": "\u062C\u0632\u06CC\u0631\u06C1 \u0622\u0626\u0631\u0644\u06CC\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u7231\u5C14\u5170\u5171\u548C\u56FD",
+                "common": "\u7231\u5C14\u5170"
+            }
+        },
+        "flag": "\uD83C\uDDEE\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/hxd1BKxgpchStzQC6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/62273"
+        },
+        "population": 4994724,
+        "gini": {
+            "2017": 31.4
+        },
+        "fifa": "IRL",
+        "car": {
+            "signs": [
+                "IRL"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ie.png",
+            "svg": "https://flagcdn.com/ie.svg",
+            "alt": "The flag of Ireland is composed of three equal vertical bands of green, white and orange."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ie.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ie.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                53.32,
+                -6.23
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Vatican City",
+            "official": "Vatican City State",
+            "nativeName": {
+                "ita": {
+                    "official": "Stato della Citt\xe0 del Vaticano",
+                    "common": "Vaticano"
+                },
+                "lat": {
+                    "official": "Status Civitatis Vatican\xe6",
+                    "common": "Vatican\xe6"
+                }
+            }
+        },
+        "tld": [
+            ".va"
+        ],
+        "cca2": "VA",
+        "ccn3": "336",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "906698",
+                "79"
+            ]
+        },
+        "capital": [
+            "Vatican City"
+        ],
+        "altSpellings": [
+            "VA",
+            "Holy See (Vatican City State)",
+            "Vatican City State",
+            "Stato della Citt\xe0 del Vaticano"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "ita": "Italian",
+            "lat": "Latin"
+        },
+        "latlng": [
+            41.9,
+            12.45
+        ],
+        "landlocked": true,
+        "borders": [
+            "ITA"
+        ],
+        "area": 0.44,
+        "demonyms": {
+            "eng": {
+                "f": "Vatican",
+                "m": "Vatican"
+            },
+            "fra": {
+                "f": "Vaticane",
+                "m": "Vatican"
+            }
+        },
+        "cca3": "VAT",
+        "translations": {
+            "ara": {
+                "official": "\u062F\u0648\u0644\u0629 \u0645\u062F\u064A\u0646\u0629 \u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646",
+                "common": "\u0645\u062F\u064A\u0646\u0629 \u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"
+            },
+            "bre": {
+                "official": "Riez Keoded ar Vatikan",
+                "common": "Vatikan"
+            },
+            "ces": {
+                "official": "M\u011Bstsk\xfd st\xe1t Vatik\xe1n",
+                "common": "Vatik\xe1n"
+            },
+            "cym": {
+                "official": "Vatican City State",
+                "common": "Vatican City"
+            },
+            "deu": {
+                "official": "Staat Vatikanstadt",
+                "common": "Vatikanstadt"
+            },
+            "est": {
+                "official": "Vatikani Linnriik",
+                "common": "Vatikan"
+            },
+            "fin": {
+                "official": "Vatikaanin kaupunkivaltio",
+                "common": "Vatikaani"
+            },
+            "fra": {
+                "official": "Cit\xe9 du Vatican",
+                "common": "Cit\xe9 du Vatican"
+            },
+            "hrv": {
+                "official": "Vatikan",
+                "common": "Vatikan"
+            },
+            "hun": {
+                "official": "Vatik\xe1n \xc1llam",
+                "common": "Vatik\xe1n"
+            },
+            "ind": {
+                "official": "Negara Kota Vatikan",
+                "common": "Vatikan"
+            },
+            "ita": {
+                "official": "Citt\xe0 del Vaticano",
+                "common": "Citt\xe0 del Vaticano"
+            },
+            "jpn": {
+                "official": "\u30D0\u30C1\u30AB\u30F3\u5E02\u56FD\u306E\u72B6\u614B",
+                "common": "\u30D0\u30C1\u30AB\u30F3\u5E02\u56FD"
+            },
+            "kor": {
+                "official": "\uBC14\uD2F0\uCE78 \uC2DC\uAD6D",
+                "common": "\uBC14\uD2F0\uCE78"
+            },
+            "nld": {
+                "official": "Vaticaanstad",
+                "common": "Vaticaanstad"
+            },
+            "per": {
+                "official": "\u062F\u0648\u0644\u062A\u200C\u0634\u0647\u0631 \u0648\u0627\u062A\u06CC\u06A9\u0627\u0646",
+                "common": "\u0648\u0627\u062A\u06CC\u06A9\u0627\u0646"
+            },
+            "pol": {
+                "official": "Pa\u0144stwo Watyka\u0144skie",
+                "common": "Watykan"
+            },
+            "por": {
+                "official": "Cidade do Vaticano",
+                "common": "Cidade do Vaticano"
+            },
+            "rus": {
+                "official": "\u0413\u043E\u0440\u043E\u0434-\u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043E \u0412\u0430\u0442\u0438\u043A\u0430\u043D",
+                "common": "\u0412\u0430\u0442\u0438\u043A\u0430\u043D"
+            },
+            "slk": {
+                "official": "Sv\xe4t\xe1 stolica (Vatik\xe1nsky mestsk\xfd \u0161t\xe1t",
+                "common": "Vatik\xe1n"
+            },
+            "spa": {
+                "official": "Ciudad del Vaticano",
+                "common": "Ciudad del Vaticano"
+            },
+            "srp": {
+                "official": "\u0413\u0440\u0430\u0434 \u0412\u0430\u0442\u0438\u043A\u0430\u043D",
+                "common": "\u0412\u0430\u0442\u0438\u043A\u0430\u043D"
+            },
+            "swe": {
+                "official": "Vatikanstaten",
+                "common": "Vatikanstaten"
+            },
+            "tur": {
+                "official": "Vatikan \u015Eehir Devleti",
+                "common": "Vatikan"
+            },
+            "urd": {
+                "official": "\u0648\u06CC\u0679\u06CC\u06A9\u0646 \u0633\u0679\u06CC",
+                "common": "\u0648\u06CC\u0679\u06CC\u06A9\u0646 \u0633\u0679\u06CC"
+            },
+            "zho": {
+                "official": "\u68B5\u8482\u5188\u57CE\u56FD",
+                "common": "\u68B5\u8482\u5188"
+            }
+        },
+        "flag": "\uD83C\uDDFB\uD83C\uDDE6",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/36989"
+        },
+        "population": 451,
+        "car": {
+            "signs": [
+                "V"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/va.png",
+            "svg": "https://flagcdn.com/va.svg",
+            "alt": "The flag of Vatican City is square shaped. It is composed of two equal vertical bands of yellow and white, with national coat of arms centered in the white band. The national coat of arms comprises the Papal Tiara superimposed on two crossed keys."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/va.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/va.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                41.9,
+                12.45
+            ]
+        },
+        "postalCode": {
+            "format": null,
+            "regex": null
+        }
+    },
+    {
+        "name": {
+            "common": "Spain",
+            "official": "Kingdom of Spain",
+            "nativeName": {
+                "spa": {
+                    "official": "Reino de Espa\xf1a",
+                    "common": "Espa\xf1a"
+                }
+            }
+        },
+        "tld": [
+            ".es"
+        ],
+        "cca2": "ES",
+        "ccn3": "724",
+        "cioc": "ESP",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Madrid"
+        ],
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de Espa\xf1a"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "spa": "Spanish",
+            "cat": "Catalan",
+            "eus": "Basque",
+            "glc": "Galician"
+        },
+        "latlng": [
+            40,
+            -4
+        ],
+        "landlocked": false,
+        "borders": [
+            "AND",
+            "FRA",
+            "GIB",
+            "PRT",
+            "MAR"
+        ],
+        "area": 505992,
+        "demonyms": {
+            "eng": {
+                "f": "Spanish",
+                "m": "Spanish"
+            },
+            "fra": {
+                "f": "Espagnole",
+                "m": "Espagnol"
+            }
+        },
+        "cca3": "ESP",
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0625\u0633\u0628\u0627\u0646\u064A\u0627",
+                "common": "\u0625\u0633\u0628\u0627\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Rouantelezh Spagn",
+                "common": "Spagn"
+            },
+            "ces": {
+                "official": "\u0160pan\u011Blsk\xe9 kr\xe1lovstv\xed",
+                "common": "\u0160pan\u011Blsko"
+            },
+            "cym": {
+                "official": "Kingdom of Spain",
+                "common": "Spain"
+            },
+            "deu": {
+                "official": "K\xf6nigreich Spanien",
+                "common": "Spanien"
+            },
+            "est": {
+                "official": "Hispaania Kuningriik",
+                "common": "Hispaania"
+            },
+            "fin": {
+                "official": "Espanjan kuningaskunta",
+                "common": "Espanja"
+            },
+            "fra": {
+                "official": "Royaume d'Espagne",
+                "common": "Espagne"
+            },
+            "hrv": {
+                "official": "Kraljevina \u0160panjolska",
+                "common": "\u0160panjolska"
+            },
+            "hun": {
+                "official": "Spanyol Kir\xe1lys\xe1g",
+                "common": "Spanyolorsz\xe1g"
+            },
+            "ind": {
+                "official": "Kerajaan Spanyol",
+                "common": "Spanyol"
+            },
+            "ita": {
+                "official": "Regno di Spagna",
+                "common": "Spagna"
+            },
+            "jpn": {
+                "official": "\u30B9\u30DA\u30A4\u30F3\u738B\u56FD",
+                "common": "\u30B9\u30DA\u30A4\u30F3"
+            },
+            "kor": {
+                "official": "\uC5D0\uC2A4\uD30C\uB0D0 \uC655\uAD6D",
+                "common": "\uC2A4\uD398\uC778"
+            },
+            "nld": {
+                "official": "Koninkrijk Spanje",
+                "common": "Spanje"
+            },
+            "per": {
+                "official": "\u067E\u0627\u062F\u0634\u0627\u0647\u06CC \u0627\u0633\u067E\u0627\u0646\u06CC\u0627",
+                "common": "\u0627\u0633\u067E\u0627\u0646\u06CC\u0627"
+            },
+            "pol": {
+                "official": "Kr\xf3lestwo Hiszpanii ",
+                "common": "Hiszpania"
+            },
+            "por": {
+                "official": "Reino de Espanha",
+                "common": "Espanha"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0418\u0441\u043F\u0430\u043D\u0438\u044F",
+                "common": "\u0418\u0441\u043F\u0430\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "\u0160panielske kr\xe1\u013Eovstvo",
+                "common": "\u0160panielsko"
+            },
+            "spa": {
+                "official": "Reino de Espa\xf1a",
+                "common": "Espa\xf1a"
+            },
+            "srp": {
+                "official": "\u041A\u0440\u0430\u0459\u0435\u0432\u0438\u043D\u0430 \u0428\u043F\u0430\u043D\u0438\u0458\u0430",
+                "common": "\u0428\u043F\u0430\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Konungariket Spanien",
+                "common": "Spanien"
+            },
+            "tur": {
+                "official": "\u0130spanya Krall\u0131\u011F\u0131",
+                "common": "\u0130spanya"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u06C1\u0633\u067E\u0627\u0646\u06CC\u06C1",
+                "common": "\u06C1\u0633\u067E\u0627\u0646\u06CC\u06C1"
+            },
+            "zho": {
+                "official": "\u897F\u73ED\u7259\u738B\u56FD",
+                "common": "\u897F\u73ED\u7259"
+            }
+        },
+        "flag": "\uD83C\uDDEA\uD83C\uDDF8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/138JaXW8EZzRVitY9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1311341"
+        },
+        "population": 47351567,
+        "gini": {
+            "2018": 34.7
+        },
+        "fifa": "ESP",
+        "car": {
+            "signs": [
+                "E"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC",
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/es.png",
+            "svg": "https://flagcdn.com/es.svg",
+            "alt": "The flag of Spain is composed of three horizontal bands of red, yellow and red, with the yellow band twice the height of the red bands. In the yellow band is the national coat of arms offset slightly towards the hoist side of center."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/es.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/es.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                40.4,
+                -3.68
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Bulgaria",
+            "official": "Republic of Bulgaria",
+            "nativeName": {
+                "bul": {
+                    "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u044A\u043B\u0433\u0430\u0440\u0438\u044F",
+                    "common": "\u0411\u044A\u043B\u0433\u0430\u0440\u0438\u044F"
+                }
+            }
+        },
+        "tld": [
+            ".bg"
+        ],
+        "cca2": "BG",
+        "ccn3": "100",
+        "cioc": "BUL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BGN": {
+                "symbol": "\u043B\u0432",
+                "name": "Bulgarian lev"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "59"
+            ]
+        },
+        "capital": [
+            "Sofia"
+        ],
+        "altSpellings": [
+            "BG",
+            "Republic of Bulgaria",
+            "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u044A\u043B\u0433\u0430\u0440\u0438\u044F"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "bul": "Bulgarian"
+        },
+        "latlng": [
+            43,
+            25
+        ],
+        "landlocked": false,
+        "borders": [
+            "GRC",
+            "MKD",
+            "ROU",
+            "SRB",
+            "TUR"
+        ],
+        "area": 110879,
+        "demonyms": {
+            "eng": {
+                "f": "Bulgarian",
+                "m": "Bulgarian"
+            },
+            "fra": {
+                "f": "Bulgare",
+                "m": "Bulgare"
+            }
+        },
+        "cca3": "BGR",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0628\u0644\u063A\u0627\u0631\u064A\u0627",
+                "common": "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Bulgaria",
+                "common": "Bulgaria"
+            },
+            "ces": {
+                "official": "Bulharsk\xe1 republika",
+                "common": "Bulharsko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Bwlgaria",
+                "common": "Bwlgaria"
+            },
+            "deu": {
+                "official": "Republik Bulgarien",
+                "common": "Bulgarien"
+            },
+            "est": {
+                "official": "Bulgaaria Vabariik",
+                "common": "Bulgaaria"
+            },
+            "fin": {
+                "official": "Bulgarian tasavalta",
+                "common": "Bulgaria"
+            },
+            "fra": {
+                "official": "R\xe9publique de Bulgarie",
+                "common": "Bulgarie"
+            },
+            "hrv": {
+                "official": "Republika Bugarska",
+                "common": "Bugarska"
+            },
+            "hun": {
+                "official": "Bolg\xe1r K\xf6zt\xe1rsas\xe1g",
+                "common": "Bulg\xe1ria"
+            },
+            "ind": {
+                "official": "Republik Bulgaria",
+                "common": "Bulgaria"
+            },
+            "ita": {
+                "official": "Repubblica di Bulgaria",
+                "common": "Bulgaria"
+            },
+            "jpn": {
+                "official": "\u30D6\u30EB\u30AC\u30EA\u30A2\u5171\u548C\u56FD",
+                "common": "\u30D6\u30EB\u30AC\u30EA\u30A2"
+            },
+            "kor": {
+                "official": "\uBD88\uAC00\uB9AC\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uBD88\uAC00\uB9AC\uC544"
+            },
+            "nld": {
+                "official": "Republiek Bulgarije",
+                "common": "Bulgarije"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0628\u0644\u063A\u0627\u0631\u0633\u062A\u0627\u0646",
+                "common": "\u0628\u0644\u063A\u0627\u0631\u0633\u062A\u0627\u0646"
+            },
+            "pol": {
+                "official": "Republika Bu\u0142garii",
+                "common": "Bu\u0142garia"
+            },
+            "por": {
+                "official": "Rep\xfablica da Bulg\xe1ria",
+                "common": "Bulg\xe1ria"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u043E\u043B\u0433\u0430\u0440\u0438\u044F",
+                "common": "\u0411\u043E\u043B\u0433\u0430\u0440\u0438\u044F"
+            },
+            "slk": {
+                "official": "Bulharsk\xe1 republika",
+                "common": "Bulharsko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Bulgaria",
+                "common": "Bulgaria"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0411\u0443\u0433\u0430\u0440\u0441\u043A\u0430",
+                "common": "\u0411\u0443\u0433\u0430\u0440\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Bulgarien",
+                "common": "Bulgarien"
+            },
+            "tur": {
+                "official": "Bulgaristan Cumhuriyeti",
+                "common": "Bulgaristan"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0628\u0644\u063A\u0627\u0631\u06CC\u06C1",
+                "common": "\u0628\u0644\u063A\u0627\u0631\u06CC\u06C1"
+            },
+            "zho": {
+                "official": "\u4FDD\u52A0\u5229\u4E9A\u5171\u548C\u56FD",
+                "common": "\u4FDD\u52A0\u5229\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDEC",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/186382"
+        },
+        "population": 6927288,
+        "gini": {
+            "2018": 41.3
+        },
+        "fifa": "BUL",
+        "car": {
+            "signs": [
+                "BG"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/bg.png",
+            "svg": "https://flagcdn.com/bg.svg",
+            "alt": "The flag of Bulgaria is composed of three equal horizontal bands of white, green and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/bg.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/bg.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                42.68,
+                23.32
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Poland",
+            "official": "Republic of Poland",
+            "nativeName": {
+                "pol": {
+                    "official": "Rzeczpospolita Polska",
+                    "common": "Polska"
+                }
+            }
+        },
+        "tld": [
+            ".pl"
+        ],
+        "cca2": "PL",
+        "ccn3": "616",
+        "cioc": "POL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "PLN": {
+                "symbol": "z\u0142",
+                "name": "Polish z\u0142oty"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "8"
+            ]
+        },
+        "capital": [
+            "Warsaw"
+        ],
+        "altSpellings": [
+            "PL",
+            "Republic of Poland",
+            "Rzeczpospolita Polska"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": {
+            "pol": "Polish"
+        },
+        "latlng": [
+            52,
+            20
+        ],
+        "landlocked": false,
+        "borders": [
+            "BLR",
+            "CZE",
+            "DEU",
+            "LTU",
+            "RUS",
+            "SVK",
+            "UKR"
+        ],
+        "area": 312679,
+        "demonyms": {
+            "eng": {
+                "f": "Polish",
+                "m": "Polish"
+            },
+            "fra": {
+                "f": "Polonaise",
+                "m": "Polonais"
+            }
+        },
+        "cca3": "POL",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0628\u0648\u0644\u0646\u062F\u064A\u0629",
+                "common": "\u0628\u0648\u0644\u0646\u062F\u0627"
+            },
+            "bre": {
+                "official": "Republik Polonia",
+                "common": "Polonia"
+            },
+            "ces": {
+                "official": "Polsk\xe1 republika",
+                "common": "Polsko"
+            },
+            "cym": {
+                "official": "Republic of Poland",
+                "common": "Poland"
+            },
+            "deu": {
+                "official": "Republik Polen",
+                "common": "Polen"
+            },
+            "est": {
+                "official": "Poola Vabariik",
+                "common": "Poola"
+            },
+            "fin": {
+                "official": "Puolan tasavalta",
+                "common": "Puola"
+            },
+            "fra": {
+                "official": "R\xe9publique de Pologne",
+                "common": "Pologne"
+            },
+            "hrv": {
+                "official": "Republika Poljska",
+                "common": "Poljska"
+            },
+            "hun": {
+                "official": "Lengyel K\xf6zt\xe1rsas\xe1g",
+                "common": "Lengyelorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Polandia",
+                "common": "Polandia"
+            },
+            "ita": {
+                "official": "Repubblica di Polonia",
+                "common": "Polonia"
+            },
+            "jpn": {
+                "official": "\u30DD\u30FC\u30E9\u30F3\u30C9\u5171\u548C\u56FD",
+                "common": "\u30DD\u30FC\u30E9\u30F3\u30C9"
+            },
+            "kor": {
+                "official": "\uD3F4\uB780\uB4DC \uACF5\uD654\uAD6D",
+                "common": "\uD3F4\uB780\uB4DC"
+            },
+            "nld": {
+                "official": "Republiek Polen",
+                "common": "Polen"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0644\u0647\u0633\u062A\u0627\u0646",
+                "common": "\u0644\u0647\u0633\u062A\u0627\u0646"
+            },
+            "pol": {
+                "official": "Rzeczpospolita Polska",
+                "common": "Polska"
+            },
+            "por": {
+                "official": "Rep\xfablica da Pol\xf3nia",
+                "common": "Pol\xf3nia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041F\u043E\u043B\u044C\u0448\u0430",
+                "common": "\u041F\u043E\u043B\u044C\u0448\u0430"
+            },
+            "slk": {
+                "official": "Po\u013Esk\xe1 republika",
+                "common": "Po\u013Esko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Polonia",
+                "common": "Polonia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041F\u043E\u0459\u0441\u043A\u0430",
+                "common": "\u041F\u043E\u0459\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Republiken Polen",
+                "common": "Polen"
+            },
+            "tur": {
+                "official": "Polonya Cumhuriyeti",
+                "common": "Polonya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u067E\u0648\u0644\u06CC\u0646\u0688",
+                "common": "\u067E\u0648\u0644\u06CC\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u6CE2\u5170\u5171\u548C\u56FD",
+                "common": "\u6CE2\u5170"
+            }
+        },
+        "flag": "\uD83C\uDDF5\uD83C\uDDF1",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/gY9Xw4Sf4415P4949",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/49715"
+        },
+        "population": 37950802,
+        "gini": {
+            "2018": 30.2
+        },
+        "fifa": "POL",
+        "car": {
+            "signs": [
+                "PL"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pl.png",
+            "svg": "https://flagcdn.com/pl.svg",
+            "alt": "The flag of Poland is composed of two equal horizontal bands of white and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/pl.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/pl.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                52.25,
+                21
+            ]
+        },
+        "postalCode": {
+            "format": "##-###",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Monaco",
+            "official": "Principality of Monaco",
+            "nativeName": {
+                "fra": {
+                    "official": "Principaut\xe9 de Monaco",
+                    "common": "Monaco"
+                }
+            }
+        },
+        "tld": [
+            ".mc"
+        ],
+        "cca2": "MC",
+        "ccn3": "492",
+        "cioc": "MON",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "77"
+            ]
+        },
+        "capital": [
+            "Monaco"
+        ],
+        "altSpellings": [
+            "MC",
+            "Principality of Monaco",
+            "Principaut\xe9 de Monaco"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "fra": "French"
+        },
+        "latlng": [
+            43.73333333,
+            7.4
+        ],
+        "landlocked": false,
+        "borders": [
+            "FRA"
+        ],
+        "area": 2.02,
+        "demonyms": {
+            "eng": {
+                "f": "Monegasque",
+                "m": "Monegasque"
+            },
+            "fra": {
+                "f": "Mon\xe9gasque",
+                "m": "Mon\xe9gasque"
+            }
+        },
+        "cca3": "MCO",
+        "translations": {
+            "ara": {
+                "official": "\u0625\u0645\u0627\u0631\u0629 \u0645\u0648\u0646\u0627\u0643\u0648",
+                "common": "\u0645\u0648\u0646\u0627\u0643\u0648"
+            },
+            "bre": {
+                "official": "Pri\xf1selezh Monako",
+                "common": "Monako"
+            },
+            "ces": {
+                "official": "Monack\xe9 kn\xed\u017Eectv\xed",
+                "common": "Monako"
+            },
+            "cym": {
+                "official": "Principality of Monaco",
+                "common": "Monaco"
+            },
+            "deu": {
+                "official": "F\xfcrstentum Monaco",
+                "common": "Monaco"
+            },
+            "est": {
+                "official": "Monaco V\xfcrstiriik",
+                "common": "Monaco"
+            },
+            "fin": {
+                "official": "Monacon ruhtinaskunta",
+                "common": "Monaco"
+            },
+            "fra": {
+                "official": "Principaut\xe9 de Monaco",
+                "common": "Monaco"
+            },
+            "hrv": {
+                "official": "Kne\u017Eevina Monako",
+                "common": "Monako"
+            },
+            "hun": {
+                "official": "Monac\xf3i Hercegs\xe9g",
+                "common": "Monaco"
+            },
+            "ind": {
+                "official": "Kepangeranan Monako",
+                "common": "Monako"
+            },
+            "ita": {
+                "official": "Principato di Monaco",
+                "common": "Principato di Monaco"
+            },
+            "jpn": {
+                "official": "\u30E2\u30CA\u30B3\u516C\u56FD",
+                "common": "\u30E2\u30CA\u30B3"
+            },
+            "kor": {
+                "official": "\uBAA8\uB098\uCF54 \uACF5\uAD6D",
+                "common": "\uBAA8\uB098\uCF54"
+            },
+            "nld": {
+                "official": "Vorstendom Monaco",
+                "common": "Monaco"
+            },
+            "per": {
+                "official": "\u0634\u0627\u0647\u0632\u0627\u062F\u0647\u200C\u0646\u0634\u06CC\u0646 \u0645\u0648\u0646\u0627\u06A9\u0648",
+                "common": "\u0645\u0648\u0646\u0627\u06A9\u0648"
+            },
+            "pol": {
+                "official": "Ksi\u0119stwo Monako",
+                "common": "Monako"
+            },
+            "por": {
+                "official": "Principado do M\xf3naco",
+                "common": "M\xf3naco"
+            },
+            "rus": {
+                "official": "\u041A\u043D\u044F\u0436\u0435\u0441\u0442\u0432\u043E \u041C\u043E\u043D\u0430\u043A\u043E",
+                "common": "\u041C\u043E\u043D\u0430\u043A\u043E"
+            },
+            "slk": {
+                "official": "Monack\xe9 knie\u017Eatstvo",
+                "common": "Monako"
+            },
+            "spa": {
+                "official": "Principado de M\xf3naco",
+                "common": "M\xf3naco"
+            },
+            "srp": {
+                "official": "\u041A\u043D\u0435\u0436\u0435\u0432\u0438\u043D\u0430 \u041C\u043E\u043D\u0430\u043A\u043E",
+                "common": "\u041C\u043E\u043D\u0430\u043A\u043E"
+            },
+            "swe": {
+                "official": "Furstend\xf6met Monaco",
+                "common": "Monaco"
+            },
+            "tur": {
+                "official": "Monako Prensli\u011Fi",
+                "common": "Monako"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0645\u0646\u0627\u06A9\u0648",
+                "common": "\u0645\u0648\u0646\u0627\u06A9\u0648"
+            },
+            "zho": {
+                "official": "\u6469\u7EB3\u54E5\u516C\u56FD",
+                "common": "\u6469\u7EB3\u54E5"
+            }
+        },
+        "flag": "\uD83C\uDDF2\uD83C\uDDE8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/DGpndDot28bYdXYn7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1124039"
+        },
+        "population": 39244,
+        "car": {
+            "signs": [
+                "MC"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/mc.png",
+            "svg": "https://flagcdn.com/mc.svg",
+            "alt": "The flag of Monaco is composed of two equal horizontal bands of red and white."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/mc.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/mc.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                43.73,
+                7.42
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Hungary",
+            "official": "Hungary",
+            "nativeName": {
+                "hun": {
+                    "official": "Magyarorsz\xe1g",
+                    "common": "Magyarorsz\xe1g"
+                }
+            }
+        },
+        "tld": [
+            ".hu"
+        ],
+        "cca2": "HU",
+        "ccn3": "348",
+        "cioc": "HUN",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "HUF": {
+                "symbol": "Ft",
+                "name": "Hungarian forint"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "6"
+            ]
+        },
+        "capital": [
+            "Budapest"
+        ],
+        "altSpellings": [
+            "HU"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": {
+            "hun": "Hungarian"
+        },
+        "latlng": [
+            47,
+            20
+        ],
+        "landlocked": true,
+        "borders": [
+            "AUT",
+            "HRV",
+            "ROU",
+            "SRB",
+            "SVK",
+            "SVN",
+            "UKR"
+        ],
+        "area": 93028,
+        "demonyms": {
+            "eng": {
+                "f": "Hungarian",
+                "m": "Hungarian"
+            },
+            "fra": {
+                "f": "Hongroise",
+                "m": "Hongrois"
+            }
+        },
+        "cca3": "HUN",
+        "translations": {
+            "ara": {
+                "official": "\u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0645\u062C\u0631\u064A\u0629",
+                "common": "\u0627\u0644\u0645\u062C\u0631"
+            },
+            "bre": {
+                "official": "Hungaria",
+                "common": "Hungaria"
+            },
+            "ces": {
+                "official": "Ma\u010Farsko",
+                "common": "Ma\u010Farsko"
+            },
+            "cym": {
+                "official": "Hungary",
+                "common": "Hungary"
+            },
+            "deu": {
+                "official": "Ungarn",
+                "common": "Ungarn"
+            },
+            "est": {
+                "official": "Ungari",
+                "common": "Ungari"
+            },
+            "fin": {
+                "official": "Unkari",
+                "common": "Unkari"
+            },
+            "fra": {
+                "official": "Hongrie",
+                "common": "Hongrie"
+            },
+            "hrv": {
+                "official": "Mad\u017Earska",
+                "common": "Ma\u0111arska"
+            },
+            "hun": {
+                "official": "Magyarorsz\xe1g",
+                "common": "Magyarorsz\xe1g"
+            },
+            "ind": {
+                "official": "Hungaria",
+                "common": "Hungaria"
+            },
+            "ita": {
+                "official": "Ungheria",
+                "common": "Ungheria"
+            },
+            "jpn": {
+                "official": "\u30CF\u30F3\u30AC\u30EA\u30FC",
+                "common": "\u30CF\u30F3\u30AC\u30EA\u30FC"
+            },
+            "kor": {
+                "official": "\uD5DD\uAC00\uB9AC",
+                "common": "\uD5DD\uAC00\uB9AC"
+            },
+            "nld": {
+                "official": "Hongarije",
+                "common": "Hongarije"
+            },
+            "per": {
+                "official": "\u0645\u062C\u0627\u0631\u0633\u062A\u0627\u0646",
+                "common": "\u0645\u062C\u0627\u0631\u0633\u062A\u0627\u0646"
+            },
+            "pol": {
+                "official": "W\u0119gry",
+                "common": "W\u0119gry"
+            },
+            "por": {
+                "official": "Hungria",
+                "common": "Hungria"
+            },
+            "rus": {
+                "official": "\u0412\u0435\u043D\u0433\u0440\u0438\u044F",
+                "common": "\u0412\u0435\u043D\u0433\u0440\u0438\u044F"
+            },
+            "slk": {
+                "official": "Ma\u010Farsko",
+                "common": "Ma\u010Farsko"
+            },
+            "spa": {
+                "official": "Hungr\xeda",
+                "common": "Hungr\xeda"
+            },
+            "srp": {
+                "official": "\u041C\u0430\u0452\u0430\u0440\u0441\u043A\u0430",
+                "common": "\u041C\u0430\u0452\u0430\u0440\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Ungern",
+                "common": "Ungern"
+            },
+            "tur": {
+                "official": "Macaristan",
+                "common": "Macaristan"
+            },
+            "urd": {
+                "official": "\u0645\u062C\u0627\u0631\u0633\u062A\u0627\u0646",
+                "common": "\u0645\u062C\u0627\u0631\u0633\u062A\u0627\u0646"
+            },
+            "zho": {
+                "official": "\u5308\u7259\u5229",
+                "common": "\u5308\u7259\u5229"
+            }
+        },
+        "flag": "\uD83C\uDDED\uD83C\uDDFA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
+        },
+        "population": 9749763,
+        "gini": {
+            "2018": 29.6
+        },
+        "fifa": "HUN",
+        "car": {
+            "signs": [
+                "H"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/hu.png",
+            "svg": "https://flagcdn.com/hu.svg",
+            "alt": "The flag of Hungary is composed of three equal horizontal bands of red, white and green."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/hu.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/hu.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                47.5,
+                19.08
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Isle of Man",
+            "official": "Isle of Man",
+            "nativeName": {
+                "eng": {
+                    "official": "Isle of Man",
+                    "common": "Isle of Man"
+                },
+                "glv": {
+                    "official": "Ellan Vannin or Mannin",
+                    "common": "Mannin"
+                }
+            }
+        },
+        "tld": [
+            ".im"
+        ],
+        "cca2": "IM",
+        "ccn3": "833",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "GBP": {
+                "symbol": "\xa3",
+                "name": "British pound"
+            },
+            "IMP": {
+                "symbol": "\xa3",
+                "name": "Manx pound"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Douglas"
+        ],
+        "altSpellings": [
+            "IM",
+            "Ellan Vannin",
+            "Mann",
+            "Mannin"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "eng": "English",
+            "glv": "Manx"
+        },
+        "latlng": [
+            54.25,
+            -4.5
+        ],
+        "landlocked": false,
+        "area": 572,
+        "demonyms": {
+            "eng": {
+                "f": "Manx",
+                "m": "Manx"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        },
+        "cca3": "IMN",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646",
+                "common": "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"
+            },
+            "bre": {
+                "official": "Enez Vanav",
+                "common": "Enez Vanav"
+            },
+            "ces": {
+                "official": "Ostrov Man",
+                "common": "Ostrov Man"
+            },
+            "cym": {
+                "official": "Isle of Man",
+                "common": "Isle of Man"
+            },
+            "deu": {
+                "official": "Isle of Man",
+                "common": "Insel Man"
+            },
+            "est": {
+                "official": "Mani saar",
+                "common": "Mani saar"
+            },
+            "fin": {
+                "official": "Mansaari",
+                "common": "Mansaari"
+            },
+            "fra": {
+                "official": "Isle of Man",
+                "common": "\xcele de Man"
+            },
+            "hrv": {
+                "official": "Mana ostrvo",
+                "common": "Otok Man"
+            },
+            "hun": {
+                "official": "Man",
+                "common": "Man"
+            },
+            "ind": {
+                "official": "Pulau Man",
+                "common": "Pulau Man"
+            },
+            "ita": {
+                "official": "Isola di Man",
+                "common": "Isola di Man"
+            },
+            "jpn": {
+                "official": "\u30DE\u30F3\u5CF6",
+                "common": "\u30DE\u30F3\u5CF6"
+            },
+            "kor": {
+                "official": "\uB9E8\uC12C",
+                "common": "\uB9E8\uC12C"
+            },
+            "nld": {
+                "official": "Isle of Man",
+                "common": "Isle of Man"
+            },
+            "per": {
+                "official": "\u062C\u0632\u06CC\u0631\u0647\u0654 \u0645\u064E\u0646",
+                "common": "\u062C\u0632\u06CC\u0631\u0647\u0654 \u0645\u064E\u0646"
+            },
+            "pol": {
+                "official": "Wyspa Man",
+                "common": "Wyspa Man"
+            },
+            "por": {
+                "official": "Isle of Man",
+                "common": "Ilha de Man"
+            },
+            "rus": {
+                "official": "\u041E\u0441\u0442\u0440\u043E\u0432 \u041C\u044D\u043D",
+                "common": "\u041E\u0441\u0442\u0440\u043E\u0432 \u041C\u044D\u043D"
+            },
+            "slk": {
+                "official": "Ostrov Man",
+                "common": "Man"
+            },
+            "spa": {
+                "official": "Isla de Man",
+                "common": "Isla de Man"
+            },
+            "srp": {
+                "official": "\u041E\u0441\u0442\u0440\u0432\u043E \u041C\u0435\u043D",
+                "common": "\u041E\u0441\u0442\u0440\u0432\u043E \u041C\u0435\u043D"
+            },
+            "swe": {
+                "official": "Isle of Man",
+                "common": "Isle of Man"
+            },
+            "tur": {
+                "official": "Man Adas\u0131",
+                "common": "Man Adas\u0131"
+            },
+            "urd": {
+                "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06CC\u0646",
+                "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06CC\u0646"
+            },
+            "zho": {
+                "official": "\u9A6C\u6069\u5C9B",
+                "common": "\u9A6C\u6069\u5C9B"
+            }
+        },
+        "flag": "\uD83C\uDDEE\uD83C\uDDF2",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/62269"
+        },
+        "population": 85032,
+        "car": {
+            "signs": [
+                "GBM"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/im.png",
+            "svg": "https://flagcdn.com/im.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/im.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/im.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                54.15,
+                -4.48
+            ]
+        },
+        "postalCode": {
+            "format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+            "regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"
+        }
+    },
+    {
+        "name": {
+            "common": "Latvia",
+            "official": "Republic of Latvia",
+            "nativeName": {
+                "lav": {
+                    "official": "Latvijas Republikas",
+                    "common": "Latvija"
+                }
+            }
+        },
+        "tld": [
+            ".lv"
+        ],
+        "cca2": "LV",
+        "ccn3": "428",
+        "cioc": "LAT",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "71"
+            ]
+        },
+        "capital": [
+            "Riga"
+        ],
+        "altSpellings": [
+            "LV",
+            "Republic of Latvia",
+            "Latvijas Republika"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "lav": "Latvian"
+        },
+        "latlng": [
+            57,
+            25
+        ],
+        "landlocked": false,
+        "borders": [
+            "BLR",
+            "EST",
+            "LTU",
+            "RUS"
+        ],
+        "area": 64559,
+        "demonyms": {
+            "eng": {
+                "f": "Latvian",
+                "m": "Latvian"
+            },
+            "fra": {
+                "f": "Lettone",
+                "m": "Letton"
+            }
+        },
+        "cca3": "LVA",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0644\u0627\u062A\u0641\u064A\u0627",
+                "common": "\u0644\u0627\u062A\u0641\u064A\u0627"
+            },
+            "bre": {
+                "official": "Republik Latvia",
+                "common": "Latvia"
+            },
+            "ces": {
+                "official": "Loty\u0161sk\xe1 republika",
+                "common": "Loty\u0161sko"
+            },
+            "cym": {
+                "official": "Republic of Latvia",
+                "common": "Latvia"
+            },
+            "deu": {
+                "official": "Republik Lettland",
+                "common": "Lettland"
+            },
+            "est": {
+                "official": "L\xe4ti Vabariik",
+                "common": "L\xe4ti"
+            },
+            "fin": {
+                "official": "Latvian tasavalta",
+                "common": "Latvia"
+            },
+            "fra": {
+                "official": "R\xe9publique de Lettonie",
+                "common": "Lettonie"
+            },
+            "hrv": {
+                "official": "Republika Latvija",
+                "common": "Latvija"
+            },
+            "hun": {
+                "official": "Lett K\xf6zt\xe1rsas\xe1g",
+                "common": "Lettorsz\xe1g"
+            },
+            "ind": {
+                "official": "Republik Latvia",
+                "common": "Latvia"
+            },
+            "ita": {
+                "official": "Repubblica di Lettonia",
+                "common": "Lettonia"
+            },
+            "jpn": {
+                "official": "\u30E9\u30C8\u30D3\u30A2\u5171\u548C\u56FD",
+                "common": "\u30E9\u30C8\u30D3\u30A2"
+            },
+            "kor": {
+                "official": "\uB77C\uD2B8\uBE44\uC544 \uACF5\uD654\uAD6D",
+                "common": "\uB77C\uD2B8\uBE44\uC544"
+            },
+            "nld": {
+                "official": "Republiek Letland",
+                "common": "Letland"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0644\u062A\u0648\u0646\u06CC",
+                "common": "\u0644\u062A\u0648\u0646\u06CC"
+            },
+            "pol": {
+                "official": "Republika \u0141otewska",
+                "common": "\u0141otwa"
+            },
+            "por": {
+                "official": "Rep\xfablica da Let\xf3nia",
+                "common": "Let\xf3nia"
+            },
+            "rus": {
+                "official": "\u041B\u0430\u0442\u0432\u0438\u0439\u0441\u043A\u0430\u044F \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041B\u0430\u0442\u0432\u0438\u044F"
+            },
+            "slk": {
+                "official": "Loty\u0161sk\xe1 republika",
+                "common": "Loty\u0161sko"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Letonia",
+                "common": "Letonia"
+            },
+            "srp": {
+                "official": "\u041B\u0435\u0442\u043E\u043D\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041B\u0435\u0442\u043E\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Lettland",
+                "common": "Lettland"
+            },
+            "tur": {
+                "official": "Letonya Cumhuriyeti",
+                "common": "Letonya"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0644\u0679\u0648\u06CC\u0627",
+                "common": "\u0644\u0679\u0648\u06CC\u0627"
+            },
+            "zho": {
+                "official": "\u62C9\u8131\u7EF4\u4E9A\u5171\u548C\u56FD",
+                "common": "\u62C9\u8131\u7EF4\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDF1\uD83C\uDDFB",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/iQpUkH7ghq31ZtXe9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/72594"
+        },
+        "population": 1901548,
+        "gini": {
+            "2018": 35.1
+        },
+        "fifa": "LVA",
+        "car": {
+            "signs": [
+                "LV"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/lv.png",
+            "svg": "https://flagcdn.com/lv.svg",
+            "alt": "The flag of Latvia has a carmine-red field with a thin white horizontal band across the middle of the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/lv.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/lv.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                56.95,
+                24.1
+            ]
+        },
+        "postalCode": {
+            "format": "LV-####",
+            "regex": "^(?:LV)*(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Norway",
+            "official": "Kingdom of Norway",
+            "nativeName": {
+                "nno": {
+                    "official": "Kongeriket Noreg",
+                    "common": "Noreg"
+                },
+                "nob": {
+                    "official": "Kongeriket Norge",
+                    "common": "Norge"
+                },
+                "smi": {
+                    "official": "Norgga gonagasriika",
+                    "common": "Norgga"
+                }
+            }
+        },
+        "tld": [
+            ".no"
+        ],
+        "cca2": "NO",
+        "ccn3": "578",
+        "cioc": "NOR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "NOK": {
+                "symbol": "kr",
+                "name": "Norwegian krone"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "7"
+            ]
+        },
+        "capital": [
+            "Oslo"
+        ],
+        "altSpellings": [
+            "NO",
+            "Norge",
+            "Noreg",
+            "Kingdom of Norway",
+            "Kongeriket Norge",
+            "Kongeriket Noreg"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "nno": "Norwegian Nynorsk",
+            "nob": "Norwegian Bokm\xe5l",
+            "smi": "Sami"
+        },
+        "latlng": [
+            62,
+            10
+        ],
+        "landlocked": false,
+        "borders": [
+            "FIN",
+            "SWE",
+            "RUS"
+        ],
+        "area": 323802,
+        "demonyms": {
+            "eng": {
+                "f": "Norwegian",
+                "m": "Norwegian"
+            },
+            "fra": {
+                "f": "Norv\xe9gienne",
+                "m": "Norv\xe9gien"
+            }
+        },
+        "cca3": "NOR",
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0646\u0631\u0648\u064A\u062C",
+                "common": "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"
+            },
+            "bre": {
+                "official": "Rouantelezh Norvegia",
+                "common": "Norvegia"
+            },
+            "ces": {
+                "official": "Norsk\xe9 kr\xe1lovstv\xed",
+                "common": "Norsko"
+            },
+            "cym": {
+                "official": "Kingdom of Norway",
+                "common": "Norway"
+            },
+            "deu": {
+                "official": "K\xf6nigreich Norwegen",
+                "common": "Norwegen"
+            },
+            "est": {
+                "official": "Norra Kuningriik",
+                "common": "Norra"
+            },
+            "fin": {
+                "official": "Norjan kuningaskunta",
+                "common": "Norja"
+            },
+            "fra": {
+                "official": "Royaume de Norv\xe8ge",
+                "common": "Norv\xe8ge"
+            },
+            "hrv": {
+                "official": "Kraljevina Norve\u0161ka",
+                "common": "Norve\u0161ka"
+            },
+            "hun": {
+                "official": "Norv\xe9g Kir\xe1lys\xe1g",
+                "common": "Norv\xe9gia"
+            },
+            "ind": {
+                "official": "Kerajaan Norwegia",
+                "common": "Norwegia"
+            },
+            "ita": {
+                "official": "Regno di Norvegia",
+                "common": "Norvegia"
+            },
+            "jpn": {
+                "official": "\u30CE\u30EB\u30A6\u30A7\u30FC\u738B\u56FD",
+                "common": "\u30CE\u30EB\u30A6\u30A7\u30FC"
+            },
+            "kor": {
+                "official": "\uB178\uB974\uC6E8\uC774 \uC655\uAD6D",
+                "common": "\uB178\uB974\uC6E8\uC774"
+            },
+            "nld": {
+                "official": "Koninkrijk Noorwegen",
+                "common": "Noorwegen"
+            },
+            "per": {
+                "official": "\u067E\u0627\u062F\u0634\u0627\u0647\u06CC \u0646\u0631\u0648\u0698",
+                "common": "\u0646\u0631\u0648\u0698"
+            },
+            "pol": {
+                "official": "Kr\xf3lestwo Norwegii",
+                "common": "Norwegia"
+            },
+            "por": {
+                "official": "Reino da Noruega",
+                "common": "Noruega"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u041D\u043E\u0440\u0432\u0435\u0433\u0438\u044F",
+                "common": "\u041D\u043E\u0440\u0432\u0435\u0433\u0438\u044F"
+            },
+            "slk": {
+                "official": "N\xf3rske kr\xe1\u013Eovstvo",
+                "common": "N\xf3rsko"
+            },
+            "spa": {
+                "official": "Reino de Noruega",
+                "common": "Noruega"
+            },
+            "srp": {
+                "official": "\u041A\u0440\u0430\u0459\u0435\u0432\u0438\u043D\u0430 \u041D\u043E\u0440\u0432\u0435\u0448\u043A\u0430",
+                "common": "\u041D\u043E\u0440\u0432\u0435\u0448\u043A\u0430"
+            },
+            "swe": {
+                "official": "Konungariket Norge",
+                "common": "Norge"
+            },
+            "tur": {
+                "official": "Norve\xe7 Krall\u0131\u011F\u0131",
+                "common": "Norve\xe7"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0646\u0627\u0631\u0648\u06D2",
+                "common": "\u0646\u0627\u0631\u0648\u06D2"
+            },
+            "zho": {
+                "official": "\u632A\u5A01\u738B\u56FD",
+                "common": "\u632A\u5A01"
+            }
+        },
+        "flag": "\uD83C\uDDF3\uD83C\uDDF4",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/htWRrphA7vNgQNdSA",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2978650"
+        },
+        "population": 5379475,
+        "gini": {
+            "2018": 27.6
+        },
+        "fifa": "NOR",
+        "car": {
+            "signs": [
+                "N"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/no.png",
+            "svg": "https://flagcdn.com/no.svg",
+            "alt": "The flag of Norway has a red field with a large white-edged navy blue cross that extends to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/no.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/no.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                59.92,
+                10.75
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Romania",
+            "official": "Romania",
+            "nativeName": {
+                "ron": {
+                    "official": "Rom\xe2nia",
+                    "common": "Rom\xe2nia"
+                }
+            }
+        },
+        "tld": [
+            ".ro"
+        ],
+        "cca2": "RO",
+        "ccn3": "642",
+        "cioc": "ROU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "RON": {
+                "symbol": "lei",
+                "name": "Romanian leu"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "0"
+            ]
+        },
+        "capital": [
+            "Bucharest"
+        ],
+        "altSpellings": [
+            "RO",
+            "Rumania",
+            "Roumania",
+            "Rom\xe2nia"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "ron": "Romanian"
+        },
+        "latlng": [
+            46,
+            25
+        ],
+        "landlocked": false,
+        "borders": [
+            "BGR",
+            "HUN",
+            "MDA",
+            "SRB",
+            "UKR"
+        ],
+        "area": 238391,
+        "demonyms": {
+            "eng": {
+                "f": "Romanian",
+                "m": "Romanian"
+            },
+            "fra": {
+                "f": "Roumaine",
+                "m": "Roumain"
+            }
+        },
+        "cca3": "ROU",
+        "translations": {
+            "ara": {
+                "official": "\u0631\u0648\u0645\u0627\u0646\u064A\u0627",
+                "common": "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"
+            },
+            "bre": {
+                "official": "Roumania",
+                "common": "Roumania"
+            },
+            "ces": {
+                "official": "Rumunsko",
+                "common": "Rumunsko"
+            },
+            "cym": {
+                "official": "Romania",
+                "common": "Romania"
+            },
+            "deu": {
+                "official": "Rum\xe4nien",
+                "common": "Rum\xe4nien"
+            },
+            "est": {
+                "official": "Rumeenia",
+                "common": "Rumeenia"
+            },
+            "fin": {
+                "official": "Romania",
+                "common": "Romania"
+            },
+            "fra": {
+                "official": "Roumanie",
+                "common": "Roumanie"
+            },
+            "hrv": {
+                "official": "Rumunija",
+                "common": "Rumunjska"
+            },
+            "hun": {
+                "official": "Rom\xe1nia",
+                "common": "Rom\xe1nia"
+            },
+            "ind": {
+                "official": "Rumania",
+                "common": "Rumania"
+            },
+            "ita": {
+                "official": "Romania",
+                "common": "Romania"
+            },
+            "jpn": {
+                "official": "\u30EB\u30FC\u30DE\u30CB\u30A2",
+                "common": "\u30EB\u30FC\u30DE\u30CB\u30A2"
+            },
+            "kor": {
+                "official": "\uB8E8\uB9C8\uB2C8\uC544",
+                "common": "\uB8E8\uB9C8\uB2C8\uC544"
+            },
+            "nld": {
+                "official": "Roemeni\xeb",
+                "common": "Roemeni\xeb"
+            },
+            "per": {
+                "official": "\u0631\u0648\u0645\u0627\u0646\u06CC",
+                "common": "\u0631\u0648\u0645\u0627\u0646\u06CC"
+            },
+            "pol": {
+                "official": "Rumunia",
+                "common": "Rumunia"
+            },
+            "por": {
+                "official": "Rom\xeania",
+                "common": "Rom\xe9nia"
+            },
+            "rus": {
+                "official": "\u0420\u0443\u043C\u044B\u043D\u0438\u044F",
+                "common": "\u0420\u0443\u043C\u044B\u043D\u0438\u044F"
+            },
+            "slk": {
+                "official": "Rumunsko",
+                "common": "Rumunsko"
+            },
+            "spa": {
+                "official": "Rumania",
+                "common": "Rumania"
+            },
+            "srp": {
+                "official": "\u0420\u0443\u043C\u0443\u043D\u0438\u0458\u0430",
+                "common": "\u0420\u0443\u043C\u0443\u043D\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Rum\xe4nien",
+                "common": "Rum\xe4nien"
+            },
+            "tur": {
+                "official": "Romanya",
+                "common": "Romanya"
+            },
+            "urd": {
+                "official": "\u0631\u0648\u0645\u0627\u0646\u06CC\u06C1",
+                "common": "\u0631\u0648\u0645\u0627\u0646\u06CC\u06C1"
+            },
+            "zho": {
+                "official": "\u7F57\u9A6C\u5C3C\u4E9A",
+                "common": "\u7F57\u9A6C\u5C3C\u4E9A"
+            }
+        },
+        "flag": "\uD83C\uDDF7\uD83C\uDDF4",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/845hAgCf1mDkN3vr7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/90689"
+        },
+        "population": 19286123,
+        "gini": {
+            "2018": 35.8
+        },
+        "fifa": "ROU",
+        "car": {
+            "signs": [
+                "RO"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ro.png",
+            "svg": "https://flagcdn.com/ro.svg",
+            "alt": "The flag of Romania is composed of three equal vertical bands of navy blue, yellow and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ro.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ro.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                44.43,
+                26.1
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus",
+            "nativeName": {
+                "ell": {
+                    "official": "\u0394\u03B7\u03BC\u03BF\u03BA\u03C1\u03B1\u03C4\u03AF\u03B1 \u03C4\u03B7\u03C2 \u039A\u03CD\u03C0\u03C1\u03BF\u03C2",
+                    "common": "\u039A\u03CD\u03C0\u03C1\u03BF\u03C2"
+                },
+                "tur": {
+                    "official": "K\u0131br\u0131s Cumhuriyeti",
+                    "common": "K\u0131br\u0131s"
+                }
+            }
+        },
+        "tld": [
+            ".cy"
+        ],
+        "cca2": "CY",
+        "ccn3": "196",
+        "cioc": "CYP",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "57"
+            ]
+        },
+        "capital": [
+            "Nicosia"
+        ],
+        "altSpellings": [
+            "CY",
+            "K\xfdpros",
+            "K\u0131br\u0131s",
+            "Republic of Cyprus",
+            "\u039A\u03C5\u03C0\u03C1\u03B9\u03B1\u03BA\u03AE \u0394\u03B7\u03BC\u03BF\u03BA\u03C1\u03B1\u03C4\u03AF\u03B1",
+            "K\u0131br\u0131s Cumhuriyeti"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "ell": "Greek",
+            "tur": "Turkish"
+        },
+        "latlng": [
+            35,
+            33
+        ],
+        "landlocked": false,
+        "area": 9251,
+        "demonyms": {
+            "eng": {
+                "f": "Cypriot",
+                "m": "Cypriot"
+            },
+            "fra": {
+                "f": "Chypriote",
+                "m": "Chypriote"
+            }
+        },
+        "cca3": "CYP",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0642\u0628\u0631\u0635",
+                "common": "\u0642\u0628\u0631\u0635"
+            },
+            "bre": {
+                "official": "Republik Kiprenez",
+                "common": "Kiprenez"
+            },
+            "ces": {
+                "official": "Kypersk\xe1 republika",
+                "common": "Kypr"
+            },
+            "cym": {
+                "official": "Gweriniaeth Cyprus",
+                "common": "Cyprus"
+            },
+            "deu": {
+                "official": "Republik Zypern",
+                "common": "Zypern"
+            },
+            "est": {
+                "official": "K\xfcprose Vabariik",
+                "common": "K\xfcpros"
+            },
+            "fin": {
+                "official": "Kyproksen tasavalta",
+                "common": "Kypros"
+            },
+            "fra": {
+                "official": "R\xe9publique de Chypre",
+                "common": "Chypre"
+            },
+            "hrv": {
+                "official": "Republika Cipar",
+                "common": "Cipar"
+            },
+            "hun": {
+                "official": "Ciprusi K\xf6zt\xe1rsas\xe1g",
+                "common": "Ciprus"
+            },
+            "ind": {
+                "official": "Republik Siprus",
+                "common": "Siprus"
+            },
+            "ita": {
+                "official": "Repubblica di Cipro",
+                "common": "Cipro"
+            },
+            "jpn": {
+                "official": "\u30AD\u30D7\u30ED\u30B9\u5171\u548C\u56FD",
+                "common": "\u30AD\u30D7\u30ED\u30B9"
+            },
+            "kor": {
+                "official": "\uD0A4\uD504\uB85C\uC2A4 \uACF5\uD654\uAD6D",
+                "common": "\uD0A4\uD504\uB85C\uC2A4"
+            },
+            "nld": {
+                "official": "Republiek Cyprus",
+                "common": "Cyprus"
+            },
+            "per": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u06CC \u0642\u0628\u0631\u0633",
+                "common": "\u0642\u0650\u0628\u0631\u0650\u0633"
+            },
+            "pol": {
+                "official": "Republika Cypryjska",
+                "common": "Cypr"
+            },
+            "por": {
+                "official": "Rep\xfablica de Chipre",
+                "common": "Chipre"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u0438\u043F\u0440",
+                "common": "\u041A\u0438\u043F\u0440"
+            },
+            "slk": {
+                "official": "Cypersk\xe1 republika",
+                "common": "Cyprus"
+            },
+            "spa": {
+                "official": "Rep\xfablica de Chipre",
+                "common": "Chipre"
+            },
+            "srp": {
+                "official": "\u041A\u0438\u043F\u0430\u0440\u0441\u043A\u0430 \u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+                "common": "\u041A\u0438\u043F\u0430\u0440"
+            },
+            "swe": {
+                "official": "Republiken Cypern",
+                "common": "Cypern"
+            },
+            "tur": {
+                "official": "K\u0131br\u0131s Cumhuriyeti",
+                "common": "K\u0131br\u0131s"
+            },
+            "urd": {
+                "official": "\u062C\u0645\u06C1\u0648\u0631\u06CC\u06C1 \u0642\u0628\u0631\u0635",
+                "common": "\u0642\u0628\u0631\u0635"
+            },
+            "zho": {
+                "official": "\u585E\u6D66\u8DEF\u65AF\u5171\u548C\u56FD",
+                "common": "\u585E\u6D66\u8DEF\u65AF"
+            }
+        },
+        "flag": "\uD83C\uDDE8\uD83C\uDDFE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/307787"
+        },
+        "population": 1207361,
+        "gini": {
+            "2018": 32.7
+        },
+        "fifa": "CYP",
+        "car": {
+            "signs": [
+                "CY"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cy.png",
+            "svg": "https://flagcdn.com/cy.svg",
+            "alt": "The flag of Cyprus has a white field, at the center of which is a copper-colored silhouette of the Island of Cyprus above two green olive branches crossed at the stem."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/cy.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/cy.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                35.17,
+                33.37
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Sweden",
+            "official": "Kingdom of Sweden",
+            "nativeName": {
+                "swe": {
+                    "official": "Konungariket Sverige",
+                    "common": "Sverige"
+                }
+            }
+        },
+        "tld": [
+            ".se"
+        ],
+        "cca2": "SE",
+        "ccn3": "752",
+        "cioc": "SWE",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "SEK": {
+                "symbol": "kr",
+                "name": "Swedish krona"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "6"
+            ]
+        },
+        "capital": [
+            "Stockholm"
+        ],
+        "altSpellings": [
+            "SE",
+            "Kingdom of Sweden",
+            "Konungariket Sverige"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "swe": "Swedish"
+        },
+        "latlng": [
+            62,
+            15
+        ],
+        "landlocked": false,
+        "borders": [
+            "FIN",
+            "NOR"
+        ],
+        "area": 450295,
+        "demonyms": {
+            "eng": {
+                "f": "Swedish",
+                "m": "Swedish"
+            },
+            "fra": {
+                "f": "Su\xe9doise",
+                "m": "Su\xe9dois"
+            }
+        },
+        "cca3": "SWE",
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0633\u0648\u064A\u062F",
+                "common": "\u0627\u0644\u0633\u0648\u064A\u062F"
+            },
+            "bre": {
+                "official": "Rouantelezh Sveden",
+                "common": "Sveden"
+            },
+            "ces": {
+                "official": "\u0160v\xe9dsk\xe9 kr\xe1lovstv\xed",
+                "common": "\u0160v\xe9dsko"
+            },
+            "cym": {
+                "official": "Kingdom of Sweden",
+                "common": "Sweden"
+            },
+            "deu": {
+                "official": "K\xf6nigreich Schweden",
+                "common": "Schweden"
+            },
+            "est": {
+                "official": "Rootsi Kuningriik",
+                "common": "Rootsi"
+            },
+            "fin": {
+                "official": "Ruotsin kuningaskunta",
+                "common": "Ruotsi"
+            },
+            "fra": {
+                "official": "Royaume de Su\xe8de",
+                "common": "Su\xe8de"
+            },
+            "hrv": {
+                "official": "Kraljevina \u0160vedska",
+                "common": "\u0160vedska"
+            },
+            "hun": {
+                "official": "Sv\xe9d Kir\xe1lys\xe1g",
+                "common": "Sv\xe9dorsz\xe1g"
+            },
+            "ind": {
+                "official": "Kerajaan Swedia",
+                "common": "Swedia"
+            },
+            "ita": {
+                "official": "Regno di Svezia",
+                "common": "Svezia"
+            },
+            "jpn": {
+                "official": "\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u738B\u56FD",
+                "common": "\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3"
+            },
+            "kor": {
+                "official": "\uC2A4\uC6E8\uB374 \uC655\uAD6D",
+                "common": "\uC2A4\uC6E8\uB374"
+            },
+            "nld": {
+                "official": "Koninkrijk Zweden",
+                "common": "Zweden"
+            },
+            "per": {
+                "official": "\u067E\u0627\u062F\u0634\u0627\u0647\u06CC \u0633\u0648\u0626\u062F",
+                "common": "\u0633\u0648\u0626\u062F"
+            },
+            "pol": {
+                "official": "Kr\xf3lestwo Szwecji",
+                "common": "Szwecja"
+            },
+            "por": {
+                "official": "Reino da Su\xe9cia",
+                "common": "Su\xe9cia"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0428\u0432\u0435\u0446\u0438\u044F",
+                "common": "\u0428\u0432\u0435\u0446\u0438\u044F"
+            },
+            "slk": {
+                "official": "\u0160v\xe9dske kr\xe1\u013Eovstvo",
+                "common": "\u0160v\xe9dsko"
+            },
+            "spa": {
+                "official": "Reino de Suecia",
+                "common": "Suecia"
+            },
+            "srp": {
+                "official": "\u041A\u0440\u0430\u0459\u0435\u0432\u0438\u043D\u0430 \u0428\u0432\u0435\u0434\u0441\u043A\u0430",
+                "common": "\u0428\u0432\u0435\u0434\u0441\u043A\u0430"
+            },
+            "swe": {
+                "official": "Konungariket Sverige",
+                "common": "Sverige"
+            },
+            "tur": {
+                "official": "\u0130sve\xe7 Krall\u0131\u011F\u0131",
+                "common": "\u0130sve\xe7"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0633\u0648\u06CC\u0688\u0646",
+                "common": "\u0633\u0648\u06CC\u0688\u0646"
+            },
+            "zho": {
+                "official": "\u745E\u5178\u738B\u56FD",
+                "common": "\u745E\u5178"
+            }
+        },
+        "flag": "\uD83C\uDDF8\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/iqygE491ADVgnBW39",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/52822"
+        },
+        "population": 10353442,
+        "gini": {
+            "2018": 30
+        },
+        "fifa": "SWE",
+        "car": {
+            "signs": [
+                "S"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/se.png",
+            "svg": "https://flagcdn.com/se.svg",
+            "alt": "The flag of Sweden has a blue field with a large golden-yellow cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/se.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/se.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                59.33,
+                18.05
+            ]
+        },
+        "postalCode": {
+            "format": "SE-### ##",
+            "regex": "^(?:SE)*(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Belgium",
+            "official": "Kingdom of Belgium",
+            "nativeName": {
+                "deu": {
+                    "official": "K\xf6nigreich Belgien",
+                    "common": "Belgien"
+                },
+                "fra": {
+                    "official": "Royaume de Belgique",
+                    "common": "Belgique"
+                },
+                "nld": {
+                    "official": "Koninkrijk Belgi\xeb",
+                    "common": "Belgi\xeb"
+                }
+            }
+        },
+        "tld": [
+            ".be"
+        ],
+        "cca2": "BE",
+        "ccn3": "056",
+        "cioc": "BEL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "symbol": "\u20AC",
+                "name": "Euro"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "2"
+            ]
+        },
+        "capital": [
+            "Brussels"
+        ],
+        "altSpellings": [
+            "BE",
+            "Belgi\xeb",
+            "Belgie",
+            "Belgien",
+            "Belgique",
+            "Kingdom of Belgium",
+            "Koninkrijk Belgi\xeb",
+            "Royaume de Belgique",
+            "K\xf6nigreich Belgien"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German",
+            "fra": "French",
+            "nld": "Dutch"
+        },
+        "latlng": [
+            50.83333333,
+            4
+        ],
+        "landlocked": false,
+        "borders": [
+            "FRA",
+            "DEU",
+            "LUX",
+            "NLD"
+        ],
+        "area": 30528,
+        "demonyms": {
+            "eng": {
+                "f": "Belgian",
+                "m": "Belgian"
+            },
+            "fra": {
+                "f": "Belge",
+                "m": "Belge"
+            }
+        },
+        "cca3": "BEL",
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0628\u0644\u062C\u064A\u0643\u0627",
+                "common": "\u0628\u0644\u062C\u064A\u0643\u0627"
+            },
+            "bre": {
+                "official": "Rouantelezh Belgia",
+                "common": "Belgia"
+            },
+            "ces": {
+                "official": "Belgick\xe9 kr\xe1lovstv\xed",
+                "common": "Belgie"
+            },
+            "cym": {
+                "official": "Teyrnas Gwlad Belg",
+                "common": "Gwlad Belg"
+            },
+            "deu": {
+                "official": "K\xf6nigreich Belgien",
+                "common": "Belgien"
+            },
+            "est": {
+                "official": "Belgia Kuningriik",
+                "common": "Belgia"
+            },
+            "fin": {
+                "official": "Belgian kuningaskunta",
+                "common": "Belgia"
+            },
+            "fra": {
+                "official": "Royaume de Belgique",
+                "common": "Belgique"
+            },
+            "hrv": {
+                "official": "Kraljevina Belgija",
+                "common": "Belgija"
+            },
+            "hun": {
+                "official": "Belga Kir\xe1lys\xe1g",
+                "common": "Belgium"
+            },
+            "ind": {
+                "official": "Kerajaan Belgia",
+                "common": "Belgia"
+            },
+            "ita": {
+                "official": "Regno del Belgio",
+                "common": "Belgio"
+            },
+            "jpn": {
+                "official": "\u30D9\u30EB\u30AE\u30FC\u738B\u56FD",
+                "common": "\u30D9\u30EB\u30AE\u30FC"
+            },
+            "kor": {
+                "official": "\uBCA8\uAE30\uC5D0 \uC655\uAD6D",
+                "common": "\uBCA8\uAE30\uC5D0"
+            },
+            "nld": {
+                "official": "Koninkrijk Belgi\xeb",
+                "common": "Belgi\xeb"
+            },
+            "per": {
+                "official": "\u067E\u0627\u062F\u0634\u0627\u0647\u06CC \u0628\u0644\u0698\u06CC\u06A9",
+                "common": "\u0628\u0644\u0698\u06CC\u06A9"
+            },
+            "pol": {
+                "official": "Kr\xf3lestwo Belgii",
+                "common": "Belgia"
+            },
+            "por": {
+                "official": "Reino da B\xe9lgica",
+                "common": "B\xe9lgica"
+            },
+            "rus": {
+                "official": "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0411\u0435\u043B\u044C\u0433\u0438\u044F",
+                "common": "\u0411\u0435\u043B\u044C\u0433\u0438\u044F"
+            },
+            "slk": {
+                "official": "Belgick\xe9 kr\xe1\u013Eovstvo",
+                "common": "Belgicko"
+            },
+            "spa": {
+                "official": "Reino de B\xe9lgica",
+                "common": "B\xe9lgica"
+            },
+            "srp": {
+                "official": "\u041A\u0440\u0430\u0459\u0435\u0432\u0438\u043D\u0430 \u0411\u0435\u043B\u0433\u0438\u0458\u0430",
+                "common": "\u0411\u0435\u043B\u0433\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Konungariket Belgien",
+                "common": "Belgien"
+            },
+            "tur": {
+                "official": "Bel\xe7ika Krall\u0131\u011F\u0131",
+                "common": "Bel\xe7ika"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06A9\u062A\u0650 \u0628\u0644\u062C\u0626\u06CC\u0645",
+                "common": "\u0628\u0644\u062C\u0626\u06CC\u0645"
+            },
+            "zho": {
+                "official": "\u6BD4\u5229\u65F6\u738B\u56FD",
+                "common": "\u6BD4\u5229\u65F6"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/52411"
+        },
+        "population": 11555997,
+        "gini": {
+            "2018": 27.2
+        },
+        "fifa": "BEL",
+        "car": {
+            "signs": [
+                "B"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/be.png",
+            "svg": "https://flagcdn.com/be.svg",
+            "alt": "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/be.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/be.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                50.83,
+                4.33
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Bosnia and Herzegovina",
+            "official": "Bosnia and Herzegovina",
+            "nativeName": {
+                "bos": {
+                    "official": "Bosna i Hercegovina",
+                    "common": "Bosna i Hercegovina"
+                },
+                "hrv": {
+                    "official": "Bosna i Hercegovina",
+                    "common": "Bosna i Hercegovina"
+                },
+                "srp": {
+                    "official": "\u0411\u043E\u0441\u043D\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430",
+                    "common": "\u0411\u043E\u0441\u043D\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430"
+                }
+            }
+        },
+        "tld": [
+            ".ba"
+        ],
+        "cca2": "BA",
+        "ccn3": "070",
+        "cioc": "BIH",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BAM": {
+                "symbol": "KM",
+                "name": "Bosnia and Herzegovina convertible mark"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "87"
+            ]
+        },
+        "capital": [
+            "Sarajevo"
+        ],
+        "altSpellings": [
+            "BA",
+            "Bosnia-Herzegovina",
+            "\u0411\u043E\u0441\u043D\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "bos": "Bosnian",
+            "hrv": "Croatian",
+            "srp": "Serbian"
+        },
+        "latlng": [
+            44,
+            18
+        ],
+        "landlocked": false,
+        "borders": [
+            "HRV",
+            "MNE",
+            "SRB"
+        ],
+        "area": 51209,
+        "demonyms": {
+            "eng": {
+                "f": "Bosnian, Herzegovinian",
+                "m": "Bosnian, Herzegovinian"
+            },
+            "fra": {
+                "f": "Bosnienne",
+                "m": "Bosnien"
+            }
+        },
+        "cca3": "BIH",
+        "translations": {
+            "ara": {
+                "official": "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643",
+                "common": "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"
+            },
+            "bre": {
+                "official": "Bosnia-ha-Herzegovina",
+                "common": "Bosnia-ha-Herzegovina"
+            },
+            "ces": {
+                "official": "Bosna a Hercegovina",
+                "common": "Bosna a Hercegovina"
+            },
+            "cym": {
+                "official": "Bosnia a Hercegovina",
+                "common": "Bosnia a Hercegovina"
+            },
+            "deu": {
+                "official": "Bosnien und Herzegowina",
+                "common": "Bosnien und Herzegowina"
+            },
+            "est": {
+                "official": "Bosnia ja Hertsegoviina",
+                "common": "Bosnia ja Hertsegoviina"
+            },
+            "fin": {
+                "official": "Bosnia ja Hertsegovina",
+                "common": "Bosnia ja Hertsegovina"
+            },
+            "fra": {
+                "official": "Bosnie-et-Herz\xe9govine",
+                "common": "Bosnie-Herz\xe9govine"
+            },
+            "hrv": {
+                "official": "Bosna i Hercegovina",
+                "common": "Bosna i Hercegovina"
+            },
+            "hun": {
+                "official": "Bosznia-Hercegovina",
+                "common": "Bosznia-Hercegovina"
+            },
+            "ind": {
+                "official": "Bosnia dan Herzegovina",
+                "common": "Bosnia dan Herzegovina"
+            },
+            "ita": {
+                "official": "Bosnia-Erzegovina",
+                "common": "Bosnia ed Erzegovina"
+            },
+            "jpn": {
+                "official": "\u30DC\u30B9\u30CB\u30A2\xb7\u30D8\u30EB\u30C4\u30A7\u30B4\u30D3\u30CA",
+                "common": "\u30DC\u30B9\u30CB\u30A2\u30FB\u30D8\u30EB\u30C4\u30A7\u30B4\u30D3\u30CA"
+            },
+            "kor": {
+                "official": "\uBCF4\uC2A4\uB2C8\uC544 \uD5E4\uB974\uCCB4\uACE0\uBE44\uB098",
+                "common": "\uBCF4\uC2A4\uB2C8\uC544 \uD5E4\uB974\uCCB4\uACE0\uBE44\uB098"
+            },
+            "nld": {
+                "official": "Bosni\xeb-Herzegovina",
+                "common": "Bosni\xeb en Herzegovina"
+            },
+            "per": {
+                "official": "\u0628\u0648\u0633\u0646\u06CC \u0648 \u0647\u0631\u0632\u06AF\u0648\u06CC\u0646",
+                "common": "\u0628\u0648\u0633\u0646\u06CC \u0648 \u0647\u0631\u0632\u06AF\u0648\u06CC\u0646"
+            },
+            "pol": {
+                "official": "Bo\u015Bnia i Hercegowina",
+                "common": "Bo\u015Bnia i Hercegowina"
+            },
+            "por": {
+                "official": "B\xf3snia e Herzegovina",
+                "common": "B\xf3snia e Herzegovina"
+            },
+            "rus": {
+                "official": "\u0411\u043E\u0441\u043D\u0438\u044F \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430",
+                "common": "\u0411\u043E\u0441\u043D\u0438\u044F \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430"
+            },
+            "slk": {
+                "official": "Republika Bosny a Hercegoviny",
+                "common": "Bosna a Hercegovina"
+            },
+            "spa": {
+                "official": "Bosnia y Herzegovina",
+                "common": "Bosnia y Herzegovina"
+            },
+            "srp": {
+                "official": "\u0411\u043E\u0441\u043D\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430",
+                "common": "\u0411\u043E\u0441\u043D\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430"
+            },
+            "swe": {
+                "official": "Bosnien och Hercegovina",
+                "common": "Bosnien och Hercegovina"
+            },
+            "tur": {
+                "official": "Bosna ve Hersek",
+                "common": "Bosna-Hersek"
+            },
+            "urd": {
+                "official": "\u0628\u0648\u0633\u0646\u06CC\u0627 \u0648 \u06C1\u0631\u0632\u06CC\u06AF\u0648\u0648\u06CC\u0646\u0627",
+                "common": "\u0628\u0648\u0633\u0646\u06CC\u0627 \u0648 \u06C1\u0631\u0632\u06CC\u06AF\u0648\u0648\u06CC\u0646\u0627"
+            },
+            "zho": {
+                "official": "\u6CE2\u65AF\u5C3C\u4E9A\u548C\u9ED1\u585E\u54E5\u7EF4\u90A3",
+                "common": "\u6CE2\u65AF\u5C3C\u4E9A\u548C\u9ED1\u585E\u54E5\u7EF4\u90A3"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDE6",
+        "maps": {
+            "googleMaps": "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2528142"
+        },
+        "population": 3280815,
+        "gini": {
+            "2011": 33
+        },
+        "fifa": "BIH",
+        "car": {
+            "signs": [
+                "BIH"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ba.png",
+            "svg": "https://flagcdn.com/ba.svg",
+            "alt": "The flag of Bosnia and Herzegovina has a blue field, at the center of which is a large yellow hoist-side facing right-angled triangle that is based on the top edge and spans the height of the field. Adjacent to the hypotenuse of this triangle are nine adjoining five-pointed white stars with the top and bottom stars cut in half by the edges of the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ba.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ba.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                43.87,
+                18.42
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire1171", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=countryflagwithReact.2002cba6.js.map
