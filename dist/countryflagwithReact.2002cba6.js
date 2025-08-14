@@ -18689,14 +18689,24 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _countriesData = require("../CountriesData");
 var _countriesDataDefault = parcelHelpers.interopDefault(_countriesData);
+var _countryCard = require("./CountryCard");
+var _countryCardDefault = parcelHelpers.interopDefault(_countryCard);
 function CountriesList() {
-    console.log((0, _countriesDataDefault.default));
+    const array = (0, _countriesDataDefault.default).map((country)=>{
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryCardDefault.default), {
+            name: country.name.common
+        }, void 0, false, {
+            fileName: "components/CountriesList.jsx",
+            lineNumber: 8,
+            columnNumber: 12
+        }, this);
+    });
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "countries-container",
-        children: []
+        children: array
     }, void 0, false, {
         fileName: "components/CountriesList.jsx",
-        lineNumber: 7,
+        lineNumber: 12,
         columnNumber: 4
     }, this);
 }
@@ -18709,7 +18719,7 @@ $RefreshReg$(_c, "CountriesList");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../CountriesData":"dlVJk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dlVJk":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../CountriesData":"dlVJk","./CountryCard":"5b1ZU","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dlVJk":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = [
@@ -30320,6 +30330,114 @@ exports.default = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire1171", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"5b1ZU":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$56b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$56b2.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$56b2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>CountryCard);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function CountryCard() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        className: "country-card",
+        href: "./country.html?name=Guyana",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://flagcdn.com/gy.svg",
+                alt: "Guyana Flag"
+            }, void 0, false, {
+                fileName: "components/CountryCard.jsx",
+                lineNumber: 6,
+                columnNumber: 25
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "card-text",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        className: "card-title",
+                        children: "Guyana"
+                    }, void 0, false, {
+                        fileName: "components/CountryCard.jsx",
+                        lineNumber: 8,
+                        columnNumber: 29
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                children: "Population: "
+                            }, void 0, false, {
+                                fileName: "components/CountryCard.jsx",
+                                lineNumber: 9,
+                                columnNumber: 32
+                            }, this),
+                            "7,86,559"
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/CountryCard.jsx",
+                        lineNumber: 9,
+                        columnNumber: 29
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                children: "Region: "
+                            }, void 0, false, {
+                                fileName: "components/CountryCard.jsx",
+                                lineNumber: 10,
+                                columnNumber: 32
+                            }, this),
+                            "Americas"
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/CountryCard.jsx",
+                        lineNumber: 10,
+                        columnNumber: 29
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                children: "Capital: "
+                            }, void 0, false, {
+                                fileName: "components/CountryCard.jsx",
+                                lineNumber: 11,
+                                columnNumber: 32
+                            }, this),
+                            "Georgetown"
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/CountryCard.jsx",
+                        lineNumber: 11,
+                        columnNumber: 29
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/CountryCard.jsx",
+                lineNumber: 7,
+                columnNumber: 25
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "components/CountryCard.jsx",
+        lineNumber: 5,
+        columnNumber: 4
+    }, this);
+}
+_c = CountryCard;
+var _c;
+$RefreshReg$(_c, "CountryCard");
+
+  $parcel$ReactRefreshHelpers$56b2.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire1171", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=countryflagwithReact.2002cba6.js.map
